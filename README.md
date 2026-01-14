@@ -1,10 +1,10 @@
 # Ollama Models Database
 
-自动爬取并维护 [Ollama](https://ollama.com/search) 网站的模型数据库。
+自动爬取并维护 [Ollama](https://ollama.com/search) 网站的模型数据库，并提供 GraphQL API 查询接口。
 
 ## 项目简介
 
-本项目使用 Python + Playwright 定期爬取 Ollama 官网的模型列表，并将数据保存为结构化的 JSON 格式。通过 GitHub Actions 实现每天自动更新，确保数据的时效性。
+本项目使用 Python + Playwright 定期爬取 Ollama 官网的模型列表，并将数据保存为结构化的 JSON 格式。通过 GitHub Actions 实现每天自动更新，确保数据的时效性。同时提供了基于 Apollo Server 的 GraphQL API，方便开发者查询和过滤模型数据。
 
 ## 数据结构
 
@@ -43,9 +43,16 @@
 
 ## 技术栈
 
+### 数据爬取
 - **Python 3.11** - 编程语言
 - **Playwright** - 无头浏览器自动化
 - **GitHub Actions** - CI/CD 自动化
+
+### API 服务
+- **Node.js** - 运行时环境
+- **TypeScript** - 类型安全的 JavaScript
+- **Apollo Server 4** - GraphQL 服务器
+- **pnpm** - 包管理器
 
 ## 爬虫特性
 
@@ -55,14 +62,73 @@
 - ✅ **错误处理**：完善的异常捕获和日志输出
 - ✅ **延迟控制**：页面间 1.5 秒延迟，避免请求过快
 
-## 本地运行
+## 快速开始
 
-### 环境要求
+### GraphQL API 服务器
+
+#### 环境要求
+
+- Node.js 18+
+- pnpm
+
+#### 安装依赖
+
+```bash
+pnpm install
+```
+
+#### 启动服务器
+
+```bash
+# 开发模式（带热重载）
+pnpm dev
+
+# 生产模式
+pnpm build
+pnpm start
+```
+
+服务器将在 `http://localhost:4000` 启动，访问 `http://localhost:4000/` 可以使用 GraphQL Playground 进行交互式查询。
+
+#### API 使用示例
+
+查看 [API_EXAMPLES.md](API_EXAMPLES.md) 获取详细的查询示例。
+
+**简单查询示例**：
+
+```graphql
+# 搜索包含 "qwen" 的模型
+query {
+  models(filter: { nameContains: "qwen" }) {
+    totalModels
+    models {
+      name
+      description
+      capabilities
+      sizes
+    }
+  }
+}
+
+# 按能力过滤
+query {
+  models(filter: { capabilities: ["tools", "vision"] }) {
+    models {
+      name
+      capabilities
+    }
+  }
+}
+```
+
+### 运行爬虫
+
+#### 环境要求
 
 - Python 3.11+
 - pip
 
-### 安装依赖
+#### 安装依赖
 
 ```bash
 cd crawler
@@ -70,7 +136,7 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-### 运行爬虫
+#### 运行爬虫
 
 ```bash
 cd crawler
@@ -131,9 +197,19 @@ ollama-db/
 │   └── .gitignore              # Git 忽略配置
 ├── data/
 │   └── models.json             # 爬取的模型数据
+├── src/                        # GraphQL API 源代码
+│   ├── index.ts                # Apollo Server 入口
+│   ├── schema.ts               # GraphQL Schema 定义
+│   ├── resolvers.ts            # GraphQL Resolvers
+│   ├── types.ts                # TypeScript 类型定义
+│   └── data-loader.ts          # 数据加载器
+├── dist/                       # 编译后的 JavaScript 代码
+├── package.json                # Node.js 项目配置
+├── tsconfig.json               # TypeScript 配置
 ├── .gitignore                  # 项目级 Git 忽略配置
 ├── LICENSE                     # MIT 许可证
-└── README.md                   # 项目文档
+├── README.md                   # 项目文档
+└── API_EXAMPLES.md             # GraphQL API 使用示例
 ```
 
 ## 注意事项

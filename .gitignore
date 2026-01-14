@@ -24,3 +24,15 @@ ENV/
 .playwright/
 playwright-report/
 test-results/
+
+# Node.js / TypeScript
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.local
+
+# Package managers
+pnpm-lock.yaml
+package-lock.json
+yarn.lock

@@ -1,0 +1,30 @@
+{
+  "name": "ollama-models-api",
+  "version": "1.0.0",
+  "description": "GraphQL API server for Ollama models database",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "scrape": "python crawler/scraper.py"
+  },
+  "keywords": [
+    "graphql",
+    "ollama",
+    "models",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.10.0",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,64 @@
+name: Scrape Ollama Models
+
+on:
+  # 每天 UTC 00:00 运行（北京时间 08:00）
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # 支持手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          cd crawler
+          pip install -r requirements.txt
+      
+      - name: Install Playwright browsers
+        run: |
+          playwright install chromium
+      
+      - name: Run scraper
+        run: |
+          cd crawler
+          python scraper.py
+      
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code data/models.json || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/models.json
+          git commit -m "$(cat <<'EOF'
+          Update Ollama models data
+          
+          Automated update from scheduled scraper run.
+          EOF
+          )"
+          git push
+      
+      - name: No changes detected
+        if: steps.git-check.outputs.changed != 'true'
+        run: |
+          echo "No changes in models data, skipping commit."

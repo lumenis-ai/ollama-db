@@ -66,7 +66,8 @@ async def scrape_page(page: Page, page_num: int) -> List[Dict[str, Any]]:
     for item in model_items:
         try:
             model_data = await extract_model_data(item)
-            if model_data:
+            # 只保留 sizes 数组不为空的模型
+            if model_data and model_data.get("sizes"):
                 models.append(model_data)
         except Exception as e:
             print(f"提取模型数据失败: {e}")

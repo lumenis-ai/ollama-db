@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-01-14T17:40:23.863546+00:00",
-  "total_pages": 11,
-  "total_models": 205,
+  "last_updated": "2026-01-14T17:52:28.709072+00:00",
+  "total_pages": 10,
+  "total_models": 189,
   "models": [
     {
       "name": "nemotron-3-nano",
@@ -32,13 +32,6 @@
         "32b"
       ],
       "url": "https://ollama.com/library/olmo-3"
-    },
-    {
-      "name": "gemini-3-flash-preview",
-      "description": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost.",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/gemini-3-flash-preview"
     },
     {
       "name": "devstral-small-2",
@@ -177,15 +170,6 @@
         "3b"
       ],
       "url": "https://ollama.com/library/llama3.2"
-    },
-    {
-      "name": "nomic-embed-text",
-      "description": "A high-performing open embedding model with a large token context window.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [],
-      "url": "https://ollama.com/library/nomic-embed-text"
     },
     {
       "name": "mistral",
@@ -1123,13 +1107,6 @@
       "url": "https://ollama.com/library/deepseek-v2"
     },
     {
-      "name": "openhermes",
-      "description": "OpenHermes 2.5 is a 7B model fine-tuned by Teknium on Mistral with fully open datasets.",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/openhermes"
-    },
-    {
       "name": "codeqwen",
       "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
       "capabilities": [],
@@ -1671,13 +1648,6 @@
       "url": "https://ollama.com/library/llava-phi3"
     },
     {
-      "name": "llama-pro",
-      "description": "An expansion of Llama 2 that specializes in integrating both general language understanding and domain-specific knowledge, particularly in programming and mathematics.",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/llama-pro"
-    },
-    {
       "name": "wizardlm-uncensored",
       "description": "Uncensored version of Wizard LM model",
       "capabilities": [],
@@ -1715,13 +1685,6 @@
         "13b"
       ],
       "url": "https://ollama.com/library/nexusraven"
-    },
-    {
-      "name": "wizardlm",
-      "description": "General use model based on Llama 2.",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/wizardlm"
     },
     {
       "name": "tulu3",
@@ -1963,13 +1926,6 @@
       "url": "https://ollama.com/library/open-orca-platypus2"
     },
     {
-      "name": "goliath",
-      "description": "A language model created by combining two fine-tuned Llama 2 70B models into one.",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/goliath"
-    },
-    {
       "name": "command-a",
       "description": "111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI",
       "capabilities": [
@@ -2022,13 +1978,6 @@
       "url": "https://ollama.com/library/marco-o1"
     },
     {
-      "name": "gemini-3-pro-preview",
-      "description": "Google's most intelligent model with SOTA reasoning and multimodal understanding, and powerful agentic and vibe coding capabilities.",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/gemini-3-pro-preview"
-    },
-    {
       "name": "alfred",
       "description": "A robust conversational model designed to be used for both chat and instruct use cases.",
       "capabilities": [],
@@ -2062,13 +2011,6 @@
       "url": "https://ollama.com/library/gpt-oss-safeguard"
     },
     {
-      "name": "glm-4.6",
-      "description": "Advanced agentic, reasoning and coding capabilities.",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/glm-4.6"
-    },
-    {
       "name": "olmo-3.1",
       "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
       "capabilities": [
@@ -2089,13 +2031,6 @@
       "url": "https://ollama.com/library/cogito-2.1"
     },
     {
-      "name": "minimax-m2",
-      "description": "MiniMax M2 is a high-efficiency large language model built for coding and agentic workflows.",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/minimax-m2"
-    },
-    {
       "name": "rnj-1",
       "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
       "capabilities": [
@@ -2105,57 +2040,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/rnj-1"
-    },
-    {
-      "name": "kimi-k2",
-      "description": "A state-of-the-art mixture-of-experts (MoE) language model. Kimi K2-Instruct-0905 demonstrates significant improvements in performance on public benchmarks and real-world coding agent tasks.",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/kimi-k2"
-    },
-    {
-      "name": "kimi-k2-thinking",
-      "description": "Kimi K2 Thinking, Moonshot AI's best open-source thinking model.",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/kimi-k2-thinking"
-    },
-    {
-      "name": "nomic-embed-text-v2-moe",
-      "description": "nomic-embed-text-v2-moe is a multilingual MoE text embedding model that excels at multilingual retrieval.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [],
-      "url": "https://ollama.com/library/nomic-embed-text-v2-moe"
-    },
-    {
-      "name": "deepseek-v3.2",
-      "description": "DeepSeek-V3.2, a model that harmonizes high computational efficiency with superior reasoning and agent performance.",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/deepseek-v3.2"
-    },
-    {
-      "name": "glm-4.7",
-      "description": "Advancing the Coding Capability",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/glm-4.7"
-    },
-    {
-      "name": "mistral-large-3",
-      "description": "A general-purpose multimodal mixture-of-experts model for production-grade tasks and enterprise workloads.",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/mistral-large-3"
-    },
-    {
-      "name": "minimax-m2.1",
-      "description": "Exceptional multilingual capabilities to elevate code engineering",
-      "capabilities": [],
-      "sizes": [],
-      "url": "https://ollama.com/library/minimax-m2.1"
     }
   ]
 }

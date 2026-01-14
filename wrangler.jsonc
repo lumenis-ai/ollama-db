@@ -1,7 +1,9 @@
 {
   "name": "ollama-db",
+  "main": "dist/worker.js",
   "compatibility_date": "2026-01-14",
-  "assets": {
-    "directory": "./dist"
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
   }
 }

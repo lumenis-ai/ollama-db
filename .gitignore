@@ -36,3 +36,8 @@ dist/
 pnpm-lock.yaml
 package-lock.json
 yarn.lock
+
+# Wrangler / Cloudflare Workers
+.wrangler/
+.dev.vars
+wrangler.toml

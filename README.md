@@ -48,6 +48,13 @@
 - **Playwright** - 无头浏览器自动化
 - **GitHub Actions** - CI/CD 自动化
 
+### 部署方式
+
+本项目支持两种部署方式：
+
+1. **Cloudflare Workers** (推荐) - 无服务器边缘计算，全球 CDN 加速
+2. **Node.js** - 传统的 Node.js 服务器部署
+
 ### API 服务
 - **Node.js** - 运行时环境
 - **TypeScript** - 类型安全的 JavaScript
@@ -64,7 +71,46 @@
 
 ## 快速开始
 
-### GraphQL API 服务器
+### 部署到 Cloudflare Workers (推荐)
+
+Cloudflare Workers 提供免费的无服务器部署，自动全球 CDN 加速。
+
+#### 环境要求
+
+- Node.js 18+
+- pnpm (或 npm/yarn)
+- Cloudflare 账户
+
+#### 部署步骤
+
+```bash
+# 1. 安装依赖
+pnpm install
+
+# 2. 登录 Cloudflare（首次部署需要）
+npx wrangler login
+
+# 3. 构建项目
+pnpm build
+
+# 4. 部署到 Cloudflare Workers
+pnpm deploy
+```
+
+部署成功后，访问 `https://ollama-db.litingyes.workers.dev/` 即可使用 GraphiQL 界面进行查询。
+
+📖 详细部署说明请查看 [DEPLOY.md](DEPLOY.md)
+
+#### 本地测试
+
+```bash
+# Cloudflare Workers 本地开发模式
+pnpm dev
+```
+
+### Node.js 本地部署
+
+如果你想在本地或自己的服务器上运行：
 
 #### 环境要求
 
@@ -81,7 +127,7 @@ pnpm install
 
 ```bash
 # 开发模式（带热重载）
-pnpm dev
+pnpm dev:local
 
 # 生产模式
 pnpm build

@@ -21,6 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "@apollo/server": "^4.10.0",
+    "@as-integrations/cloudflare-workers": "^1.1.1",
     "graphql": "^16.8.1",
     "graphql-tag": "^2.12.6"
   },

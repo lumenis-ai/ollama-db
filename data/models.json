@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-01-16T01:20:23.134460+00:00",
-  "total_pages": 10,
-  "total_models": 189,
+  "last_updated": "2026-01-17T01:16:25.416615+00:00",
+  "total_pages": 11,
+  "total_models": 190,
   "models": [
     {
       "name": "nemotron-3-nano",
@@ -867,16 +867,6 @@
       "url": "https://ollama.com/library/command-r"
     },
     {
-      "name": "deepcoder",
-      "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "14b"
-      ],
-      "url": "https://ollama.com/library/deepcoder"
-    },
-    {
       "name": "granite-code",
       "description": "A family of open foundation models by IBM for Code Intelligence",
       "capabilities": [],
@@ -887,6 +877,16 @@
         "34b"
       ],
       "url": "https://ollama.com/library/granite-code"
+    },
+    {
+      "name": "deepcoder",
+      "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "14b"
+      ],
+      "url": "https://ollama.com/library/deepcoder"
     },
     {
       "name": "moondream",
@@ -1076,16 +1076,6 @@
       "url": "https://ollama.com/library/openchat"
     },
     {
-      "name": "opencoder",
-      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/opencoder"
-    },
-    {
       "name": "vicuna",
       "description": "General use chat model based on Llama and Llama 2 with 2K to 16K context sizes.",
       "capabilities": [],
@@ -1105,6 +1095,16 @@
         "236b"
       ],
       "url": "https://ollama.com/library/deepseek-v2"
+    },
+    {
+      "name": "opencoder",
+      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/opencoder"
     },
     {
       "name": "codeqwen",
@@ -1176,6 +1176,15 @@
       "url": "https://ollama.com/library/stable-code"
     },
     {
+      "name": "neural-chat",
+      "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/neural-chat"
+    },
+    {
       "name": "qwen3-embedding",
       "description": "Building upon the foundational models of the Qwen3 series, Qwen3 Embedding provides a comprehensive range of text embeddings models in various sizes",
       "capabilities": [
@@ -1189,13 +1198,14 @@
       "url": "https://ollama.com/library/qwen3-embedding"
     },
     {
-      "name": "neural-chat",
-      "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
+      "name": "nous-hermes2",
+      "description": "The powerful family of models by Nous Research that excels at scientific discussion and coding tasks.",
       "capabilities": [],
       "sizes": [
-        "7b"
+        "10.7b",
+        "34b"
       ],
-      "url": "https://ollama.com/library/neural-chat"
+      "url": "https://ollama.com/library/nous-hermes2"
     },
     {
       "name": "command-r-plus",
@@ -1209,16 +1219,6 @@
       "url": "https://ollama.com/library/command-r-plus"
     },
     {
-      "name": "nous-hermes2",
-      "description": "The powerful family of models by Nous Research that excels at scientific discussion and coding tasks.",
-      "capabilities": [],
-      "sizes": [
-        "10.7b",
-        "34b"
-      ],
-      "url": "https://ollama.com/library/nous-hermes2"
-    },
-    {
       "name": "wizardcoder",
       "description": "State-of-the-art code generation model",
       "capabilities": [],
@@ -1226,15 +1226,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/wizardcoder"
-    },
-    {
-      "name": "codegeex4",
-      "description": "A versatile model for AI software development scenarios, including code completion.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/codegeex4"
     },
     {
       "name": "sqlcoder",
@@ -1247,6 +1238,15 @@
       "url": "https://ollama.com/library/sqlcoder"
     },
     {
+      "name": "codegeex4",
+      "description": "A versatile model for AI software development scenarios, including code completion.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/codegeex4"
+    },
+    {
       "name": "mistral-openorca",
       "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
       "capabilities": [],
@@ -1254,6 +1254,16 @@
         "7b"
       ],
       "url": "https://ollama.com/library/mistral-openorca"
+    },
+    {
+      "name": "stablelm2",
+      "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
+      "capabilities": [],
+      "sizes": [
+        "1.6b",
+        "12b"
+      ],
+      "url": "https://ollama.com/library/stablelm2"
     },
     {
       "name": "deepseek-v3.1",
@@ -1268,16 +1278,6 @@
       "url": "https://ollama.com/library/deepseek-v3.1"
     },
     {
-      "name": "stablelm2",
-      "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
-      "capabilities": [],
-      "sizes": [
-        "1.6b",
-        "12b"
-      ],
-      "url": "https://ollama.com/library/stablelm2"
-    },
-    {
       "name": "yi-coder",
       "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
       "capabilities": [],
@@ -1286,15 +1286,6 @@
         "9b"
       ],
       "url": "https://ollama.com/library/yi-coder"
-    },
-    {
-      "name": "tinydolphin",
-      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-      "capabilities": [],
-      "sizes": [
-        "1.1b"
-      ],
-      "url": "https://ollama.com/library/tinydolphin"
     },
     {
       "name": "llama3-chatqa",
@@ -1307,16 +1298,13 @@
       "url": "https://ollama.com/library/llama3-chatqa"
     },
     {
-      "name": "qwen3-next",
-      "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
+      "name": "tinydolphin",
+      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
+      "capabilities": [],
       "sizes": [
-        "80b"
+        "1.1b"
       ],
-      "url": "https://ollama.com/library/qwen3-next"
+      "url": "https://ollama.com/library/tinydolphin"
     },
     {
       "name": "granite3-dense",
@@ -1341,6 +1329,18 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.1-dense"
+    },
+    {
+      "name": "qwen3-next",
+      "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "80b"
+      ],
+      "url": "https://ollama.com/library/qwen3-next"
     },
     {
       "name": "wizard-math",
@@ -1434,17 +1434,6 @@
       "url": "https://ollama.com/library/solar"
     },
     {
-      "name": "snowflake-arctic-embed2",
-      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "568m"
-      ],
-      "url": "https://ollama.com/library/snowflake-arctic-embed2"
-    },
-    {
       "name": "llama-guard3",
       "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
       "capabilities": [],
@@ -1465,18 +1454,6 @@
       "url": "https://ollama.com/library/xwinlm"
     },
     {
-      "name": "granite3.2",
-      "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "2b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/granite3.2"
-    },
-    {
       "name": "aya-expanse",
       "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
       "capabilities": [
@@ -1487,6 +1464,29 @@
         "32b"
       ],
       "url": "https://ollama.com/library/aya-expanse"
+    },
+    {
+      "name": "snowflake-arctic-embed2",
+      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "568m"
+      ],
+      "url": "https://ollama.com/library/snowflake-arctic-embed2"
+    },
+    {
+      "name": "granite3.2",
+      "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "2b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/granite3.2"
     },
     {
       "name": "yarn-llama2",
@@ -1541,38 +1541,6 @@
       "url": "https://ollama.com/library/stable-beluga"
     },
     {
-      "name": "exaone3.5",
-      "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
-      "capabilities": [],
-      "sizes": [
-        "2.4b",
-        "7.8b",
-        "32b"
-      ],
-      "url": "https://ollama.com/library/exaone3.5"
-    },
-    {
-      "name": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-      "capabilities": [],
-      "sizes": [
-        "70b",
-        "671b"
-      ],
-      "url": "https://ollama.com/library/r1-1776"
-    },
-    {
-      "name": "nemotron-mini",
-      "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "4b"
-      ],
-      "url": "https://ollama.com/library/nemotron-mini"
-    },
-    {
       "name": "meditron",
       "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
       "capabilities": [],
@@ -1593,6 +1561,38 @@
       "url": "https://ollama.com/library/reader-lm"
     },
     {
+      "name": "exaone3.5",
+      "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
+      "capabilities": [],
+      "sizes": [
+        "2.4b",
+        "7.8b",
+        "32b"
+      ],
+      "url": "https://ollama.com/library/exaone3.5"
+    },
+    {
+      "name": "nemotron-mini",
+      "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "4b"
+      ],
+      "url": "https://ollama.com/library/nemotron-mini"
+    },
+    {
+      "name": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "capabilities": [],
+      "sizes": [
+        "70b",
+        "671b"
+      ],
+      "url": "https://ollama.com/library/r1-1776"
+    },
+    {
       "name": "shieldgemma",
       "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
       "capabilities": [],
@@ -1602,6 +1602,15 @@
         "27b"
       ],
       "url": "https://ollama.com/library/shieldgemma"
+    },
+    {
+      "name": "yarn-mistral",
+      "description": "An extension of Mistral to support context windows of 64K or 128K.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/yarn-mistral"
     },
     {
       "name": "athene-v2",
@@ -1615,13 +1624,13 @@
       "url": "https://ollama.com/library/athene-v2"
     },
     {
-      "name": "yarn-mistral",
-      "description": "An extension of Mistral to support context windows of 64K or 128K.",
+      "name": "nexusraven",
+      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
       "capabilities": [],
       "sizes": [
-        "7b"
+        "13b"
       ],
-      "url": "https://ollama.com/library/yarn-mistral"
+      "url": "https://ollama.com/library/nexusraven"
     },
     {
       "name": "nemotron",
@@ -1635,6 +1644,15 @@
       "url": "https://ollama.com/library/nemotron"
     },
     {
+      "name": "wizardlm-uncensored",
+      "description": "Uncensored version of Wizard LM model",
+      "capabilities": [],
+      "sizes": [
+        "13b"
+      ],
+      "url": "https://ollama.com/library/wizardlm-uncensored"
+    },
+    {
       "name": "bge-large",
       "description": "Embedding model from BAAI mapping texts to vectors.",
       "capabilities": [
@@ -1644,24 +1662,6 @@
         "335m"
       ],
       "url": "https://ollama.com/library/bge-large"
-    },
-    {
-      "name": "nexusraven",
-      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
-      "capabilities": [],
-      "sizes": [
-        "13b"
-      ],
-      "url": "https://ollama.com/library/nexusraven"
-    },
-    {
-      "name": "wizardlm-uncensored",
-      "description": "Uncensored version of Wizard LM model",
-      "capabilities": [],
-      "sizes": [
-        "13b"
-      ],
-      "url": "https://ollama.com/library/wizardlm-uncensored"
     },
     {
       "name": "llava-phi3",
@@ -1687,6 +1687,15 @@
       "url": "https://ollama.com/library/granite-embedding"
     },
     {
+      "name": "medllama2",
+      "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/medllama2"
+    },
+    {
       "name": "tulu3",
       "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
       "capabilities": [],
@@ -1695,15 +1704,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/tulu3"
-    },
-    {
-      "name": "medllama2",
-      "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/medllama2"
     },
     {
       "name": "nous-hermes2-mixtral",
@@ -1796,15 +1796,6 @@
       "url": "https://ollama.com/library/duckdb-nsql"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "mistrallite",
       "description": "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.",
       "capabilities": [],
@@ -1830,6 +1821,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bespoke-minicheck"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "megadolphin",
@@ -1859,6 +1859,35 @@
       "url": "https://ollama.com/library/wizard-vicuna"
     },
     {
+      "name": "notux",
+      "description": "A top-performing mixture of experts model, fine-tuned with high-quality data.",
+      "capabilities": [],
+      "sizes": [
+        "8x7b"
+      ],
+      "url": "https://ollama.com/library/notux"
+    },
+    {
+      "name": "notus",
+      "description": "A 7B chat model fine-tuned with high-quality data and based on Zephyr.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/notus"
+    },
+    {
+      "name": "firefunction-v2",
+      "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "70b"
+      ],
+      "url": "https://ollama.com/library/firefunction-v2"
+    },
+    {
       "name": "command-r7b",
       "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
       "capabilities": [
@@ -1879,22 +1908,13 @@
       "url": "https://ollama.com/library/phi4-mini-reasoning"
     },
     {
-      "name": "notux",
-      "description": "A top-performing mixture of experts model, fine-tuned with high-quality data.",
+      "name": "open-orca-platypus2",
+      "description": "Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation.",
       "capabilities": [],
       "sizes": [
-        "8x7b"
+        "13b"
       ],
-      "url": "https://ollama.com/library/notux"
-    },
-    {
-      "name": "notus",
-      "description": "A 7B chat model fine-tuned with high-quality data and based on Zephyr.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/notus"
+      "url": "https://ollama.com/library/open-orca-platypus2"
     },
     {
       "name": "deepseek-v2.5",
@@ -1906,24 +1926,15 @@
       "url": "https://ollama.com/library/deepseek-v2.5"
     },
     {
-      "name": "firefunction-v2",
-      "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "70b"
-      ],
-      "url": "https://ollama.com/library/firefunction-v2"
-    },
-    {
-      "name": "open-orca-platypus2",
-      "description": "Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation.",
+      "name": "sailor2",
+      "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
       "capabilities": [],
       "sizes": [
-        "13b"
+        "1b",
+        "8b",
+        "20b"
       ],
-      "url": "https://ollama.com/library/open-orca-platypus2"
+      "url": "https://ollama.com/library/sailor2"
     },
     {
       "name": "command-a",
@@ -1935,17 +1946,6 @@
         "111b"
       ],
       "url": "https://ollama.com/library/command-a"
-    },
-    {
-      "name": "sailor2",
-      "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
-      "capabilities": [],
-      "sizes": [
-        "1b",
-        "8b",
-        "20b"
-      ],
-      "url": "https://ollama.com/library/sailor2"
     },
     {
       "name": "deepseek-ocr",
@@ -2040,6 +2040,19 @@
         "8b"
       ],
       "url": "https://ollama.com/library/rnj-1"
+    },
+    {
+      "name": "translategemma",
+      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/translategemma"
     }
   ]
 }

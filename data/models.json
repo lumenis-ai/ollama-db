@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-22T01:21:54.015323+00:00",
+  "last_updated": "2026-01-23T01:20:12.714141+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -39,6 +39,18 @@
       "url": "https://ollama.com/library/gpt-oss"
     },
     {
+      "name": "qwen3-coder",
+      "description": "Alibaba's performant long context models for agentic and coding tasks.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "30b",
+        "480b"
+      ],
+      "url": "https://ollama.com/library/qwen3-coder"
+    },
+    {
       "name": "qwen3-vl",
       "description": "The most powerful vision-language model in the Qwen model family to date.",
       "capabilities": [
@@ -57,30 +69,6 @@
       "url": "https://ollama.com/library/qwen3-vl"
     },
     {
-      "name": "qwen3-coder",
-      "description": "Alibaba's performant long context models for agentic and coding tasks.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "30b",
-        "480b"
-      ],
-      "url": "https://ollama.com/library/qwen3-coder"
-    },
-    {
-      "name": "qwen3-next",
-      "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "80b"
-      ],
-      "url": "https://ollama.com/library/qwen3-next"
-    },
-    {
       "name": "ministral-3",
       "description": "The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware.",
       "capabilities": [
@@ -93,6 +81,18 @@
         "14b"
       ],
       "url": "https://ollama.com/library/ministral-3"
+    },
+    {
+      "name": "qwen3-next",
+      "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "80b"
+      ],
+      "url": "https://ollama.com/library/qwen3-next"
     },
     {
       "name": "granite4",
@@ -120,14 +120,15 @@
       "url": "https://ollama.com/library/nemotron-3-nano"
     },
     {
-      "name": "olmo-3",
-      "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "32b"
+      "name": "rnj-1",
+      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
+      "capabilities": [
+        "tools"
       ],
-      "url": "https://ollama.com/library/olmo-3"
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/rnj-1"
     },
     {
       "name": "devstral-small-2",
@@ -140,6 +141,16 @@
         "24b"
       ],
       "url": "https://ollama.com/library/devstral-small-2"
+    },
+    {
+      "name": "olmo-3",
+      "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "32b"
+      ],
+      "url": "https://ollama.com/library/olmo-3"
     },
     {
       "name": "embeddinggemma",
@@ -220,17 +231,6 @@
         "123b"
       ],
       "url": "https://ollama.com/library/devstral-2"
-    },
-    {
-      "name": "rnj-1",
-      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/rnj-1"
     },
     {
       "name": "cogito-2.1",
@@ -1342,17 +1342,6 @@
       "url": "https://ollama.com/library/codegeex4"
     },
     {
-      "name": "athene-v2",
-      "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "72b"
-      ],
-      "url": "https://ollama.com/library/athene-v2"
-    },
-    {
       "name": "shieldgemma",
       "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
       "capabilities": [],
@@ -1362,6 +1351,17 @@
         "27b"
       ],
       "url": "https://ollama.com/library/shieldgemma"
+    },
+    {
+      "name": "athene-v2",
+      "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "72b"
+      ],
+      "url": "https://ollama.com/library/athene-v2"
     },
     {
       "name": "zephyr",
@@ -1614,6 +1614,15 @@
       "url": "https://ollama.com/library/smallthinker"
     },
     {
+      "name": "neural-chat",
+      "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/neural-chat"
+    },
+    {
       "name": "command-r7b",
       "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
       "capabilities": [
@@ -1623,15 +1632,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b"
-    },
-    {
-      "name": "neural-chat",
-      "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/neural-chat"
     },
     {
       "name": "tinydolphin",
@@ -1846,16 +1846,6 @@
       "url": "https://ollama.com/library/deepseek-v2.5"
     },
     {
-      "name": "granite3-guardian",
-      "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
-      "capabilities": [],
-      "sizes": [
-        "2b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/granite3-guardian"
-    },
-    {
       "name": "firefunction-v2",
       "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
       "capabilities": [
@@ -1865,6 +1855,16 @@
         "70b"
       ],
       "url": "https://ollama.com/library/firefunction-v2"
+    },
+    {
+      "name": "granite3-guardian",
+      "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
+      "capabilities": [],
+      "sizes": [
+        "2b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/granite3-guardian"
     },
     {
       "name": "yarn-mistral",
@@ -1885,15 +1885,6 @@
       "url": "https://ollama.com/library/dbrx"
     },
     {
-      "name": "marco-o1",
-      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/marco-o1"
-    },
-    {
       "name": "falcon2",
       "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
       "capabilities": [],
@@ -1901,6 +1892,15 @@
         "11b"
       ],
       "url": "https://ollama.com/library/falcon2"
+    },
+    {
+      "name": "marco-o1",
+      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/marco-o1"
     },
     {
       "name": "stable-beluga",

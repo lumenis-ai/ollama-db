@@ -1,8 +1,17 @@
 {
-  "last_updated": "2026-01-23T01:20:12.714141+00:00",
+  "last_updated": "2026-01-24T01:17:44.064491+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
+    },
     {
       "name": "translategemma",
       "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
@@ -15,15 +24,6 @@
         "27b"
       ],
       "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "lfm2.5-thinking",
-      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
-      "capabilities": [],
-      "sizes": [
-        "1.2b"
-      ],
-      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "gpt-oss",
@@ -67,6 +67,17 @@
         "235b"
       ],
       "url": "https://ollama.com/library/qwen3-vl"
+    },
+    {
+      "name": "rnj-1",
+      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/rnj-1"
     },
     {
       "name": "ministral-3",
@@ -120,15 +131,14 @@
       "url": "https://ollama.com/library/nemotron-3-nano"
     },
     {
-      "name": "rnj-1",
-      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
-      "capabilities": [
-        "tools"
-      ],
+      "name": "olmo-3",
+      "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
+      "capabilities": [],
       "sizes": [
-        "8b"
+        "7b",
+        "32b"
       ],
-      "url": "https://ollama.com/library/rnj-1"
+      "url": "https://ollama.com/library/olmo-3"
     },
     {
       "name": "devstral-small-2",
@@ -141,16 +151,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/devstral-small-2"
-    },
-    {
-      "name": "olmo-3",
-      "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "32b"
-      ],
-      "url": "https://ollama.com/library/olmo-3"
     },
     {
       "name": "embeddinggemma",
@@ -790,17 +790,6 @@
       "url": "https://ollama.com/library/granite3.1-moe"
     },
     {
-      "name": "mistral-nemo",
-      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "12b"
-      ],
-      "url": "https://ollama.com/library/mistral-nemo"
-    },
-    {
       "name": "falcon3",
       "description": "A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques.",
       "capabilities": [],
@@ -811,6 +800,17 @@
         "10b"
       ],
       "url": "https://ollama.com/library/falcon3"
+    },
+    {
+      "name": "mistral-nemo",
+      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "12b"
+      ],
+      "url": "https://ollama.com/library/mistral-nemo"
     },
     {
       "name": "bge-m3",
@@ -1248,6 +1248,16 @@
       "url": "https://ollama.com/library/glm4"
     },
     {
+      "name": "llama-guard3",
+      "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
+      "capabilities": [],
+      "sizes": [
+        "1b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/llama-guard3"
+    },
+    {
       "name": "snowflake-arctic-embed2",
       "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
       "capabilities": [
@@ -1257,16 +1267,6 @@
         "568m"
       ],
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
-    },
-    {
-      "name": "llama-guard3",
-      "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
-      "capabilities": [],
-      "sizes": [
-        "1b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/llama-guard3"
     },
     {
       "name": "granite3-moe",
@@ -1364,16 +1364,6 @@
       "url": "https://ollama.com/library/athene-v2"
     },
     {
-      "name": "zephyr",
-      "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "141b"
-      ],
-      "url": "https://ollama.com/library/zephyr"
-    },
-    {
       "name": "llama3-groq-tool-use",
       "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
       "capabilities": [
@@ -1384,6 +1374,16 @@
         "70b"
       ],
       "url": "https://ollama.com/library/llama3-groq-tool-use"
+    },
+    {
+      "name": "zephyr",
+      "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "141b"
+      ],
+      "url": "https://ollama.com/library/zephyr"
     },
     {
       "name": "internlm2",
@@ -1430,15 +1430,6 @@
       "url": "https://ollama.com/library/llama3-chatqa"
     },
     {
-      "name": "reflection",
-      "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
-      "capabilities": [],
-      "sizes": [
-        "70b"
-      ],
-      "url": "https://ollama.com/library/reflection"
-    },
-    {
       "name": "nemotron",
       "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
       "capabilities": [
@@ -1450,15 +1441,13 @@
       "url": "https://ollama.com/library/nemotron"
     },
     {
-      "name": "command-r-plus",
-      "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
-      "capabilities": [
-        "tools"
-      ],
+      "name": "reflection",
+      "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
+      "capabilities": [],
       "sizes": [
-        "104b"
+        "70b"
       ],
-      "url": "https://ollama.com/library/command-r-plus"
+      "url": "https://ollama.com/library/reflection"
     },
     {
       "name": "nemotron-mini",
@@ -1470,6 +1459,17 @@
         "4b"
       ],
       "url": "https://ollama.com/library/nemotron-mini"
+    },
+    {
+      "name": "command-r-plus",
+      "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "104b"
+      ],
+      "url": "https://ollama.com/library/command-r-plus"
     },
     {
       "name": "deepseek-llm",
@@ -1543,6 +1543,16 @@
       "url": "https://ollama.com/library/stable-code"
     },
     {
+      "name": "dolphincoder",
+      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "15b"
+      ],
+      "url": "https://ollama.com/library/dolphincoder"
+    },
+    {
       "name": "falcon",
       "description": "A large language model built by the Technology Innovation Institute (TII) for use in summarization, text generation, and chat bots.",
       "capabilities": [],
@@ -1552,16 +1562,6 @@
         "180b"
       ],
       "url": "https://ollama.com/library/falcon"
-    },
-    {
-      "name": "dolphincoder",
-      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "15b"
-      ],
-      "url": "https://ollama.com/library/dolphincoder"
     },
     {
       "name": "nous-hermes",
@@ -1837,15 +1837,6 @@
       "url": "https://ollama.com/library/meditron"
     },
     {
-      "name": "deepseek-v2.5",
-      "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
-      "capabilities": [],
-      "sizes": [
-        "236b"
-      ],
-      "url": "https://ollama.com/library/deepseek-v2.5"
-    },
-    {
       "name": "firefunction-v2",
       "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
       "capabilities": [
@@ -1855,6 +1846,15 @@
         "70b"
       ],
       "url": "https://ollama.com/library/firefunction-v2"
+    },
+    {
+      "name": "deepseek-v2.5",
+      "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
+      "capabilities": [],
+      "sizes": [
+        "236b"
+      ],
+      "url": "https://ollama.com/library/deepseek-v2.5"
     },
     {
       "name": "granite3-guardian",
@@ -1894,15 +1894,6 @@
       "url": "https://ollama.com/library/falcon2"
     },
     {
-      "name": "marco-o1",
-      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/marco-o1"
-    },
-    {
       "name": "stable-beluga",
       "description": "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.",
       "capabilities": [],
@@ -1912,6 +1903,15 @@
         "70b"
       ],
       "url": "https://ollama.com/library/stable-beluga"
+    },
+    {
+      "name": "marco-o1",
+      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/marco-o1"
     },
     {
       "name": "nexusraven",

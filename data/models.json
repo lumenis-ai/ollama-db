@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-25T01:27:30.277855+00:00",
+  "last_updated": "2026-01-26T01:26:05.868881+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -131,28 +131,6 @@
       "url": "https://ollama.com/library/nemotron-3-nano"
     },
     {
-      "name": "olmo-3",
-      "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "32b"
-      ],
-      "url": "https://ollama.com/library/olmo-3"
-    },
-    {
-      "name": "devstral-small-2",
-      "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/devstral-small-2"
-    },
-    {
       "name": "qwen3-embedding",
       "description": "Building upon the foundational models of the Qwen3 series, Qwen3 Embedding provides a comprehensive range of text embeddings models in various sizes",
       "capabilities": [
@@ -175,6 +153,28 @@
         "300m"
       ],
       "url": "https://ollama.com/library/embeddinggemma"
+    },
+    {
+      "name": "olmo-3",
+      "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "32b"
+      ],
+      "url": "https://ollama.com/library/olmo-3"
+    },
+    {
+      "name": "devstral-small-2",
+      "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/devstral-small-2"
     },
     {
       "name": "deepseek-ocr",
@@ -1099,16 +1099,6 @@
       "url": "https://ollama.com/library/granite-code"
     },
     {
-      "name": "wizardlm2",
-      "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "8x22b"
-      ],
-      "url": "https://ollama.com/library/wizardlm2"
-    },
-    {
       "name": "opencoder",
       "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
       "capabilities": [],
@@ -1117,6 +1107,16 @@
         "8b"
       ],
       "url": "https://ollama.com/library/opencoder"
+    },
+    {
+      "name": "wizardlm2",
+      "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "8x22b"
+      ],
+      "url": "https://ollama.com/library/wizardlm2"
     },
     {
       "name": "moondream",
@@ -1302,17 +1302,6 @@
       "url": "https://ollama.com/library/aya"
     },
     {
-      "name": "bakllava",
-      "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/bakllava"
-    },
-    {
       "name": "yi",
       "description": "Yi 1.5 is a high-performing, bilingual language model.",
       "capabilities": [],
@@ -1322,6 +1311,17 @@
         "34b"
       ],
       "url": "https://ollama.com/library/yi"
+    },
+    {
+      "name": "bakllava",
+      "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/bakllava"
     },
     {
       "name": "codeqwen",
@@ -1386,6 +1386,16 @@
       "url": "https://ollama.com/library/zephyr"
     },
     {
+      "name": "reader-lm",
+      "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
+      "capabilities": [],
+      "sizes": [
+        "0.5b",
+        "1.5b"
+      ],
+      "url": "https://ollama.com/library/reader-lm"
+    },
+    {
       "name": "internlm2",
       "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
       "capabilities": [],
@@ -1396,16 +1406,6 @@
         "20b"
       ],
       "url": "https://ollama.com/library/internlm2"
-    },
-    {
-      "name": "reader-lm",
-      "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
-      "capabilities": [],
-      "sizes": [
-        "0.5b",
-        "1.5b"
-      ],
-      "url": "https://ollama.com/library/reader-lm"
     },
     {
       "name": "granite-embedding",
@@ -1807,6 +1807,15 @@
       "url": "https://ollama.com/library/phind-codellama"
     },
     {
+      "name": "nuextract",
+      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/nuextract"
+    },
+    {
       "name": "llava-phi3",
       "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
       "capabilities": [
@@ -1816,15 +1825,6 @@
         "3.8b"
       ],
       "url": "https://ollama.com/library/llava-phi3"
-    },
-    {
-      "name": "nuextract",
-      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/nuextract"
     },
     {
       "name": "meditron",
@@ -1848,6 +1848,15 @@
       "url": "https://ollama.com/library/firefunction-v2"
     },
     {
+      "name": "yarn-mistral",
+      "description": "An extension of Mistral to support context windows of 64K or 128K.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/yarn-mistral"
+    },
+    {
       "name": "granite3-guardian",
       "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
       "capabilities": [],
@@ -1856,15 +1865,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3-guardian"
-    },
-    {
-      "name": "yarn-mistral",
-      "description": "An extension of Mistral to support context windows of 64K or 128K.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/yarn-mistral"
     },
     {
       "name": "deepseek-v2.5",
@@ -1876,13 +1876,15 @@
       "url": "https://ollama.com/library/deepseek-v2.5"
     },
     {
-      "name": "dbrx",
-      "description": "DBRX is an open, general-purpose LLM created by Databricks.",
+      "name": "stable-beluga",
+      "description": "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.",
       "capabilities": [],
       "sizes": [
-        "132b"
+        "7b",
+        "13b",
+        "70b"
       ],
-      "url": "https://ollama.com/library/dbrx"
+      "url": "https://ollama.com/library/stable-beluga"
     },
     {
       "name": "falcon2",
@@ -1894,15 +1896,13 @@
       "url": "https://ollama.com/library/falcon2"
     },
     {
-      "name": "stable-beluga",
-      "description": "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.",
+      "name": "dbrx",
+      "description": "DBRX is an open, general-purpose LLM created by Databricks.",
       "capabilities": [],
       "sizes": [
-        "7b",
-        "13b",
-        "70b"
+        "132b"
       ],
-      "url": "https://ollama.com/library/stable-beluga"
+      "url": "https://ollama.com/library/dbrx"
     },
     {
       "name": "marco-o1",

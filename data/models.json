@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-26T01:26:05.868881+00:00",
+  "last_updated": "2026-01-27T01:25:15.114367+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -155,16 +155,6 @@
       "url": "https://ollama.com/library/embeddinggemma"
     },
     {
-      "name": "olmo-3",
-      "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "32b"
-      ],
-      "url": "https://ollama.com/library/olmo-3"
-    },
-    {
       "name": "devstral-small-2",
       "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
       "capabilities": [
@@ -175,6 +165,16 @@
         "24b"
       ],
       "url": "https://ollama.com/library/devstral-small-2"
+    },
+    {
+      "name": "olmo-3",
+      "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "32b"
+      ],
+      "url": "https://ollama.com/library/olmo-3"
     },
     {
       "name": "deepseek-ocr",
@@ -596,15 +596,6 @@
       "url": "https://ollama.com/library/gemma2"
     },
     {
-      "name": "phi4",
-      "description": "Phi-4 is a 14B parameter, state-of-the-art open model from Microsoft.",
-      "capabilities": [],
-      "sizes": [
-        "14b"
-      ],
-      "url": "https://ollama.com/library/phi4"
-    },
-    {
       "name": "qwen2.5-coder",
       "description": "The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.",
       "capabilities": [
@@ -619,6 +610,15 @@
         "32b"
       ],
       "url": "https://ollama.com/library/qwen2.5-coder"
+    },
+    {
+      "name": "phi4",
+      "description": "Phi-4 is a 14B parameter, state-of-the-art open model from Microsoft.",
+      "capabilities": [],
+      "sizes": [
+        "14b"
+      ],
+      "url": "https://ollama.com/library/phi4"
     },
     {
       "name": "phi3",
@@ -1758,15 +1758,6 @@
       "url": "https://ollama.com/library/xwinlm"
     },
     {
-      "name": "mathstral",
-      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/mathstral"
-    },
-    {
       "name": "yarn-llama2",
       "description": "An extension of Llama 2 that supports a context of up to 128k tokens.",
       "capabilities": [],
@@ -1775,6 +1766,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/yarn-llama2"
+    },
+    {
+      "name": "mathstral",
+      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/mathstral"
     },
     {
       "name": "wizard-math",
@@ -1905,15 +1905,6 @@
       "url": "https://ollama.com/library/dbrx"
     },
     {
-      "name": "marco-o1",
-      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/marco-o1"
-    },
-    {
       "name": "nexusraven",
       "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
       "capabilities": [],
@@ -1921,6 +1912,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/nexusraven"
+    },
+    {
+      "name": "marco-o1",
+      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/marco-o1"
     },
     {
       "name": "nous-hermes2-mixtral",

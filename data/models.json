@@ -1,17 +1,8 @@
 {
-  "last_updated": "2026-01-27T01:25:15.114367+00:00",
+  "last_updated": "2026-01-28T01:21:17.652076+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
-    {
-      "name": "lfm2.5-thinking",
-      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
-      "capabilities": [],
-      "sizes": [
-        "1.2b"
-      ],
-      "url": "https://ollama.com/library/lfm2.5-thinking"
-    },
     {
       "name": "translategemma",
       "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
@@ -26,6 +17,15 @@
       "url": "https://ollama.com/library/translategemma"
     },
     {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
+    },
+    {
       "name": "gpt-oss",
       "description": "OpenAI’s open-weight models designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
       "capabilities": [
@@ -37,18 +37,6 @@
         "120b"
       ],
       "url": "https://ollama.com/library/gpt-oss"
-    },
-    {
-      "name": "qwen3-coder",
-      "description": "Alibaba's performant long context models for agentic and coding tasks.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "30b",
-        "480b"
-      ],
-      "url": "https://ollama.com/library/qwen3-coder"
     },
     {
       "name": "qwen3-vl",
@@ -188,17 +176,6 @@
       "url": "https://ollama.com/library/deepseek-ocr"
     },
     {
-      "name": "olmo-3.1",
-      "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "32b"
-      ],
-      "url": "https://ollama.com/library/olmo-3.1"
-    },
-    {
       "name": "deepseek-v3.1",
       "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
       "capabilities": [
@@ -209,6 +186,17 @@
         "671b"
       ],
       "url": "https://ollama.com/library/deepseek-v3.1"
+    },
+    {
+      "name": "olmo-3.1",
+      "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "32b"
+      ],
+      "url": "https://ollama.com/library/olmo-3.1"
     },
     {
       "name": "functiongemma",
@@ -287,6 +275,18 @@
         "235b"
       ],
       "url": "https://ollama.com/library/qwen3"
+    },
+    {
+      "name": "qwen3-coder",
+      "description": "Alibaba's performant long context models for agentic and coding tasks.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "30b",
+        "480b"
+      ],
+      "url": "https://ollama.com/library/qwen3-coder"
     },
     {
       "name": "mistral-small3.2",
@@ -1184,6 +1184,17 @@
       "url": "https://ollama.com/library/qwen2-math"
     },
     {
+      "name": "paraphrase-multilingual",
+      "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "278m"
+      ],
+      "url": "https://ollama.com/library/paraphrase-multilingual"
+    },
+    {
       "name": "granite3-dense",
       "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
       "capabilities": [
@@ -1194,17 +1205,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3-dense"
-    },
-    {
-      "name": "paraphrase-multilingual",
-      "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "278m"
-      ],
-      "url": "https://ollama.com/library/paraphrase-multilingual"
     },
     {
       "name": "yi-coder",

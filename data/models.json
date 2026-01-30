@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-29T01:42:18.889328+00:00",
+  "last_updated": "2026-01-30T01:42:36.542342+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -186,17 +186,6 @@
       "url": "https://ollama.com/library/olmo-3.1"
     },
     {
-      "name": "functiongemma",
-      "description": "FunctionGemma is a specialized version of Google's Gemma 3 270M model fine-tuned explicitly for function calling.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "270m"
-      ],
-      "url": "https://ollama.com/library/functiongemma"
-    },
-    {
       "name": "devstral-2",
       "description": "123B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
       "capabilities": [
@@ -206,6 +195,17 @@
         "123b"
       ],
       "url": "https://ollama.com/library/devstral-2"
+    },
+    {
+      "name": "functiongemma",
+      "description": "FunctionGemma is a specialized version of Google's Gemma 3 270M model fine-tuned explicitly for function calling.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "270m"
+      ],
+      "url": "https://ollama.com/library/functiongemma"
     },
     {
       "name": "cogito-2.1",
@@ -1333,15 +1333,6 @@
       "url": "https://ollama.com/library/codeqwen"
     },
     {
-      "name": "codegeex4",
-      "description": "A versatile model for AI software development scenarios, including code completion.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/codegeex4"
-    },
-    {
       "name": "shieldgemma",
       "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
       "capabilities": [],
@@ -1351,6 +1342,15 @@
         "27b"
       ],
       "url": "https://ollama.com/library/shieldgemma"
+    },
+    {
+      "name": "codegeex4",
+      "description": "A versatile model for AI software development scenarios, including code completion.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/codegeex4"
     },
     {
       "name": "athene-v2",
@@ -1643,6 +1643,16 @@
       "url": "https://ollama.com/library/tinydolphin"
     },
     {
+      "name": "llama2-chinese",
+      "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/llama2-chinese"
+    },
+    {
       "name": "bge-large",
       "description": "Embedding model from BAAI mapping texts to vectors.",
       "capabilities": [
@@ -1652,16 +1662,6 @@
         "335m"
       ],
       "url": "https://ollama.com/library/bge-large"
-    },
-    {
-      "name": "llama2-chinese",
-      "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/llama2-chinese"
     },
     {
       "name": "sqlcoder",

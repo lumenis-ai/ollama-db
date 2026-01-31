@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-30T01:42:36.542342+00:00",
+  "last_updated": "2026-01-31T01:28:37.620221+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -693,17 +693,6 @@
       "url": "https://ollama.com/library/deepseek-v3"
     },
     {
-      "name": "minicpm-v",
-      "description": "A series of multimodal LLMs (MLLMs) designed for vision-language understanding.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v"
-    },
-    {
       "name": "mxbai-embed-large",
       "description": "State-of-the-art large embedding model from mixedbread.ai",
       "capabilities": [
@@ -713,6 +702,17 @@
         "335m"
       ],
       "url": "https://ollama.com/library/mxbai-embed-large"
+    },
+    {
+      "name": "minicpm-v",
+      "description": "A series of multimodal LLMs (MLLMs) designed for vision-language understanding.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v"
     },
     {
       "name": "llama3.2-vision",

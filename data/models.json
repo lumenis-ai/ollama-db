@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-02T01:48:39.964553+00:00",
+  "last_updated": "2026-02-03T01:47:58.486347+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -44,17 +44,6 @@
       "url": "https://ollama.com/library/qwen3-vl"
     },
     {
-      "name": "rnj-1",
-      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/rnj-1"
-    },
-    {
       "name": "ministral-3",
       "description": "The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware.",
       "capabilities": [
@@ -67,6 +56,17 @@
         "14b"
       ],
       "url": "https://ollama.com/library/ministral-3"
+    },
+    {
+      "name": "rnj-1",
+      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/rnj-1"
     },
     {
       "name": "qwen3-next",
@@ -94,18 +94,6 @@
       "url": "https://ollama.com/library/granite4"
     },
     {
-      "name": "nemotron-3-nano",
-      "description": "Nemotron 3 Nano - A new Standard for Efficient, Open, and Intelligent Agentic Models",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "30b"
-      ],
-      "url": "https://ollama.com/library/nemotron-3-nano"
-    },
-    {
       "name": "qwen3-embedding",
       "description": "Building upon the foundational models of the Qwen3 series, Qwen3 Embedding provides a comprehensive range of text embeddings models in various sizes",
       "capabilities": [
@@ -117,6 +105,18 @@
         "8b"
       ],
       "url": "https://ollama.com/library/qwen3-embedding"
+    },
+    {
+      "name": "nemotron-3-nano",
+      "description": "Nemotron 3 Nano - A new Standard for Efficient, Open, and Intelligent Agentic Models",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "30b"
+      ],
+      "url": "https://ollama.com/library/nemotron-3-nano"
     },
     {
       "name": "embeddinggemma",
@@ -437,16 +437,6 @@
         "14b"
       ],
       "url": "https://ollama.com/library/deepcoder"
-    },
-    {
-      "name": "openthinker",
-      "description": "A fully open-source family of reasoning models built using a dataset derived by distilling DeepSeek-R1.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "32b"
-      ],
-      "url": "https://ollama.com/library/openthinker"
     },
     {
       "name": "mistral-small3.1",
@@ -972,6 +962,16 @@
       "url": "https://ollama.com/library/deepseek-coder-v2"
     },
     {
+      "name": "openthinker",
+      "description": "A fully open-source family of reasoning models built using a dataset derived by distilling DeepSeek-R1.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "32b"
+      ],
+      "url": "https://ollama.com/library/openthinker"
+    },
+    {
       "name": "mixtral",
       "description": "A set of Mixture of Experts (MoE) model with open weights by Mistral AI in 8x7b and 8x22b parameter sizes.",
       "capabilities": [
@@ -1217,16 +1217,6 @@
       "url": "https://ollama.com/library/yi-coder"
     },
     {
-      "name": "deepseek-v2",
-      "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
-      "capabilities": [],
-      "sizes": [
-        "16b",
-        "236b"
-      ],
-      "url": "https://ollama.com/library/deepseek-v2"
-    },
-    {
       "name": "aya-expanse",
       "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
       "capabilities": [
@@ -1237,6 +1227,16 @@
         "32b"
       ],
       "url": "https://ollama.com/library/aya-expanse"
+    },
+    {
+      "name": "deepseek-v2",
+      "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
+      "capabilities": [],
+      "sizes": [
+        "16b",
+        "236b"
+      ],
+      "url": "https://ollama.com/library/deepseek-v2"
     },
     {
       "name": "glm4",
@@ -1302,6 +1302,15 @@
       "url": "https://ollama.com/library/aya"
     },
     {
+      "name": "codeqwen",
+      "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/codeqwen"
+    },
+    {
       "name": "yi",
       "description": "Yi 1.5 is a high-performing, bilingual language model.",
       "capabilities": [],
@@ -1311,15 +1320,6 @@
         "34b"
       ],
       "url": "https://ollama.com/library/yi"
-    },
-    {
-      "name": "codeqwen",
-      "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/codeqwen"
     },
     {
       "name": "bakllava",
@@ -1376,16 +1376,6 @@
       "url": "https://ollama.com/library/llama3-groq-tool-use"
     },
     {
-      "name": "zephyr",
-      "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "141b"
-      ],
-      "url": "https://ollama.com/library/zephyr"
-    },
-    {
       "name": "reader-lm",
       "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
       "capabilities": [],
@@ -1406,6 +1396,16 @@
         "20b"
       ],
       "url": "https://ollama.com/library/internlm2"
+    },
+    {
+      "name": "zephyr",
+      "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "141b"
+      ],
+      "url": "https://ollama.com/library/zephyr"
     },
     {
       "name": "granite-embedding",
@@ -1564,16 +1564,6 @@
       "url": "https://ollama.com/library/falcon"
     },
     {
-      "name": "nous-hermes",
-      "description": "General use models based on Llama and Llama 2 from Nous Research.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/nous-hermes"
-    },
-    {
       "name": "nous-hermes2",
       "description": "The powerful family of models by Nous Research that excels at scientific discussion and coding tasks.",
       "capabilities": [],
@@ -1582,6 +1572,16 @@
         "34b"
       ],
       "url": "https://ollama.com/library/nous-hermes2"
+    },
+    {
+      "name": "nous-hermes",
+      "description": "General use models based on Llama and Llama 2 from Nous Research.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/nous-hermes"
     },
     {
       "name": "stablelm2",
@@ -1614,6 +1614,15 @@
       "url": "https://ollama.com/library/neural-chat"
     },
     {
+      "name": "tinydolphin",
+      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
+      "capabilities": [],
+      "sizes": [
+        "1.1b"
+      ],
+      "url": "https://ollama.com/library/tinydolphin"
+    },
+    {
       "name": "command-r7b",
       "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
       "capabilities": [
@@ -1623,15 +1632,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b"
-    },
-    {
-      "name": "tinydolphin",
-      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-      "capabilities": [],
-      "sizes": [
-        "1.1b"
-      ],
-      "url": "https://ollama.com/library/tinydolphin"
     },
     {
       "name": "smallthinker",
@@ -1663,6 +1663,15 @@
       "url": "https://ollama.com/library/sqlcoder"
     },
     {
+      "name": "solar-pro",
+      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/solar-pro"
+    },
+    {
       "name": "bge-large",
       "description": "Embedding model from BAAI mapping texts to vectors.",
       "capabilities": [
@@ -1672,15 +1681,6 @@
         "335m"
       ],
       "url": "https://ollama.com/library/bge-large"
-    },
-    {
-      "name": "solar-pro",
-      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
-      "capabilities": [],
-      "sizes": [
-        "22b"
-      ],
-      "url": "https://ollama.com/library/solar-pro"
     },
     {
       "name": "solar",
@@ -1710,15 +1710,6 @@
       "url": "https://ollama.com/library/starling-lm"
     },
     {
-      "name": "mistral-openorca",
-      "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/mistral-openorca"
-    },
-    {
       "name": "bespoke-minicheck",
       "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
       "capabilities": [],
@@ -1726,6 +1717,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bespoke-minicheck"
+    },
+    {
+      "name": "mistral-openorca",
+      "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/mistral-openorca"
     },
     {
       "name": "sailor2",
@@ -1837,6 +1837,15 @@
       "url": "https://ollama.com/library/meditron"
     },
     {
+      "name": "yarn-mistral",
+      "description": "An extension of Mistral to support context windows of 64K or 128K.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/yarn-mistral"
+    },
+    {
       "name": "firefunction-v2",
       "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
       "capabilities": [
@@ -1846,15 +1855,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/firefunction-v2"
-    },
-    {
-      "name": "yarn-mistral",
-      "description": "An extension of Mistral to support context windows of 64K or 128K.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/yarn-mistral"
     },
     {
       "name": "granite3-guardian",
@@ -1959,15 +1959,6 @@
       "url": "https://ollama.com/library/megadolphin"
     },
     {
-      "name": "medllama2",
-      "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/medllama2"
-    },
-    {
       "name": "stablelm-zephyr",
       "description": "A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware.",
       "capabilities": [],
@@ -1975,6 +1966,15 @@
         "3b"
       ],
       "url": "https://ollama.com/library/stablelm-zephyr"
+    },
+    {
+      "name": "medllama2",
+      "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/medllama2"
     },
     {
       "name": "magicoder",

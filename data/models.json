@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-03T01:47:58.486347+00:00",
+  "last_updated": "2026-02-04T01:42:37.019513+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -1017,15 +1017,6 @@
       "url": "https://ollama.com/library/llama2-uncensored"
     },
     {
-      "name": "dolphin-phi",
-      "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
-      "capabilities": [],
-      "sizes": [
-        "2.7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-phi"
-    },
-    {
       "name": "dolphin-llama3",
       "description": "Dolphin 2.9 is a new model with 8B and 70B sizes by Eric Hartford based on Llama 3 that has a variety of instruction, conversational, and coding skills.",
       "capabilities": [],
@@ -1034,6 +1025,15 @@
         "70b"
       ],
       "url": "https://ollama.com/library/dolphin-llama3"
+    },
+    {
+      "name": "dolphin-phi",
+      "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
+      "capabilities": [],
+      "sizes": [
+        "2.7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-phi"
     },
     {
       "name": "codestral",
@@ -1119,17 +1119,6 @@
       "url": "https://ollama.com/library/wizardlm2"
     },
     {
-      "name": "moondream",
-      "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1.8b"
-      ],
-      "url": "https://ollama.com/library/moondream"
-    },
-    {
       "name": "command-r",
       "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
       "capabilities": [
@@ -1141,15 +1130,15 @@
       "url": "https://ollama.com/library/command-r"
     },
     {
-      "name": "mistral-large",
-      "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
+      "name": "moondream",
+      "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
       "capabilities": [
-        "tools"
+        "vision"
       ],
       "sizes": [
-        "123b"
+        "1.8b"
       ],
-      "url": "https://ollama.com/library/mistral-large"
+      "url": "https://ollama.com/library/moondream"
     },
     {
       "name": "granite3.1-dense",
@@ -1162,6 +1151,17 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.1-dense"
+    },
+    {
+      "name": "mistral-large",
+      "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "123b"
+      ],
+      "url": "https://ollama.com/library/mistral-large"
     },
     {
       "name": "dolphin-mistral",
@@ -1322,17 +1322,6 @@
       "url": "https://ollama.com/library/yi"
     },
     {
-      "name": "bakllava",
-      "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/bakllava"
-    },
-    {
       "name": "shieldgemma",
       "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
       "capabilities": [],
@@ -1342,6 +1331,17 @@
         "27b"
       ],
       "url": "https://ollama.com/library/shieldgemma"
+    },
+    {
+      "name": "bakllava",
+      "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/bakllava"
     },
     {
       "name": "codegeex4",
@@ -1408,6 +1408,16 @@
       "url": "https://ollama.com/library/zephyr"
     },
     {
+      "name": "llama3-chatqa",
+      "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama3-chatqa"
+    },
+    {
       "name": "granite-embedding",
       "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
       "capabilities": [
@@ -1418,16 +1428,6 @@
         "278m"
       ],
       "url": "https://ollama.com/library/granite-embedding"
-    },
-    {
-      "name": "llama3-chatqa",
-      "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/llama3-chatqa"
     },
     {
       "name": "nemotron",
@@ -1512,16 +1512,6 @@
       "url": "https://ollama.com/library/openchat"
     },
     {
-      "name": "tulu3",
-      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/tulu3"
-    },
-    {
       "name": "starcoder",
       "description": "StarCoder is a code generation model trained on 80+ programming languages.",
       "capabilities": [],
@@ -1532,6 +1522,16 @@
         "15b"
       ],
       "url": "https://ollama.com/library/starcoder"
+    },
+    {
+      "name": "tulu3",
+      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/tulu3"
     },
     {
       "name": "stable-code",
@@ -1574,16 +1574,6 @@
       "url": "https://ollama.com/library/nous-hermes2"
     },
     {
-      "name": "nous-hermes",
-      "description": "General use models based on Llama and Llama 2 from Nous Research.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/nous-hermes"
-    },
-    {
       "name": "stablelm2",
       "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
       "capabilities": [],
@@ -1592,6 +1582,16 @@
         "12b"
       ],
       "url": "https://ollama.com/library/stablelm2"
+    },
+    {
+      "name": "nous-hermes",
+      "description": "General use models based on Llama and Llama 2 from Nous Research.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/nous-hermes"
     },
     {
       "name": "vicuna",
@@ -1672,6 +1672,15 @@
       "url": "https://ollama.com/library/solar-pro"
     },
     {
+      "name": "solar",
+      "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
+      "capabilities": [],
+      "sizes": [
+        "10.7b"
+      ],
+      "url": "https://ollama.com/library/solar"
+    },
+    {
       "name": "bge-large",
       "description": "Embedding model from BAAI mapping texts to vectors.",
       "capabilities": [
@@ -1681,15 +1690,6 @@
         "335m"
       ],
       "url": "https://ollama.com/library/bge-large"
-    },
-    {
-      "name": "solar",
-      "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
-      "capabilities": [],
-      "sizes": [
-        "10.7b"
-      ],
-      "url": "https://ollama.com/library/solar"
     },
     {
       "name": "wizardcoder",
@@ -1816,6 +1816,16 @@
       "url": "https://ollama.com/library/nuextract"
     },
     {
+      "name": "meditron",
+      "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/meditron"
+    },
+    {
       "name": "llava-phi3",
       "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
       "capabilities": [
@@ -1825,16 +1835,6 @@
         "3.8b"
       ],
       "url": "https://ollama.com/library/llava-phi3"
-    },
-    {
-      "name": "meditron",
-      "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/meditron"
     },
     {
       "name": "yarn-mistral",
@@ -1867,15 +1867,6 @@
       "url": "https://ollama.com/library/granite3-guardian"
     },
     {
-      "name": "deepseek-v2.5",
-      "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
-      "capabilities": [],
-      "sizes": [
-        "236b"
-      ],
-      "url": "https://ollama.com/library/deepseek-v2.5"
-    },
-    {
       "name": "stable-beluga",
       "description": "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.",
       "capabilities": [],
@@ -1896,6 +1887,15 @@
       "url": "https://ollama.com/library/falcon2"
     },
     {
+      "name": "deepseek-v2.5",
+      "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
+      "capabilities": [],
+      "sizes": [
+        "236b"
+      ],
+      "url": "https://ollama.com/library/deepseek-v2.5"
+    },
+    {
       "name": "nexusraven",
       "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
       "capabilities": [],
@@ -1914,15 +1914,6 @@
       "url": "https://ollama.com/library/dbrx"
     },
     {
-      "name": "marco-o1",
-      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/marco-o1"
-    },
-    {
       "name": "nous-hermes2-mixtral",
       "description": "The Nous Hermes 2 model from Nous Research, now trained over Mixtral.",
       "capabilities": [],
@@ -1930,6 +1921,15 @@
         "8x7b"
       ],
       "url": "https://ollama.com/library/nous-hermes2-mixtral"
+    },
+    {
+      "name": "marco-o1",
+      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/marco-o1"
     },
     {
       "name": "wizardlm-uncensored",

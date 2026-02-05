@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-04T01:42:37.019513+00:00",
+  "last_updated": "2026-02-05T01:44:05.145716+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -792,17 +792,6 @@
       "url": "https://ollama.com/library/falcon3"
     },
     {
-      "name": "mistral-nemo",
-      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "12b"
-      ],
-      "url": "https://ollama.com/library/mistral-nemo"
-    },
-    {
       "name": "bge-m3",
       "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
       "capabilities": [
@@ -812,6 +801,17 @@
         "567m"
       ],
       "url": "https://ollama.com/library/bge-m3"
+    },
+    {
+      "name": "mistral-nemo",
+      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "12b"
+      ],
+      "url": "https://ollama.com/library/mistral-nemo"
     },
     {
       "name": "smollm2",
@@ -1353,17 +1353,6 @@
       "url": "https://ollama.com/library/codegeex4"
     },
     {
-      "name": "athene-v2",
-      "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "72b"
-      ],
-      "url": "https://ollama.com/library/athene-v2"
-    },
-    {
       "name": "llama3-groq-tool-use",
       "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
       "capabilities": [
@@ -1374,6 +1363,17 @@
         "70b"
       ],
       "url": "https://ollama.com/library/llama3-groq-tool-use"
+    },
+    {
+      "name": "athene-v2",
+      "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "72b"
+      ],
+      "url": "https://ollama.com/library/athene-v2"
     },
     {
       "name": "reader-lm",

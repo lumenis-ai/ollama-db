@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-08T02:07:16.352046+00:00",
+  "last_updated": "2026-02-09T01:50:58.663124+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -782,6 +782,17 @@
       "url": "https://ollama.com/library/granite3.1-moe"
     },
     {
+      "name": "bge-m3",
+      "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "567m"
+      ],
+      "url": "https://ollama.com/library/bge-m3"
+    },
+    {
       "name": "falcon3",
       "description": "A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques.",
       "capabilities": [],
@@ -792,17 +803,6 @@
         "10b"
       ],
       "url": "https://ollama.com/library/falcon3"
-    },
-    {
-      "name": "bge-m3",
-      "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "567m"
-      ],
-      "url": "https://ollama.com/library/bge-m3"
     },
     {
       "name": "mistral-nemo",
@@ -1283,6 +1283,16 @@
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
     },
     {
+      "name": "aya",
+      "description": "Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/aya"
+    },
+    {
       "name": "exaone3.5",
       "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
       "capabilities": [],
@@ -1292,16 +1302,6 @@
         "32b"
       ],
       "url": "https://ollama.com/library/exaone3.5"
-    },
-    {
-      "name": "aya",
-      "description": "Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/aya"
     },
     {
       "name": "shieldgemma",
@@ -1463,6 +1463,16 @@
       "url": "https://ollama.com/library/reflection"
     },
     {
+      "name": "llama3-gradient",
+      "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama3-gradient"
+    },
+    {
       "name": "command-r-plus",
       "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
       "capabilities": [
@@ -1472,16 +1482,6 @@
         "104b"
       ],
       "url": "https://ollama.com/library/command-r-plus"
-    },
-    {
-      "name": "llama3-gradient",
-      "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/llama3-gradient"
     },
     {
       "name": "deepseek-llm",

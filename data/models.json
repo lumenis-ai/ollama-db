@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-09T01:50:58.663124+00:00",
+  "last_updated": "2026-02-10T02:01:15.969951+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -793,6 +793,17 @@
       "url": "https://ollama.com/library/bge-m3"
     },
     {
+      "name": "mistral-nemo",
+      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "12b"
+      ],
+      "url": "https://ollama.com/library/mistral-nemo"
+    },
+    {
       "name": "falcon3",
       "description": "A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques.",
       "capabilities": [],
@@ -803,17 +814,6 @@
         "10b"
       ],
       "url": "https://ollama.com/library/falcon3"
-    },
-    {
-      "name": "mistral-nemo",
-      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "12b"
-      ],
-      "url": "https://ollama.com/library/mistral-nemo"
     },
     {
       "name": "smollm2",
@@ -1111,17 +1111,6 @@
       "url": "https://ollama.com/library/opencoder"
     },
     {
-      "name": "command-r",
-      "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "35b"
-      ],
-      "url": "https://ollama.com/library/command-r"
-    },
-    {
       "name": "granite3.1-dense",
       "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
       "capabilities": [
@@ -1132,6 +1121,17 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.1-dense"
+    },
+    {
+      "name": "command-r",
+      "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "35b"
+      ],
+      "url": "https://ollama.com/library/command-r"
     },
     {
       "name": "wizardlm2",
@@ -1654,16 +1654,6 @@
       "url": "https://ollama.com/library/solar-pro"
     },
     {
-      "name": "llama2-chinese",
-      "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/llama2-chinese"
-    },
-    {
       "name": "sqlcoder",
       "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
       "capabilities": [],
@@ -1672,6 +1662,16 @@
         "15b"
       ],
       "url": "https://ollama.com/library/sqlcoder"
+    },
+    {
+      "name": "llama2-chinese",
+      "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/llama2-chinese"
     },
     {
       "name": "solar",

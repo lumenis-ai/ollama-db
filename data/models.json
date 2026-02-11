@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-10T02:01:15.969951+00:00",
+  "last_updated": "2026-02-11T01:57:08.739562+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -1272,6 +1272,16 @@
       "url": "https://ollama.com/library/granite3-moe"
     },
     {
+      "name": "aya",
+      "description": "Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/aya"
+    },
+    {
       "name": "snowflake-arctic-embed2",
       "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
       "capabilities": [
@@ -1281,16 +1291,6 @@
         "568m"
       ],
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
-    },
-    {
-      "name": "aya",
-      "description": "Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/aya"
     },
     {
       "name": "exaone3.5",
@@ -1555,16 +1555,6 @@
       "url": "https://ollama.com/library/dolphincoder"
     },
     {
-      "name": "nous-hermes2",
-      "description": "The powerful family of models by Nous Research that excels at scientific discussion and coding tasks.",
-      "capabilities": [],
-      "sizes": [
-        "10.7b",
-        "34b"
-      ],
-      "url": "https://ollama.com/library/nous-hermes2"
-    },
-    {
       "name": "stablelm2",
       "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
       "capabilities": [],
@@ -1573,6 +1563,16 @@
         "12b"
       ],
       "url": "https://ollama.com/library/stablelm2"
+    },
+    {
+      "name": "nous-hermes2",
+      "description": "The powerful family of models by Nous Research that excels at scientific discussion and coding tasks.",
+      "capabilities": [],
+      "sizes": [
+        "10.7b",
+        "34b"
+      ],
+      "url": "https://ollama.com/library/nous-hermes2"
     },
     {
       "name": "falcon",
@@ -1848,17 +1848,6 @@
       "url": "https://ollama.com/library/firefunction-v2"
     },
     {
-      "name": "llava-phi3",
-      "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/llava-phi3"
-    },
-    {
       "name": "stable-beluga",
       "description": "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.",
       "capabilities": [],
@@ -1870,14 +1859,15 @@
       "url": "https://ollama.com/library/stable-beluga"
     },
     {
-      "name": "granite3-guardian",
-      "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
-      "capabilities": [],
-      "sizes": [
-        "2b",
-        "8b"
+      "name": "llava-phi3",
+      "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
+      "capabilities": [
+        "vision"
       ],
-      "url": "https://ollama.com/library/granite3-guardian"
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/llava-phi3"
     },
     {
       "name": "nexusraven",
@@ -1887,6 +1877,16 @@
         "13b"
       ],
       "url": "https://ollama.com/library/nexusraven"
+    },
+    {
+      "name": "granite3-guardian",
+      "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
+      "capabilities": [],
+      "sizes": [
+        "2b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/granite3-guardian"
     },
     {
       "name": "falcon2",

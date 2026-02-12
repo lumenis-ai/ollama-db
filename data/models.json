@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-11T01:57:08.739562+00:00",
+  "last_updated": "2026-02-12T01:50:19.846047+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -386,15 +386,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.3"
-    },
-    {
-      "name": "deepscaler",
-      "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b"
-      ],
-      "url": "https://ollama.com/library/deepscaler"
     },
     {
       "name": "devstral",
@@ -884,6 +875,15 @@
       "url": "https://ollama.com/library/codellama"
     },
     {
+      "name": "deepscaler",
+      "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b"
+      ],
+      "url": "https://ollama.com/library/deepscaler"
+    },
+    {
       "name": "llava-llama3",
       "description": "A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks.",
       "capabilities": [
@@ -1144,17 +1144,6 @@
       "url": "https://ollama.com/library/wizardlm2"
     },
     {
-      "name": "moondream",
-      "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1.8b"
-      ],
-      "url": "https://ollama.com/library/moondream"
-    },
-    {
       "name": "mistral-large",
       "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
       "capabilities": [
@@ -1164,6 +1153,17 @@
         "123b"
       ],
       "url": "https://ollama.com/library/mistral-large"
+    },
+    {
+      "name": "moondream",
+      "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1.8b"
+      ],
+      "url": "https://ollama.com/library/moondream"
     },
     {
       "name": "paraphrase-multilingual",
@@ -1250,16 +1250,6 @@
       "url": "https://ollama.com/library/glm4"
     },
     {
-      "name": "deepseek-v2",
-      "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
-      "capabilities": [],
-      "sizes": [
-        "16b",
-        "236b"
-      ],
-      "url": "https://ollama.com/library/deepseek-v2"
-    },
-    {
       "name": "granite3-moe",
       "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -1272,6 +1262,16 @@
       "url": "https://ollama.com/library/granite3-moe"
     },
     {
+      "name": "deepseek-v2",
+      "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
+      "capabilities": [],
+      "sizes": [
+        "16b",
+        "236b"
+      ],
+      "url": "https://ollama.com/library/deepseek-v2"
+    },
+    {
       "name": "aya",
       "description": "Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.",
       "capabilities": [],
@@ -1282,15 +1282,15 @@
       "url": "https://ollama.com/library/aya"
     },
     {
-      "name": "snowflake-arctic-embed2",
-      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-      "capabilities": [
-        "embedding"
-      ],
+      "name": "shieldgemma",
+      "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
+      "capabilities": [],
       "sizes": [
-        "568m"
+        "2b",
+        "9b",
+        "27b"
       ],
-      "url": "https://ollama.com/library/snowflake-arctic-embed2"
+      "url": "https://ollama.com/library/shieldgemma"
     },
     {
       "name": "exaone3.5",
@@ -1304,15 +1304,15 @@
       "url": "https://ollama.com/library/exaone3.5"
     },
     {
-      "name": "shieldgemma",
-      "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
-      "capabilities": [],
-      "sizes": [
-        "2b",
-        "9b",
-        "27b"
+      "name": "snowflake-arctic-embed2",
+      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
+      "capabilities": [
+        "embedding"
       ],
-      "url": "https://ollama.com/library/shieldgemma"
+      "sizes": [
+        "568m"
+      ],
+      "url": "https://ollama.com/library/snowflake-arctic-embed2"
     },
     {
       "name": "codeqwen",
@@ -1333,17 +1333,6 @@
         "34b"
       ],
       "url": "https://ollama.com/library/yi"
-    },
-    {
-      "name": "bakllava",
-      "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/bakllava"
     },
     {
       "name": "llama3-groq-tool-use",
@@ -1368,13 +1357,27 @@
       "url": "https://ollama.com/library/reader-lm"
     },
     {
-      "name": "codegeex4",
-      "description": "A versatile model for AI software development scenarios, including code completion.",
+      "name": "bakllava",
+      "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/bakllava"
+    },
+    {
+      "name": "internlm2",
+      "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
       "capabilities": [],
       "sizes": [
-        "9b"
+        "1m",
+        "1.8b",
+        "7b",
+        "20b"
       ],
-      "url": "https://ollama.com/library/codegeex4"
+      "url": "https://ollama.com/library/internlm2"
     },
     {
       "name": "athene-v2",
@@ -1388,16 +1391,13 @@
       "url": "https://ollama.com/library/athene-v2"
     },
     {
-      "name": "internlm2",
-      "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
+      "name": "codegeex4",
+      "description": "A versatile model for AI software development scenarios, including code completion.",
       "capabilities": [],
       "sizes": [
-        "1m",
-        "1.8b",
-        "7b",
-        "20b"
+        "9b"
       ],
-      "url": "https://ollama.com/library/internlm2"
+      "url": "https://ollama.com/library/codegeex4"
     },
     {
       "name": "zephyr",
@@ -1420,6 +1420,17 @@
       "url": "https://ollama.com/library/llama3-chatqa"
     },
     {
+      "name": "nemotron",
+      "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "70b"
+      ],
+      "url": "https://ollama.com/library/nemotron"
+    },
+    {
       "name": "granite-embedding",
       "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
       "capabilities": [
@@ -1430,17 +1441,6 @@
         "278m"
       ],
       "url": "https://ollama.com/library/granite-embedding"
-    },
-    {
-      "name": "nemotron",
-      "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "70b"
-      ],
-      "url": "https://ollama.com/library/nemotron"
     },
     {
       "name": "nemotron-mini",
@@ -1636,15 +1636,6 @@
       "url": "https://ollama.com/library/command-r7b"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "solar-pro",
       "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
       "capabilities": [],
@@ -1652,6 +1643,15 @@
         "22b"
       ],
       "url": "https://ollama.com/library/solar-pro"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "sqlcoder",
@@ -1710,17 +1710,6 @@
       "url": "https://ollama.com/library/bespoke-minicheck"
     },
     {
-      "name": "bge-large",
-      "description": "Embedding model from BAAI mapping texts to vectors.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "335m"
-      ],
-      "url": "https://ollama.com/library/bge-large"
-    },
-    {
       "name": "sailor2",
       "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
       "capabilities": [],
@@ -1751,6 +1740,17 @@
       "url": "https://ollama.com/library/xwinlm"
     },
     {
+      "name": "bge-large",
+      "description": "Embedding model from BAAI mapping texts to vectors.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "335m"
+      ],
+      "url": "https://ollama.com/library/bge-large"
+    },
+    {
       "name": "mistral-openorca",
       "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
       "capabilities": [],
@@ -1768,6 +1768,16 @@
         "13b"
       ],
       "url": "https://ollama.com/library/yarn-llama2"
+    },
+    {
+      "name": "orca2",
+      "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/orca2"
     },
     {
       "name": "mathstral",
@@ -1790,16 +1800,6 @@
       "url": "https://ollama.com/library/wizard-math"
     },
     {
-      "name": "orca2",
-      "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/orca2"
-    },
-    {
       "name": "phind-codellama",
       "description": "Code generation model based on Code Llama.",
       "capabilities": [],
@@ -1818,6 +1818,15 @@
       "url": "https://ollama.com/library/nuextract"
     },
     {
+      "name": "yarn-mistral",
+      "description": "An extension of Mistral to support context windows of 64K or 128K.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/yarn-mistral"
+    },
+    {
       "name": "meditron",
       "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
       "capabilities": [],
@@ -1826,15 +1835,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/meditron"
-    },
-    {
-      "name": "yarn-mistral",
-      "description": "An extension of Mistral to support context windows of 64K or 128K.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/yarn-mistral"
     },
     {
       "name": "firefunction-v2",
@@ -1859,6 +1859,15 @@
       "url": "https://ollama.com/library/stable-beluga"
     },
     {
+      "name": "nexusraven",
+      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
+      "capabilities": [],
+      "sizes": [
+        "13b"
+      ],
+      "url": "https://ollama.com/library/nexusraven"
+    },
+    {
       "name": "llava-phi3",
       "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
       "capabilities": [
@@ -1868,15 +1877,6 @@
         "3.8b"
       ],
       "url": "https://ollama.com/library/llava-phi3"
-    },
-    {
-      "name": "nexusraven",
-      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
-      "capabilities": [],
-      "sizes": [
-        "13b"
-      ],
-      "url": "https://ollama.com/library/nexusraven"
     },
     {
       "name": "granite3-guardian",

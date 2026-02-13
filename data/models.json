@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-12T01:50:19.846047+00:00",
+  "last_updated": "2026-02-13T01:52:36.117574+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -1101,16 +1101,6 @@
       "url": "https://ollama.com/library/phi3.5"
     },
     {
-      "name": "opencoder",
-      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/opencoder"
-    },
-    {
       "name": "granite3.1-dense",
       "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
       "capabilities": [
@@ -1121,6 +1111,16 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.1-dense"
+    },
+    {
+      "name": "opencoder",
+      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/opencoder"
     },
     {
       "name": "command-r",
@@ -1241,15 +1241,6 @@
       "url": "https://ollama.com/library/llama-guard3"
     },
     {
-      "name": "glm4",
-      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/glm4"
-    },
-    {
       "name": "granite3-moe",
       "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -1260,6 +1251,15 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite3-moe"
+    },
+    {
+      "name": "glm4",
+      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/glm4"
     },
     {
       "name": "deepseek-v2",
@@ -1454,15 +1454,6 @@
       "url": "https://ollama.com/library/nemotron-mini"
     },
     {
-      "name": "reflection",
-      "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
-      "capabilities": [],
-      "sizes": [
-        "70b"
-      ],
-      "url": "https://ollama.com/library/reflection"
-    },
-    {
       "name": "llama3-gradient",
       "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
       "capabilities": [],
@@ -1471,6 +1462,15 @@
         "70b"
       ],
       "url": "https://ollama.com/library/llama3-gradient"
+    },
+    {
+      "name": "reflection",
+      "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
+      "capabilities": [],
+      "sizes": [
+        "70b"
+      ],
+      "url": "https://ollama.com/library/reflection"
     },
     {
       "name": "command-r-plus",
@@ -1514,6 +1514,15 @@
       "url": "https://ollama.com/library/openchat"
     },
     {
+      "name": "stable-code",
+      "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/stable-code"
+    },
+    {
       "name": "starcoder",
       "description": "StarCoder is a code generation model trained on 80+ programming languages.",
       "capabilities": [],
@@ -1526,13 +1535,14 @@
       "url": "https://ollama.com/library/starcoder"
     },
     {
-      "name": "stable-code",
-      "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
+      "name": "dolphincoder",
+      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
       "capabilities": [],
       "sizes": [
-        "3b"
+        "7b",
+        "15b"
       ],
-      "url": "https://ollama.com/library/stable-code"
+      "url": "https://ollama.com/library/dolphincoder"
     },
     {
       "name": "tulu3",
@@ -1543,16 +1553,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/tulu3"
-    },
-    {
-      "name": "dolphincoder",
-      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "15b"
-      ],
-      "url": "https://ollama.com/library/dolphincoder"
     },
     {
       "name": "stablelm2",
@@ -1596,6 +1596,15 @@
       "url": "https://ollama.com/library/nous-hermes"
     },
     {
+      "name": "neural-chat",
+      "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/neural-chat"
+    },
+    {
       "name": "vicuna",
       "description": "General use chat model based on Llama and Llama 2 with 2K to 16K context sizes.",
       "capabilities": [],
@@ -1605,15 +1614,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/vicuna"
-    },
-    {
-      "name": "neural-chat",
-      "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/neural-chat"
     },
     {
       "name": "tinydolphin",
@@ -1645,15 +1645,6 @@
       "url": "https://ollama.com/library/solar-pro"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "sqlcoder",
       "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
       "capabilities": [],
@@ -1662,6 +1653,15 @@
         "15b"
       ],
       "url": "https://ollama.com/library/sqlcoder"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "llama2-chinese",
@@ -1751,15 +1751,6 @@
       "url": "https://ollama.com/library/bge-large"
     },
     {
-      "name": "mistral-openorca",
-      "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/mistral-openorca"
-    },
-    {
       "name": "yarn-llama2",
       "description": "An extension of Llama 2 that supports a context of up to 128k tokens.",
       "capabilities": [],
@@ -1768,6 +1759,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/yarn-llama2"
+    },
+    {
+      "name": "mistral-openorca",
+      "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/mistral-openorca"
     },
     {
       "name": "orca2",
@@ -1868,17 +1868,6 @@
       "url": "https://ollama.com/library/nexusraven"
     },
     {
-      "name": "llava-phi3",
-      "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/llava-phi3"
-    },
-    {
       "name": "granite3-guardian",
       "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
       "capabilities": [],
@@ -1898,13 +1887,15 @@
       "url": "https://ollama.com/library/falcon2"
     },
     {
-      "name": "deepseek-v2.5",
-      "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
-      "capabilities": [],
-      "sizes": [
-        "236b"
+      "name": "llava-phi3",
+      "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
+      "capabilities": [
+        "vision"
       ],
-      "url": "https://ollama.com/library/deepseek-v2.5"
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/llava-phi3"
     },
     {
       "name": "nous-hermes2-mixtral",
@@ -1914,6 +1905,15 @@
         "8x7b"
       ],
       "url": "https://ollama.com/library/nous-hermes2-mixtral"
+    },
+    {
+      "name": "deepseek-v2.5",
+      "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
+      "capabilities": [],
+      "sizes": [
+        "236b"
+      ],
+      "url": "https://ollama.com/library/deepseek-v2.5"
     },
     {
       "name": "dbrx",

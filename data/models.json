@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-14T01:43:10.521459+00:00",
+  "last_updated": "2026-02-15T01:52:31.450388+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -884,17 +884,6 @@
       "url": "https://ollama.com/library/deepscaler"
     },
     {
-      "name": "llava-llama3",
-      "description": "A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/llava-llama3"
-    },
-    {
       "name": "deepseek-coder",
       "description": "DeepSeek Coder is a capable coding model trained on two trillion code and natural language tokens.",
       "capabilities": [],
@@ -904,6 +893,17 @@
         "33b"
       ],
       "url": "https://ollama.com/library/deepseek-coder"
+    },
+    {
+      "name": "llava-llama3",
+      "description": "A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/llava-llama3"
     },
     {
       "name": "codegemma",
@@ -1304,6 +1304,15 @@
       "url": "https://ollama.com/library/exaone3.5"
     },
     {
+      "name": "codeqwen",
+      "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/codeqwen"
+    },
+    {
       "name": "snowflake-arctic-embed2",
       "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
       "capabilities": [
@@ -1315,15 +1324,6 @@
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
     },
     {
-      "name": "codeqwen",
-      "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/codeqwen"
-    },
-    {
       "name": "yi",
       "description": "Yi 1.5 is a high-performing, bilingual language model.",
       "capabilities": [],
@@ -1333,6 +1333,16 @@
         "34b"
       ],
       "url": "https://ollama.com/library/yi"
+    },
+    {
+      "name": "reader-lm",
+      "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
+      "capabilities": [],
+      "sizes": [
+        "0.5b",
+        "1.5b"
+      ],
+      "url": "https://ollama.com/library/reader-lm"
     },
     {
       "name": "llama3-groq-tool-use",
@@ -1347,14 +1357,16 @@
       "url": "https://ollama.com/library/llama3-groq-tool-use"
     },
     {
-      "name": "reader-lm",
-      "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
+      "name": "internlm2",
+      "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
       "capabilities": [],
       "sizes": [
-        "0.5b",
-        "1.5b"
+        "1m",
+        "1.8b",
+        "7b",
+        "20b"
       ],
-      "url": "https://ollama.com/library/reader-lm"
+      "url": "https://ollama.com/library/internlm2"
     },
     {
       "name": "bakllava",
@@ -1366,18 +1378,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bakllava"
-    },
-    {
-      "name": "internlm2",
-      "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
-      "capabilities": [],
-      "sizes": [
-        "1m",
-        "1.8b",
-        "7b",
-        "20b"
-      ],
-      "url": "https://ollama.com/library/internlm2"
     },
     {
       "name": "athene-v2",
@@ -1473,6 +1473,16 @@
       "url": "https://ollama.com/library/granite-embedding"
     },
     {
+      "name": "deepseek-llm",
+      "description": "An advanced language model crafted with 2 trillion bilingual tokens.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "67b"
+      ],
+      "url": "https://ollama.com/library/deepseek-llm"
+    },
+    {
       "name": "command-r-plus",
       "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
       "capabilities": [
@@ -1482,16 +1492,6 @@
         "104b"
       ],
       "url": "https://ollama.com/library/command-r-plus"
-    },
-    {
-      "name": "deepseek-llm",
-      "description": "An advanced language model crafted with 2 trillion bilingual tokens.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "67b"
-      ],
-      "url": "https://ollama.com/library/deepseek-llm"
     },
     {
       "name": "wizard-vicuna-uncensored",
@@ -1634,6 +1634,16 @@
       "url": "https://ollama.com/library/solar-pro"
     },
     {
+      "name": "sqlcoder",
+      "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "15b"
+      ],
+      "url": "https://ollama.com/library/sqlcoder"
+    },
+    {
       "name": "command-r7b",
       "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
       "capabilities": [
@@ -1643,16 +1653,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b"
-    },
-    {
-      "name": "sqlcoder",
-      "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "15b"
-      ],
-      "url": "https://ollama.com/library/sqlcoder"
     },
     {
       "name": "llama2-chinese",
@@ -1721,15 +1721,6 @@
       "url": "https://ollama.com/library/sailor2"
     },
     {
-      "name": "samantha-mistral",
-      "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/samantha-mistral"
-    },
-    {
       "name": "xwinlm",
       "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
       "capabilities": [],
@@ -1738,6 +1729,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/xwinlm"
+    },
+    {
+      "name": "samantha-mistral",
+      "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/samantha-mistral"
     },
     {
       "name": "yarn-llama2",
@@ -1750,15 +1750,14 @@
       "url": "https://ollama.com/library/yarn-llama2"
     },
     {
-      "name": "bge-large",
-      "description": "Embedding model from BAAI mapping texts to vectors.",
-      "capabilities": [
-        "embedding"
-      ],
+      "name": "orca2",
+      "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
+      "capabilities": [],
       "sizes": [
-        "335m"
+        "7b",
+        "13b"
       ],
-      "url": "https://ollama.com/library/bge-large"
+      "url": "https://ollama.com/library/orca2"
     },
     {
       "name": "mistral-openorca",
@@ -1768,16 +1767,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/mistral-openorca"
-    },
-    {
-      "name": "orca2",
-      "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/orca2"
     },
     {
       "name": "mathstral",
@@ -1798,6 +1787,17 @@
         "70b"
       ],
       "url": "https://ollama.com/library/wizard-math"
+    },
+    {
+      "name": "bge-large",
+      "description": "Embedding model from BAAI mapping texts to vectors.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "335m"
+      ],
+      "url": "https://ollama.com/library/bge-large"
     },
     {
       "name": "phind-codellama",
@@ -1961,15 +1961,6 @@
       "url": "https://ollama.com/library/megadolphin"
     },
     {
-      "name": "stablelm-zephyr",
-      "description": "A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/stablelm-zephyr"
-    },
-    {
       "name": "magicoder",
       "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
       "capabilities": [],
@@ -1977,6 +1968,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/magicoder"
+    },
+    {
+      "name": "stablelm-zephyr",
+      "description": "A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/stablelm-zephyr"
     },
     {
       "name": "medllama2",

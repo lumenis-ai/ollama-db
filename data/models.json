@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-16T01:48:30.004570+00:00",
+  "last_updated": "2026-02-17T01:46:28.958345+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -83,19 +83,6 @@
       "url": "https://ollama.com/library/qwen3-next"
     },
     {
-      "name": "granite4",
-      "description": "Granite 4 features improved instruction following (IF) and tool-calling capabilities, making them more effective in enterprise applications.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "350m",
-        "1b",
-        "3b"
-      ],
-      "url": "https://ollama.com/library/granite4"
-    },
-    {
       "name": "qwen3-embedding",
       "description": "Building upon the foundational models of the Qwen3 series, Qwen3 Embedding provides a comprehensive range of text embeddings models in various sizes",
       "capabilities": [
@@ -107,6 +94,19 @@
         "8b"
       ],
       "url": "https://ollama.com/library/qwen3-embedding"
+    },
+    {
+      "name": "granite4",
+      "description": "Granite 4 features improved instruction following (IF) and tool-calling capabilities, making them more effective in enterprise applications.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "350m",
+        "1b",
+        "3b"
+      ],
+      "url": "https://ollama.com/library/granite4"
     },
     {
       "name": "nemotron-3-nano",
@@ -604,16 +604,6 @@
       "url": "https://ollama.com/library/phi4"
     },
     {
-      "name": "phi3",
-      "description": "Phi-3 is a family of lightweight 3B (Mini) and 14B (Medium) state-of-the-art open models by Microsoft.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b",
-        "14b"
-      ],
-      "url": "https://ollama.com/library/phi3"
-    },
-    {
       "name": "mistral",
       "description": "The 7B model released by Mistral AI, updated to version 0.3.",
       "capabilities": [
@@ -623,6 +613,16 @@
         "7b"
       ],
       "url": "https://ollama.com/library/mistral"
+    },
+    {
+      "name": "phi3",
+      "description": "Phi-3 is a family of lightweight 3B (Mini) and 14B (Medium) state-of-the-art open models by Microsoft.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b",
+        "14b"
+      ],
+      "url": "https://ollama.com/library/phi3"
     },
     {
       "name": "llama3",
@@ -1124,16 +1124,6 @@
       "url": "https://ollama.com/library/command-r"
     },
     {
-      "name": "opencoder",
-      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/opencoder"
-    },
-    {
       "name": "mistral-large",
       "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
       "capabilities": [
@@ -1143,6 +1133,16 @@
         "123b"
       ],
       "url": "https://ollama.com/library/mistral-large"
+    },
+    {
+      "name": "opencoder",
+      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/opencoder"
     },
     {
       "name": "wizardlm2",
@@ -1209,16 +1209,6 @@
       "url": "https://ollama.com/library/qwen2-math"
     },
     {
-      "name": "yi-coder",
-      "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "9b"
-      ],
-      "url": "https://ollama.com/library/yi-coder"
-    },
-    {
       "name": "aya-expanse",
       "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
       "capabilities": [
@@ -1229,6 +1219,16 @@
         "32b"
       ],
       "url": "https://ollama.com/library/aya-expanse"
+    },
+    {
+      "name": "yi-coder",
+      "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "9b"
+      ],
+      "url": "https://ollama.com/library/yi-coder"
     },
     {
       "name": "llama-guard3",
@@ -1335,17 +1335,6 @@
       "url": "https://ollama.com/library/llama3-groq-tool-use"
     },
     {
-      "name": "snowflake-arctic-embed2",
-      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "568m"
-      ],
-      "url": "https://ollama.com/library/snowflake-arctic-embed2"
-    },
-    {
       "name": "yi",
       "description": "Yi 1.5 is a high-performing, bilingual language model.",
       "capabilities": [],
@@ -1355,6 +1344,17 @@
         "34b"
       ],
       "url": "https://ollama.com/library/yi"
+    },
+    {
+      "name": "snowflake-arctic-embed2",
+      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "568m"
+      ],
+      "url": "https://ollama.com/library/snowflake-arctic-embed2"
     },
     {
       "name": "internlm2",
@@ -1494,6 +1494,15 @@
       "url": "https://ollama.com/library/granite-embedding"
     },
     {
+      "name": "openchat",
+      "description": "A family of open-source models trained on a wide variety of data, surpassing ChatGPT on various benchmarks. Updated to version 3.5-0106.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/openchat"
+    },
+    {
       "name": "wizard-vicuna-uncensored",
       "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
       "capabilities": [],
@@ -1503,15 +1512,6 @@
         "30b"
       ],
       "url": "https://ollama.com/library/wizard-vicuna-uncensored"
-    },
-    {
-      "name": "openchat",
-      "description": "A family of open-source models trained on a wide variety of data, surpassing ChatGPT on various benchmarks. Updated to version 3.5-0106.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/openchat"
     },
     {
       "name": "stable-code",
@@ -1887,6 +1887,15 @@
       "url": "https://ollama.com/library/granite3-guardian"
     },
     {
+      "name": "nous-hermes2-mixtral",
+      "description": "The Nous Hermes 2 model from Nous Research, now trained over Mixtral.",
+      "capabilities": [],
+      "sizes": [
+        "8x7b"
+      ],
+      "url": "https://ollama.com/library/nous-hermes2-mixtral"
+    },
+    {
       "name": "llava-phi3",
       "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
       "capabilities": [
@@ -1896,15 +1905,6 @@
         "3.8b"
       ],
       "url": "https://ollama.com/library/llava-phi3"
-    },
-    {
-      "name": "nous-hermes2-mixtral",
-      "description": "The Nous Hermes 2 model from Nous Research, now trained over Mixtral.",
-      "capabilities": [],
-      "sizes": [
-        "8x7b"
-      ],
-      "url": "https://ollama.com/library/nous-hermes2-mixtral"
     },
     {
       "name": "deepseek-v2.5",
@@ -1979,15 +1979,6 @@
       "url": "https://ollama.com/library/stablelm-zephyr"
     },
     {
-      "name": "medllama2",
-      "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/medllama2"
-    },
-    {
       "name": "notux",
       "description": "A top-performing mixture of experts model, fine-tuned with high-quality data.",
       "capabilities": [],
@@ -2004,6 +1995,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/notus"
+    },
+    {
+      "name": "medllama2",
+      "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/medllama2"
     },
     {
       "name": "codeup",

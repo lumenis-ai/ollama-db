@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T01:46:28.958345+00:00",
+  "last_updated": "2026-02-18T01:50:10.931353+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -71,18 +71,6 @@
       "url": "https://ollama.com/library/rnj-1"
     },
     {
-      "name": "qwen3-next",
-      "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "80b"
-      ],
-      "url": "https://ollama.com/library/qwen3-next"
-    },
-    {
       "name": "qwen3-embedding",
       "description": "Building upon the foundational models of the Qwen3 series, Qwen3 Embedding provides a comprehensive range of text embeddings models in various sizes",
       "capabilities": [
@@ -94,6 +82,18 @@
         "8b"
       ],
       "url": "https://ollama.com/library/qwen3-embedding"
+    },
+    {
+      "name": "qwen3-next",
+      "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "80b"
+      ],
+      "url": "https://ollama.com/library/qwen3-next"
     },
     {
       "name": "granite4",
@@ -163,18 +163,6 @@
         "3b"
       ],
       "url": "https://ollama.com/library/deepseek-ocr"
-    },
-    {
-      "name": "deepseek-v3.1",
-      "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "671b"
-      ],
-      "url": "https://ollama.com/library/deepseek-v3.1"
     },
     {
       "name": "olmo-3.1",
@@ -397,6 +385,18 @@
         "24b"
       ],
       "url": "https://ollama.com/library/devstral"
+    },
+    {
+      "name": "deepseek-v3.1",
+      "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "671b"
+      ],
+      "url": "https://ollama.com/library/deepseek-v3.1"
     },
     {
       "name": "phi4-mini",
@@ -687,17 +687,6 @@
       "url": "https://ollama.com/library/mxbai-embed-large"
     },
     {
-      "name": "minicpm-v",
-      "description": "A series of multimodal LLMs (MLLMs) designed for vision-language understanding.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v"
-    },
-    {
       "name": "llama3.2-vision",
       "description": "Llama 3.2 Vision is a collection of instruction-tuned image reasoning generative models in 11B and 90B sizes.",
       "capabilities": [
@@ -708,6 +697,17 @@
         "90b"
       ],
       "url": "https://ollama.com/library/llama3.2-vision"
+    },
+    {
+      "name": "minicpm-v",
+      "description": "A series of multimodal LLMs (MLLMs) designed for vision-language understanding.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v"
     },
     {
       "name": "llama3.3",
@@ -1047,15 +1047,6 @@
       "url": "https://ollama.com/library/codestral"
     },
     {
-      "name": "phi",
-      "description": "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.",
-      "capabilities": [],
-      "sizes": [
-        "2.7b"
-      ],
-      "url": "https://ollama.com/library/phi"
-    },
-    {
       "name": "hermes3",
       "description": "Hermes 3 is the latest version of the flagship Hermes series of LLMs by Nous Research",
       "capabilities": [
@@ -1068,6 +1059,15 @@
         "405b"
       ],
       "url": "https://ollama.com/library/hermes3"
+    },
+    {
+      "name": "phi",
+      "description": "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.",
+      "capabilities": [],
+      "sizes": [
+        "2.7b"
+      ],
+      "url": "https://ollama.com/library/phi"
     },
     {
       "name": "dolphin-mixtral",
@@ -1293,6 +1293,15 @@
       "url": "https://ollama.com/library/aya"
     },
     {
+      "name": "codeqwen",
+      "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/codeqwen"
+    },
+    {
       "name": "exaone3.5",
       "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
       "capabilities": [],
@@ -1302,15 +1311,6 @@
         "32b"
       ],
       "url": "https://ollama.com/library/exaone3.5"
-    },
-    {
-      "name": "codeqwen",
-      "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/codeqwen"
     },
     {
       "name": "reader-lm",
@@ -1346,17 +1346,6 @@
       "url": "https://ollama.com/library/yi"
     },
     {
-      "name": "snowflake-arctic-embed2",
-      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "568m"
-      ],
-      "url": "https://ollama.com/library/snowflake-arctic-embed2"
-    },
-    {
       "name": "internlm2",
       "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
       "capabilities": [],
@@ -1367,6 +1356,17 @@
         "20b"
       ],
       "url": "https://ollama.com/library/internlm2"
+    },
+    {
+      "name": "snowflake-arctic-embed2",
+      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "568m"
+      ],
+      "url": "https://ollama.com/library/snowflake-arctic-embed2"
     },
     {
       "name": "athene-v2",
@@ -1683,15 +1683,6 @@
       "url": "https://ollama.com/library/starling-lm"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "wizardcoder",
       "description": "State-of-the-art code generation model",
       "capabilities": [],
@@ -1708,6 +1699,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bespoke-minicheck"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "sailor2",

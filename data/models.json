@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T01:50:10.931353+00:00",
+  "last_updated": "2026-02-19T01:49:23.571784+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -60,17 +60,6 @@
       "url": "https://ollama.com/library/ministral-3"
     },
     {
-      "name": "rnj-1",
-      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/rnj-1"
-    },
-    {
       "name": "qwen3-embedding",
       "description": "Building upon the foundational models of the Qwen3 series, Qwen3 Embedding provides a comprehensive range of text embeddings models in various sizes",
       "capabilities": [
@@ -82,6 +71,17 @@
         "8b"
       ],
       "url": "https://ollama.com/library/qwen3-embedding"
+    },
+    {
+      "name": "rnj-1",
+      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/rnj-1"
     },
     {
       "name": "qwen3-next",
@@ -595,15 +595,6 @@
       "url": "https://ollama.com/library/qwen2.5-coder"
     },
     {
-      "name": "phi4",
-      "description": "Phi-4 is a 14B parameter, state-of-the-art open model from Microsoft.",
-      "capabilities": [],
-      "sizes": [
-        "14b"
-      ],
-      "url": "https://ollama.com/library/phi4"
-    },
-    {
       "name": "mistral",
       "description": "The 7B model released by Mistral AI, updated to version 0.3.",
       "capabilities": [
@@ -613,6 +604,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/mistral"
+    },
+    {
+      "name": "phi4",
+      "description": "Phi-4 is a 14B parameter, state-of-the-art open model from Microsoft.",
+      "capabilities": [],
+      "sizes": [
+        "14b"
+      ],
+      "url": "https://ollama.com/library/phi4"
     },
     {
       "name": "phi3",
@@ -795,18 +795,6 @@
       "url": "https://ollama.com/library/mistral-nemo"
     },
     {
-      "name": "falcon3",
-      "description": "A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques.",
-      "capabilities": [],
-      "sizes": [
-        "1b",
-        "3b",
-        "7b",
-        "10b"
-      ],
-      "url": "https://ollama.com/library/falcon3"
-    },
-    {
       "name": "smollm2",
       "description": "SmolLM2 is a family of compact language models available in three size: 135M, 360M, and 1.7B parameters.",
       "capabilities": [
@@ -818,6 +806,18 @@
         "1.7b"
       ],
       "url": "https://ollama.com/library/smollm2"
+    },
+    {
+      "name": "falcon3",
+      "description": "A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques.",
+      "capabilities": [],
+      "sizes": [
+        "1b",
+        "3b",
+        "7b",
+        "10b"
+      ],
+      "url": "https://ollama.com/library/falcon3"
     },
     {
       "name": "qwq",
@@ -1177,15 +1177,6 @@
       "url": "https://ollama.com/library/paraphrase-multilingual"
     },
     {
-      "name": "dolphin-mistral",
-      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-mistral"
-    },
-    {
       "name": "granite3-dense",
       "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
       "capabilities": [
@@ -1196,6 +1187,15 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3-dense"
+    },
+    {
+      "name": "dolphin-mistral",
+      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-mistral"
     },
     {
       "name": "qwen2-math",
@@ -1302,6 +1302,16 @@
       "url": "https://ollama.com/library/codeqwen"
     },
     {
+      "name": "reader-lm",
+      "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
+      "capabilities": [],
+      "sizes": [
+        "0.5b",
+        "1.5b"
+      ],
+      "url": "https://ollama.com/library/reader-lm"
+    },
+    {
       "name": "exaone3.5",
       "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
       "capabilities": [],
@@ -1311,16 +1321,6 @@
         "32b"
       ],
       "url": "https://ollama.com/library/exaone3.5"
-    },
-    {
-      "name": "reader-lm",
-      "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
-      "capabilities": [],
-      "sizes": [
-        "0.5b",
-        "1.5b"
-      ],
-      "url": "https://ollama.com/library/reader-lm"
     },
     {
       "name": "llama3-groq-tool-use",
@@ -1523,6 +1523,16 @@
       "url": "https://ollama.com/library/stable-code"
     },
     {
+      "name": "dolphincoder",
+      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "15b"
+      ],
+      "url": "https://ollama.com/library/dolphincoder"
+    },
+    {
       "name": "starcoder",
       "description": "StarCoder is a code generation model trained on 80+ programming languages.",
       "capabilities": [],
@@ -1533,16 +1543,6 @@
         "15b"
       ],
       "url": "https://ollama.com/library/starcoder"
-    },
-    {
-      "name": "dolphincoder",
-      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "15b"
-      ],
-      "url": "https://ollama.com/library/dolphincoder"
     },
     {
       "name": "stablelm2",
@@ -1616,6 +1616,15 @@
       "url": "https://ollama.com/library/vicuna"
     },
     {
+      "name": "solar-pro",
+      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/solar-pro"
+    },
+    {
       "name": "tinydolphin",
       "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
       "capabilities": [],
@@ -1625,13 +1634,13 @@
       "url": "https://ollama.com/library/tinydolphin"
     },
     {
-      "name": "solar-pro",
-      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
+      "name": "solar",
+      "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
       "capabilities": [],
       "sizes": [
-        "22b"
+        "10.7b"
       ],
-      "url": "https://ollama.com/library/solar-pro"
+      "url": "https://ollama.com/library/solar"
     },
     {
       "name": "sqlcoder",
@@ -1644,15 +1653,6 @@
       "url": "https://ollama.com/library/sqlcoder"
     },
     {
-      "name": "solar",
-      "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
-      "capabilities": [],
-      "sizes": [
-        "10.7b"
-      ],
-      "url": "https://ollama.com/library/solar"
-    },
-    {
       "name": "llama2-chinese",
       "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.",
       "capabilities": [],
@@ -1661,6 +1661,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/llama2-chinese"
+    },
+    {
+      "name": "starling-lm",
+      "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/starling-lm"
     },
     {
       "name": "command-r7b",
@@ -1674,13 +1683,13 @@
       "url": "https://ollama.com/library/command-r7b"
     },
     {
-      "name": "starling-lm",
-      "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
+      "name": "bespoke-minicheck",
+      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
       "capabilities": [],
       "sizes": [
         "7b"
       ],
-      "url": "https://ollama.com/library/starling-lm"
+      "url": "https://ollama.com/library/bespoke-minicheck"
     },
     {
       "name": "wizardcoder",
@@ -1692,15 +1701,6 @@
       "url": "https://ollama.com/library/wizardcoder"
     },
     {
-      "name": "bespoke-minicheck",
-      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/bespoke-minicheck"
-    },
-    {
       "name": "smallthinker",
       "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
       "capabilities": [],
@@ -1708,6 +1708,16 @@
         "3b"
       ],
       "url": "https://ollama.com/library/smallthinker"
+    },
+    {
+      "name": "xwinlm",
+      "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/xwinlm"
     },
     {
       "name": "sailor2",
@@ -1719,16 +1729,6 @@
         "20b"
       ],
       "url": "https://ollama.com/library/sailor2"
-    },
-    {
-      "name": "xwinlm",
-      "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/xwinlm"
     },
     {
       "name": "samantha-mistral",
@@ -1789,6 +1789,15 @@
       "url": "https://ollama.com/library/mistral-openorca"
     },
     {
+      "name": "phind-codellama",
+      "description": "Code generation model based on Code Llama.",
+      "capabilities": [],
+      "sizes": [
+        "34b"
+      ],
+      "url": "https://ollama.com/library/phind-codellama"
+    },
+    {
       "name": "bge-large",
       "description": "Embedding model from BAAI mapping texts to vectors.",
       "capabilities": [
@@ -1798,15 +1807,6 @@
         "335m"
       ],
       "url": "https://ollama.com/library/bge-large"
-    },
-    {
-      "name": "phind-codellama",
-      "description": "Code generation model based on Code Llama.",
-      "capabilities": [],
-      "sizes": [
-        "34b"
-      ],
-      "url": "https://ollama.com/library/phind-codellama"
     },
     {
       "name": "nuextract",

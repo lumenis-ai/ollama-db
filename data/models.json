@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T01:49:23.571784+00:00",
+  "last_updated": "2026-02-20T01:44:56.252134+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -465,16 +465,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.2"
-    },
-    {
-      "name": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-      "capabilities": [],
-      "sizes": [
-        "70b",
-        "671b"
-      ],
-      "url": "https://ollama.com/library/r1-1776"
     },
     {
       "name": "phi4-mini-reasoning",
@@ -1061,15 +1051,6 @@
       "url": "https://ollama.com/library/hermes3"
     },
     {
-      "name": "phi",
-      "description": "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.",
-      "capabilities": [],
-      "sizes": [
-        "2.7b"
-      ],
-      "url": "https://ollama.com/library/phi"
-    },
-    {
       "name": "dolphin-mixtral",
       "description": "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.",
       "capabilities": [],
@@ -1078,6 +1059,15 @@
         "8x22b"
       ],
       "url": "https://ollama.com/library/dolphin-mixtral"
+    },
+    {
+      "name": "phi",
+      "description": "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.",
+      "capabilities": [],
+      "sizes": [
+        "2.7b"
+      ],
+      "url": "https://ollama.com/library/phi"
     },
     {
       "name": "granite-code",
@@ -1253,6 +1243,16 @@
       "url": "https://ollama.com/library/granite3-moe"
     },
     {
+      "name": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "capabilities": [],
+      "sizes": [
+        "70b",
+        "671b"
+      ],
+      "url": "https://ollama.com/library/r1-1776"
+    },
+    {
       "name": "glm4",
       "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
       "capabilities": [],
@@ -1380,6 +1380,16 @@
       "url": "https://ollama.com/library/athene-v2"
     },
     {
+      "name": "llama3-chatqa",
+      "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama3-chatqa"
+    },
+    {
       "name": "bakllava",
       "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
       "capabilities": [
@@ -1398,16 +1408,6 @@
         "9b"
       ],
       "url": "https://ollama.com/library/codegeex4"
-    },
-    {
-      "name": "llama3-chatqa",
-      "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/llama3-chatqa"
     },
     {
       "name": "zephyr",
@@ -1760,15 +1760,6 @@
       "url": "https://ollama.com/library/orca2"
     },
     {
-      "name": "mathstral",
-      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/mathstral"
-    },
-    {
       "name": "wizard-math",
       "description": "Model focused on math and logic problems",
       "capabilities": [],
@@ -1778,6 +1769,15 @@
         "70b"
       ],
       "url": "https://ollama.com/library/wizard-math"
+    },
+    {
+      "name": "mathstral",
+      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/mathstral"
     },
     {
       "name": "mistral-openorca",
@@ -1798,6 +1798,15 @@
       "url": "https://ollama.com/library/phind-codellama"
     },
     {
+      "name": "nuextract",
+      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/nuextract"
+    },
+    {
       "name": "bge-large",
       "description": "Embedding model from BAAI mapping texts to vectors.",
       "capabilities": [
@@ -1807,15 +1816,6 @@
         "335m"
       ],
       "url": "https://ollama.com/library/bge-large"
-    },
-    {
-      "name": "nuextract",
-      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/nuextract"
     },
     {
       "name": "yarn-mistral",

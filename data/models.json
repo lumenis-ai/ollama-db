@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-21T01:40:41.037859+00:00",
+  "last_updated": "2026-02-22T01:47:53.652931+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -84,18 +84,6 @@
       "url": "https://ollama.com/library/rnj-1"
     },
     {
-      "name": "qwen3-next",
-      "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "80b"
-      ],
-      "url": "https://ollama.com/library/qwen3-next"
-    },
-    {
       "name": "granite4",
       "description": "Granite 4 features improved instruction following (IF) and tool-calling capabilities, making them more effective in enterprise applications.",
       "capabilities": [
@@ -107,6 +95,18 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite4"
+    },
+    {
+      "name": "qwen3-next",
+      "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "80b"
+      ],
+      "url": "https://ollama.com/library/qwen3-next"
     },
     {
       "name": "nemotron-3-nano",
@@ -1380,16 +1380,6 @@
       "url": "https://ollama.com/library/athene-v2"
     },
     {
-      "name": "llama3-chatqa",
-      "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/llama3-chatqa"
-    },
-    {
       "name": "bakllava",
       "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
       "capabilities": [
@@ -1399,6 +1389,16 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bakllava"
+    },
+    {
+      "name": "llama3-chatqa",
+      "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama3-chatqa"
     },
     {
       "name": "codegeex4",
@@ -1565,16 +1565,6 @@
       "url": "https://ollama.com/library/nous-hermes2"
     },
     {
-      "name": "tulu3",
-      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/tulu3"
-    },
-    {
       "name": "falcon",
       "description": "A large language model built by the Technology Innovation Institute (TII) for use in summarization, text generation, and chat bots.",
       "capabilities": [],
@@ -1584,6 +1574,16 @@
         "180b"
       ],
       "url": "https://ollama.com/library/falcon"
+    },
+    {
+      "name": "tulu3",
+      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/tulu3"
     },
     {
       "name": "nous-hermes",

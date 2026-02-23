@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22T01:47:53.652931+00:00",
+  "last_updated": "2026-02-23T01:48:39.285866+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -596,15 +596,6 @@
       "url": "https://ollama.com/library/mistral"
     },
     {
-      "name": "phi4",
-      "description": "Phi-4 is a 14B parameter, state-of-the-art open model from Microsoft.",
-      "capabilities": [],
-      "sizes": [
-        "14b"
-      ],
-      "url": "https://ollama.com/library/phi4"
-    },
-    {
       "name": "phi3",
       "description": "Phi-3 is a family of lightweight 3B (Mini) and 14B (Medium) state-of-the-art open models by Microsoft.",
       "capabilities": [],
@@ -613,6 +604,15 @@
         "14b"
       ],
       "url": "https://ollama.com/library/phi3"
+    },
+    {
+      "name": "phi4",
+      "description": "Phi-4 is a 14B parameter, state-of-the-art open model from Microsoft.",
+      "capabilities": [],
+      "sizes": [
+        "14b"
+      ],
+      "url": "https://ollama.com/library/phi4"
     },
     {
       "name": "llama3",
@@ -677,6 +677,17 @@
       "url": "https://ollama.com/library/mxbai-embed-large"
     },
     {
+      "name": "minicpm-v",
+      "description": "A series of multimodal LLMs (MLLMs) designed for vision-language understanding.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v"
+    },
+    {
       "name": "llama3.2-vision",
       "description": "Llama 3.2 Vision is a collection of instruction-tuned image reasoning generative models in 11B and 90B sizes.",
       "capabilities": [
@@ -687,17 +698,6 @@
         "90b"
       ],
       "url": "https://ollama.com/library/llama3.2-vision"
-    },
-    {
-      "name": "minicpm-v",
-      "description": "A series of multimodal LLMs (MLLMs) designed for vision-language understanding.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v"
     },
     {
       "name": "llama3.3",
@@ -1243,6 +1243,15 @@
       "url": "https://ollama.com/library/granite3-moe"
     },
     {
+      "name": "glm4",
+      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/glm4"
+    },
+    {
       "name": "r1-1776",
       "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
       "capabilities": [],
@@ -1251,15 +1260,6 @@
         "671b"
       ],
       "url": "https://ollama.com/library/r1-1776"
-    },
-    {
-      "name": "glm4",
-      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/glm4"
     },
     {
       "name": "deepseek-v2",
@@ -1491,6 +1491,17 @@
       "url": "https://ollama.com/library/openchat"
     },
     {
+      "name": "wizard-vicuna-uncensored",
+      "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b",
+        "30b"
+      ],
+      "url": "https://ollama.com/library/wizard-vicuna-uncensored"
+    },
+    {
       "name": "granite-embedding",
       "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
       "capabilities": [
@@ -1501,17 +1512,6 @@
         "278m"
       ],
       "url": "https://ollama.com/library/granite-embedding"
-    },
-    {
-      "name": "wizard-vicuna-uncensored",
-      "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b",
-        "30b"
-      ],
-      "url": "https://ollama.com/library/wizard-vicuna-uncensored"
     },
     {
       "name": "stable-code",

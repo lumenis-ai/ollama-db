@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T01:48:39.285866+00:00",
+  "last_updated": "2026-02-24T01:46:02.344731+00:00",
   "total_pages": 11,
   "total_models": 191,
   "models": [
@@ -1380,6 +1380,16 @@
       "url": "https://ollama.com/library/athene-v2"
     },
     {
+      "name": "llama3-chatqa",
+      "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama3-chatqa"
+    },
+    {
       "name": "bakllava",
       "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
       "capabilities": [
@@ -1389,16 +1399,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bakllava"
-    },
-    {
-      "name": "llama3-chatqa",
-      "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/llama3-chatqa"
     },
     {
       "name": "codegeex4",

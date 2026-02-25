@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-02-24T01:46:02.344731+00:00",
+  "last_updated": "2026-02-25T01:48:59.944413+00:00",
   "total_pages": 11,
-  "total_models": 191,
+  "total_models": 192,
   "models": [
+    {
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/lfm2"
+    },
     {
       "name": "lfm2.5-thinking",
       "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
@@ -1231,6 +1242,15 @@
       "url": "https://ollama.com/library/llama-guard3"
     },
     {
+      "name": "glm4",
+      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/glm4"
+    },
+    {
       "name": "granite3-moe",
       "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -1241,15 +1261,6 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite3-moe"
-    },
-    {
-      "name": "glm4",
-      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/glm4"
     },
     {
       "name": "r1-1776",

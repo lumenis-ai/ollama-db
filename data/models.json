@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-02-25T01:48:59.944413+00:00",
+  "last_updated": "2026-02-26T01:44:15.632429+00:00",
   "total_pages": 11,
-  "total_models": 192,
+  "total_models": 193,
   "models": [
     {
       "name": "lfm2",
@@ -13,6 +13,20 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "qwen3.5",
+      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "35b",
+        "122b"
+      ],
+      "url": "https://ollama.com/library/qwen3.5"
     },
     {
       "name": "lfm2.5-thinking",
@@ -84,17 +98,6 @@
       "url": "https://ollama.com/library/qwen3-embedding"
     },
     {
-      "name": "rnj-1",
-      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/rnj-1"
-    },
-    {
       "name": "granite4",
       "description": "Granite 4 features improved instruction following (IF) and tool-calling capabilities, making them more effective in enterprise applications.",
       "capabilities": [
@@ -106,6 +109,17 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite4"
+    },
+    {
+      "name": "rnj-1",
+      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/rnj-1"
     },
     {
       "name": "qwen3-next",
@@ -120,6 +134,17 @@
       "url": "https://ollama.com/library/qwen3-next"
     },
     {
+      "name": "embeddinggemma",
+      "description": "EmbeddingGemma is a 300M parameter embedding model from Google.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "300m"
+      ],
+      "url": "https://ollama.com/library/embeddinggemma"
+    },
+    {
       "name": "nemotron-3-nano",
       "description": "Nemotron 3 Nano - A new Standard for Efficient, Open, and Intelligent Agentic Models",
       "capabilities": [
@@ -130,17 +155,6 @@
         "30b"
       ],
       "url": "https://ollama.com/library/nemotron-3-nano"
-    },
-    {
-      "name": "embeddinggemma",
-      "description": "EmbeddingGemma is a 300M parameter embedding model from Google.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "300m"
-      ],
-      "url": "https://ollama.com/library/embeddinggemma"
     },
     {
       "name": "olmo-3",
@@ -762,6 +776,17 @@
       "url": "https://ollama.com/library/qwen"
     },
     {
+      "name": "bge-m3",
+      "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "567m"
+      ],
+      "url": "https://ollama.com/library/bge-m3"
+    },
+    {
       "name": "granite3.1-moe",
       "description": "The IBM Granite 1B and 3B models are long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -772,17 +797,6 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite3.1-moe"
-    },
-    {
-      "name": "bge-m3",
-      "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "567m"
-      ],
-      "url": "https://ollama.com/library/bge-m3"
     },
     {
       "name": "mistral-nemo",
@@ -1232,6 +1246,15 @@
       "url": "https://ollama.com/library/yi-coder"
     },
     {
+      "name": "glm4",
+      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/glm4"
+    },
+    {
       "name": "llama-guard3",
       "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
       "capabilities": [],
@@ -1240,15 +1263,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/llama-guard3"
-    },
-    {
-      "name": "glm4",
-      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/glm4"
     },
     {
       "name": "granite3-moe",
@@ -1323,17 +1337,6 @@
       "url": "https://ollama.com/library/reader-lm"
     },
     {
-      "name": "exaone3.5",
-      "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
-      "capabilities": [],
-      "sizes": [
-        "2.4b",
-        "7.8b",
-        "32b"
-      ],
-      "url": "https://ollama.com/library/exaone3.5"
-    },
-    {
       "name": "llama3-groq-tool-use",
       "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
       "capabilities": [
@@ -1344,6 +1347,17 @@
         "70b"
       ],
       "url": "https://ollama.com/library/llama3-groq-tool-use"
+    },
+    {
+      "name": "exaone3.5",
+      "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
+      "capabilities": [],
+      "sizes": [
+        "2.4b",
+        "7.8b",
+        "32b"
+      ],
+      "url": "https://ollama.com/library/exaone3.5"
     },
     {
       "name": "yi",
@@ -1587,16 +1601,6 @@
       "url": "https://ollama.com/library/falcon"
     },
     {
-      "name": "tulu3",
-      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/tulu3"
-    },
-    {
       "name": "nous-hermes",
       "description": "General use models based on Llama and Llama 2 from Nous Research.",
       "capabilities": [],
@@ -1605,6 +1609,16 @@
         "13b"
       ],
       "url": "https://ollama.com/library/nous-hermes"
+    },
+    {
+      "name": "tulu3",
+      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/tulu3"
     },
     {
       "name": "neural-chat",
@@ -1683,6 +1697,15 @@
       "url": "https://ollama.com/library/starling-lm"
     },
     {
+      "name": "wizardcoder",
+      "description": "State-of-the-art code generation model",
+      "capabilities": [],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/wizardcoder"
+    },
+    {
       "name": "command-r7b",
       "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
       "capabilities": [
@@ -1694,15 +1717,6 @@
       "url": "https://ollama.com/library/command-r7b"
     },
     {
-      "name": "wizardcoder",
-      "description": "State-of-the-art code generation model",
-      "capabilities": [],
-      "sizes": [
-        "33b"
-      ],
-      "url": "https://ollama.com/library/wizardcoder"
-    },
-    {
       "name": "bespoke-minicheck",
       "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
       "capabilities": [],
@@ -1710,15 +1724,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bespoke-minicheck"
-    },
-    {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "xwinlm",
@@ -1729,6 +1734,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/xwinlm"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "samantha-mistral",

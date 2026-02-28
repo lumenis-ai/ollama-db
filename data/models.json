@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T01:43:10.592133+00:00",
+  "last_updated": "2026-02-28T01:25:05.199610+00:00",
   "total_pages": 11,
   "total_models": 193,
   "models": [
@@ -168,6 +168,17 @@
       "url": "https://ollama.com/library/olmo-3"
     },
     {
+      "name": "deepseek-ocr",
+      "description": "DeepSeek-OCR is a vision-language model that can perform token-efficient OCR.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/deepseek-ocr"
+    },
+    {
       "name": "devstral-small-2",
       "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
       "capabilities": [
@@ -178,17 +189,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/devstral-small-2"
-    },
-    {
-      "name": "deepseek-ocr",
-      "description": "DeepSeek-OCR is a vision-language model that can perform token-efficient OCR.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/deepseek-ocr"
     },
     {
       "name": "olmo-3.1",
@@ -425,29 +425,6 @@
       "url": "https://ollama.com/library/deepseek-v3.1"
     },
     {
-      "name": "phi4-mini",
-      "description": "Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/phi4-mini"
-    },
-    {
-      "name": "granite3.2-vision",
-      "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "2b"
-      ],
-      "url": "https://ollama.com/library/granite3.2-vision"
-    },
-    {
       "name": "deepcoder",
       "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
       "capabilities": [],
@@ -610,16 +587,6 @@
       "url": "https://ollama.com/library/mistral"
     },
     {
-      "name": "phi3",
-      "description": "Phi-3 is a family of lightweight 3B (Mini) and 14B (Medium) state-of-the-art open models by Microsoft.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b",
-        "14b"
-      ],
-      "url": "https://ollama.com/library/phi3"
-    },
-    {
       "name": "llama3",
       "description": "Meta Llama 3: The most capable openly available LLM to date",
       "capabilities": [],
@@ -628,6 +595,16 @@
         "70b"
       ],
       "url": "https://ollama.com/library/llama3"
+    },
+    {
+      "name": "phi3",
+      "description": "Phi-3 is a family of lightweight 3B (Mini) and 14B (Medium) state-of-the-art open models by Microsoft.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b",
+        "14b"
+      ],
+      "url": "https://ollama.com/library/phi3"
     },
     {
       "name": "phi4",
@@ -932,6 +909,17 @@
       "url": "https://ollama.com/library/all-minilm"
     },
     {
+      "name": "phi4-mini",
+      "description": "Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/phi4-mini"
+    },
+    {
       "name": "snowflake-arctic-embed",
       "description": "A suite of text embedding models by Snowflake, optimized for performance.",
       "capabilities": [
@@ -966,6 +954,18 @@
         "236b"
       ],
       "url": "https://ollama.com/library/deepseek-coder-v2"
+    },
+    {
+      "name": "granite3.2-vision",
+      "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "2b"
+      ],
+      "url": "https://ollama.com/library/granite3.2-vision"
     },
     {
       "name": "openthinker",
@@ -1096,15 +1096,6 @@
       "url": "https://ollama.com/library/granite-code"
     },
     {
-      "name": "phi3.5",
-      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/phi3.5"
-    },
-    {
       "name": "granite3.1-dense",
       "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
       "capabilities": [
@@ -1115,6 +1106,15 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.1-dense"
+    },
+    {
+      "name": "phi3.5",
+      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/phi3.5"
     },
     {
       "name": "command-r",
@@ -1278,16 +1278,6 @@
       "url": "https://ollama.com/library/granite3-moe"
     },
     {
-      "name": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-      "capabilities": [],
-      "sizes": [
-        "70b",
-        "671b"
-      ],
-      "url": "https://ollama.com/library/r1-1776"
-    },
-    {
       "name": "deepseek-v2",
       "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
       "capabilities": [],
@@ -1296,6 +1286,16 @@
         "236b"
       ],
       "url": "https://ollama.com/library/deepseek-v2"
+    },
+    {
+      "name": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "capabilities": [],
+      "sizes": [
+        "70b",
+        "671b"
+      ],
+      "url": "https://ollama.com/library/r1-1776"
     },
     {
       "name": "shieldgemma",
@@ -1416,6 +1416,15 @@
       "url": "https://ollama.com/library/llama3-chatqa"
     },
     {
+      "name": "codegeex4",
+      "description": "A versatile model for AI software development scenarios, including code completion.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/codegeex4"
+    },
+    {
       "name": "bakllava",
       "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
       "capabilities": [
@@ -1425,15 +1434,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bakllava"
-    },
-    {
-      "name": "codegeex4",
-      "description": "A versatile model for AI software development scenarios, including code completion.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/codegeex4"
     },
     {
       "name": "zephyr",
@@ -1528,6 +1528,15 @@
       "url": "https://ollama.com/library/wizard-vicuna-uncensored"
     },
     {
+      "name": "stable-code",
+      "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/stable-code"
+    },
+    {
       "name": "granite-embedding",
       "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
       "capabilities": [
@@ -1538,15 +1547,6 @@
         "278m"
       ],
       "url": "https://ollama.com/library/granite-embedding"
-    },
-    {
-      "name": "stable-code",
-      "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/stable-code"
     },
     {
       "name": "dolphincoder",
@@ -1651,15 +1651,6 @@
       "url": "https://ollama.com/library/solar-pro"
     },
     {
-      "name": "tinydolphin",
-      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-      "capabilities": [],
-      "sizes": [
-        "1.1b"
-      ],
-      "url": "https://ollama.com/library/tinydolphin"
-    },
-    {
       "name": "solar",
       "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
       "capabilities": [],
@@ -1667,6 +1658,15 @@
         "10.7b"
       ],
       "url": "https://ollama.com/library/solar"
+    },
+    {
+      "name": "tinydolphin",
+      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
+      "capabilities": [],
+      "sizes": [
+        "1.1b"
+      ],
+      "url": "https://ollama.com/library/tinydolphin"
     },
     {
       "name": "sqlcoder",
@@ -1746,15 +1746,6 @@
       "url": "https://ollama.com/library/samantha-mistral"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "sailor2",
       "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
       "capabilities": [],
@@ -1774,6 +1765,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/yarn-llama2"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "orca2",
@@ -1833,6 +1833,15 @@
       "url": "https://ollama.com/library/nuextract"
     },
     {
+      "name": "yarn-mistral",
+      "description": "An extension of Mistral to support context windows of 64K or 128K.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/yarn-mistral"
+    },
+    {
       "name": "bge-large",
       "description": "Embedding model from BAAI mapping texts to vectors.",
       "capabilities": [
@@ -1842,15 +1851,6 @@
         "335m"
       ],
       "url": "https://ollama.com/library/bge-large"
-    },
-    {
-      "name": "yarn-mistral",
-      "description": "An extension of Mistral to support context windows of 64K or 128K.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/yarn-mistral"
     },
     {
       "name": "firefunction-v2",

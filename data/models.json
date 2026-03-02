@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T01:53:59.327549+00:00",
+  "last_updated": "2026-03-02T01:46:12.964355+00:00",
   "total_pages": 11,
   "total_models": 193,
   "models": [
@@ -565,6 +565,16 @@
       "url": "https://ollama.com/library/qwen2.5-coder"
     },
     {
+      "name": "llama3",
+      "description": "Meta Llama 3: The most capable openly available LLM to date",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama3"
+    },
+    {
       "name": "mistral",
       "description": "The 7B model released by Mistral AI, updated to version 0.3.",
       "capabilities": [
@@ -574,16 +584,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/mistral"
-    },
-    {
-      "name": "llama3",
-      "description": "Meta Llama 3: The most capable openly available LLM to date",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/llama3"
     },
     {
       "name": "phi3",
@@ -627,6 +627,15 @@
       "url": "https://ollama.com/library/dolphin3"
     },
     {
+      "name": "deepseek-v3",
+      "description": "A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.",
+      "capabilities": [],
+      "sizes": [
+        "671b"
+      ],
+      "url": "https://ollama.com/library/deepseek-v3"
+    },
+    {
       "name": "olmo2",
       "description": "OLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks.",
       "capabilities": [],
@@ -635,15 +644,6 @@
         "13b"
       ],
       "url": "https://ollama.com/library/olmo2"
-    },
-    {
-      "name": "deepseek-v3",
-      "description": "A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.",
-      "capabilities": [],
-      "sizes": [
-        "671b"
-      ],
-      "url": "https://ollama.com/library/deepseek-v3"
     },
     {
       "name": "mxbai-embed-large",
@@ -1526,6 +1526,16 @@
       "url": "https://ollama.com/library/stable-code"
     },
     {
+      "name": "dolphincoder",
+      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "15b"
+      ],
+      "url": "https://ollama.com/library/dolphincoder"
+    },
+    {
       "name": "granite-embedding",
       "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
       "capabilities": [
@@ -1536,16 +1546,6 @@
         "278m"
       ],
       "url": "https://ollama.com/library/granite-embedding"
-    },
-    {
-      "name": "dolphincoder",
-      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "15b"
-      ],
-      "url": "https://ollama.com/library/dolphincoder"
     },
     {
       "name": "starcoder",
@@ -1687,15 +1687,6 @@
       "url": "https://ollama.com/library/starling-lm"
     },
     {
-      "name": "wizardcoder",
-      "description": "State-of-the-art code generation model",
-      "capabilities": [],
-      "sizes": [
-        "33b"
-      ],
-      "url": "https://ollama.com/library/wizardcoder"
-    },
-    {
       "name": "bespoke-minicheck",
       "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
       "capabilities": [],
@@ -1703,6 +1694,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bespoke-minicheck"
+    },
+    {
+      "name": "wizardcoder",
+      "description": "State-of-the-art code generation model",
+      "capabilities": [],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/wizardcoder"
     },
     {
       "name": "command-r7b",
@@ -1756,15 +1756,6 @@
       "url": "https://ollama.com/library/yarn-llama2"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "orca2",
       "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
       "capabilities": [],
@@ -1773,6 +1764,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/orca2"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "wizard-math",
@@ -1795,15 +1795,6 @@
       "url": "https://ollama.com/library/mathstral"
     },
     {
-      "name": "mistral-openorca",
-      "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/mistral-openorca"
-    },
-    {
       "name": "phind-codellama",
       "description": "Code generation model based on Code Llama.",
       "capabilities": [],
@@ -1811,6 +1802,15 @@
         "34b"
       ],
       "url": "https://ollama.com/library/phind-codellama"
+    },
+    {
+      "name": "mistral-openorca",
+      "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/mistral-openorca"
     },
     {
       "name": "nuextract",
@@ -1831,17 +1831,6 @@
       "url": "https://ollama.com/library/yarn-mistral"
     },
     {
-      "name": "bge-large",
-      "description": "Embedding model from BAAI mapping texts to vectors.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "335m"
-      ],
-      "url": "https://ollama.com/library/bge-large"
-    },
-    {
       "name": "firefunction-v2",
       "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
       "capabilities": [
@@ -1851,6 +1840,17 @@
         "70b"
       ],
       "url": "https://ollama.com/library/firefunction-v2"
+    },
+    {
+      "name": "bge-large",
+      "description": "Embedding model from BAAI mapping texts to vectors.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "335m"
+      ],
+      "url": "https://ollama.com/library/bge-large"
     },
     {
       "name": "meditron",

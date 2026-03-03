@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T01:46:12.964355+00:00",
+  "last_updated": "2026-03-03T01:48:17.211275+00:00",
   "total_pages": 11,
   "total_models": 193,
   "models": [
@@ -23,6 +23,10 @@
         "thinking"
       ],
       "sizes": [
+        "0.8b",
+        "2b",
+        "4b",
+        "9b",
         "27b",
         "35b",
         "122b"
@@ -72,6 +76,19 @@
       "url": "https://ollama.com/library/qwen3-vl"
     },
     {
+      "name": "qwen3-embedding",
+      "description": "Building upon the foundational models of the Qwen3 series, Qwen3 Embedding provides a comprehensive range of text embeddings models in various sizes",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "0.6b",
+        "4b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/qwen3-embedding"
+    },
+    {
       "name": "ministral-3",
       "description": "The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware.",
       "capabilities": [
@@ -84,19 +101,6 @@
         "14b"
       ],
       "url": "https://ollama.com/library/ministral-3"
-    },
-    {
-      "name": "qwen3-embedding",
-      "description": "Building upon the foundational models of the Qwen3 series, Qwen3 Embedding provides a comprehensive range of text embeddings models in various sizes",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "0.6b",
-        "4b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/qwen3-embedding"
     },
     {
       "name": "granite4",
@@ -133,17 +137,6 @@
         "80b"
       ],
       "url": "https://ollama.com/library/qwen3-next"
-    },
-    {
-      "name": "embeddinggemma",
-      "description": "EmbeddingGemma is a 300M parameter embedding model from Google.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "300m"
-      ],
-      "url": "https://ollama.com/library/embeddinggemma"
     },
     {
       "name": "nemotron-3-nano",
@@ -375,6 +368,17 @@
         "14b"
       ],
       "url": "https://ollama.com/library/phi4-reasoning"
+    },
+    {
+      "name": "embeddinggemma",
+      "description": "EmbeddingGemma is a 300M parameter embedding model from Google.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "300m"
+      ],
+      "url": "https://ollama.com/library/embeddinggemma"
     },
     {
       "name": "llama4",
@@ -1138,16 +1142,6 @@
       "url": "https://ollama.com/library/opencoder"
     },
     {
-      "name": "wizardlm2",
-      "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "8x22b"
-      ],
-      "url": "https://ollama.com/library/wizardlm2"
-    },
-    {
       "name": "moondream",
       "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
       "capabilities": [
@@ -1157,6 +1151,16 @@
         "1.8b"
       ],
       "url": "https://ollama.com/library/moondream"
+    },
+    {
+      "name": "wizardlm2",
+      "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "8x22b"
+      ],
+      "url": "https://ollama.com/library/wizardlm2"
     },
     {
       "name": "paraphrase-multilingual",
@@ -1467,15 +1471,6 @@
       "url": "https://ollama.com/library/nemotron-mini"
     },
     {
-      "name": "reflection",
-      "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
-      "capabilities": [],
-      "sizes": [
-        "70b"
-      ],
-      "url": "https://ollama.com/library/reflection"
-    },
-    {
       "name": "deepseek-llm",
       "description": "An advanced language model crafted with 2 trillion bilingual tokens.",
       "capabilities": [],
@@ -1484,6 +1479,15 @@
         "67b"
       ],
       "url": "https://ollama.com/library/deepseek-llm"
+    },
+    {
+      "name": "reflection",
+      "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
+      "capabilities": [],
+      "sizes": [
+        "70b"
+      ],
+      "url": "https://ollama.com/library/reflection"
     },
     {
       "name": "command-r-plus",
@@ -1601,6 +1605,15 @@
       "url": "https://ollama.com/library/nous-hermes"
     },
     {
+      "name": "neural-chat",
+      "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/neural-chat"
+    },
+    {
       "name": "tulu3",
       "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
       "capabilities": [],
@@ -1609,15 +1622,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/tulu3"
-    },
-    {
-      "name": "neural-chat",
-      "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/neural-chat"
     },
     {
       "name": "vicuna",
@@ -1705,6 +1709,16 @@
       "url": "https://ollama.com/library/wizardcoder"
     },
     {
+      "name": "xwinlm",
+      "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/xwinlm"
+    },
+    {
       "name": "command-r7b",
       "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
       "capabilities": [
@@ -1714,16 +1728,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b"
-    },
-    {
-      "name": "xwinlm",
-      "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/xwinlm"
     },
     {
       "name": "samantha-mistral",
@@ -1940,15 +1944,6 @@
       "url": "https://ollama.com/library/dbrx"
     },
     {
-      "name": "marco-o1",
-      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/marco-o1"
-    },
-    {
       "name": "wizardlm-uncensored",
       "description": "Uncensored version of Wizard LM model",
       "capabilities": [],
@@ -1965,6 +1960,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/duckdb-nsql"
+    },
+    {
+      "name": "marco-o1",
+      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/marco-o1"
     },
     {
       "name": "megadolphin",

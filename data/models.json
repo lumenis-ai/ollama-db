@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T01:42:38.374814+00:00",
+  "last_updated": "2026-03-05T01:45:13.751599+00:00",
   "total_pages": 11,
   "total_models": 193,
   "models": [
@@ -869,15 +869,16 @@
       "url": "https://ollama.com/library/deepseek-coder"
     },
     {
-      "name": "llava-llama3",
-      "description": "A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks.",
+      "name": "all-minilm",
+      "description": "Embedding models on very large sentence level datasets.",
       "capabilities": [
-        "vision"
+        "embedding"
       ],
       "sizes": [
-        "8b"
+        "22m",
+        "33m"
       ],
-      "url": "https://ollama.com/library/llava-llama3"
+      "url": "https://ollama.com/library/all-minilm"
     },
     {
       "name": "codegemma",
@@ -890,16 +891,15 @@
       "url": "https://ollama.com/library/codegemma"
     },
     {
-      "name": "all-minilm",
-      "description": "Embedding models on very large sentence level datasets.",
+      "name": "llava-llama3",
+      "description": "A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks.",
       "capabilities": [
-        "embedding"
+        "vision"
       ],
       "sizes": [
-        "22m",
-        "33m"
+        "8b"
       ],
-      "url": "https://ollama.com/library/all-minilm"
+      "url": "https://ollama.com/library/llava-llama3"
     },
     {
       "name": "snowflake-arctic-embed",
@@ -1153,16 +1153,6 @@
       "url": "https://ollama.com/library/moondream"
     },
     {
-      "name": "wizardlm2",
-      "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "8x22b"
-      ],
-      "url": "https://ollama.com/library/wizardlm2"
-    },
-    {
       "name": "paraphrase-multilingual",
       "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
       "capabilities": [
@@ -1172,6 +1162,16 @@
         "278m"
       ],
       "url": "https://ollama.com/library/paraphrase-multilingual"
+    },
+    {
+      "name": "wizardlm2",
+      "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "8x22b"
+      ],
+      "url": "https://ollama.com/library/wizardlm2"
     },
     {
       "name": "granite3-dense",
@@ -1377,15 +1377,14 @@
       "url": "https://ollama.com/library/yi"
     },
     {
-      "name": "snowflake-arctic-embed2",
-      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-      "capabilities": [
-        "embedding"
-      ],
+      "name": "llama3-chatqa",
+      "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
+      "capabilities": [],
       "sizes": [
-        "568m"
+        "8b",
+        "70b"
       ],
-      "url": "https://ollama.com/library/snowflake-arctic-embed2"
+      "url": "https://ollama.com/library/llama3-chatqa"
     },
     {
       "name": "athene-v2",
@@ -1399,14 +1398,15 @@
       "url": "https://ollama.com/library/athene-v2"
     },
     {
-      "name": "llama3-chatqa",
-      "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
+      "name": "snowflake-arctic-embed2",
+      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
+      "capabilities": [
+        "embedding"
       ],
-      "url": "https://ollama.com/library/llama3-chatqa"
+      "sizes": [
+        "568m"
+      ],
+      "url": "https://ollama.com/library/snowflake-arctic-embed2"
     },
     {
       "name": "codegeex4",
@@ -1728,15 +1728,14 @@
       "url": "https://ollama.com/library/samantha-mistral"
     },
     {
-      "name": "command-r7b",
-      "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
-      "capabilities": [
-        "tools"
-      ],
+      "name": "yarn-llama2",
+      "description": "An extension of Llama 2 that supports a context of up to 128k tokens.",
+      "capabilities": [],
       "sizes": [
-        "7b"
+        "7b",
+        "13b"
       ],
-      "url": "https://ollama.com/library/command-r7b"
+      "url": "https://ollama.com/library/yarn-llama2"
     },
     {
       "name": "sailor2",
@@ -1750,14 +1749,15 @@
       "url": "https://ollama.com/library/sailor2"
     },
     {
-      "name": "yarn-llama2",
-      "description": "An extension of Llama 2 that supports a context of up to 128k tokens.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
+      "name": "command-r7b",
+      "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
+      "capabilities": [
+        "tools"
       ],
-      "url": "https://ollama.com/library/yarn-llama2"
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/command-r7b"
     },
     {
       "name": "orca2",
@@ -1768,15 +1768,6 @@
         "13b"
       ],
       "url": "https://ollama.com/library/orca2"
-    },
-    {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "wizard-math",
@@ -1797,6 +1788,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/mathstral"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "phind-codellama",
@@ -1856,17 +1856,6 @@
       "url": "https://ollama.com/library/meditron"
     },
     {
-      "name": "bge-large",
-      "description": "Embedding model from BAAI mapping texts to vectors.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "335m"
-      ],
-      "url": "https://ollama.com/library/bge-large"
-    },
-    {
       "name": "nexusraven",
       "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
       "capabilities": [],
@@ -1885,6 +1874,17 @@
         "70b"
       ],
       "url": "https://ollama.com/library/stable-beluga"
+    },
+    {
+      "name": "bge-large",
+      "description": "Embedding model from BAAI mapping texts to vectors.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "335m"
+      ],
+      "url": "https://ollama.com/library/bge-large"
     },
     {
       "name": "falcon2",
@@ -1935,24 +1935,6 @@
       "url": "https://ollama.com/library/llava-phi3"
     },
     {
-      "name": "dbrx",
-      "description": "DBRX is an open, general-purpose LLM created by Databricks.",
-      "capabilities": [],
-      "sizes": [
-        "132b"
-      ],
-      "url": "https://ollama.com/library/dbrx"
-    },
-    {
-      "name": "wizardlm-uncensored",
-      "description": "Uncensored version of Wizard LM model",
-      "capabilities": [],
-      "sizes": [
-        "13b"
-      ],
-      "url": "https://ollama.com/library/wizardlm-uncensored"
-    },
-    {
       "name": "duckdb-nsql",
       "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
       "capabilities": [],
@@ -1971,6 +1953,24 @@
       "url": "https://ollama.com/library/megadolphin"
     },
     {
+      "name": "wizardlm-uncensored",
+      "description": "Uncensored version of Wizard LM model",
+      "capabilities": [],
+      "sizes": [
+        "13b"
+      ],
+      "url": "https://ollama.com/library/wizardlm-uncensored"
+    },
+    {
+      "name": "dbrx",
+      "description": "DBRX is an open, general-purpose LLM created by Databricks.",
+      "capabilities": [],
+      "sizes": [
+        "132b"
+      ],
+      "url": "https://ollama.com/library/dbrx"
+    },
+    {
       "name": "marco-o1",
       "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
       "capabilities": [],
@@ -1978,6 +1978,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/marco-o1"
+    },
+    {
+      "name": "magicoder",
+      "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/magicoder"
     },
     {
       "name": "command-r7b-arabic",
@@ -1989,15 +1998,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b-arabic"
-    },
-    {
-      "name": "magicoder",
-      "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/magicoder"
     },
     {
       "name": "stablelm-zephyr",

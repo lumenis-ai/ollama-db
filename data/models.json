@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T01:45:13.751599+00:00",
+  "last_updated": "2026-03-06T01:47:11.879853+00:00",
   "total_pages": 11,
   "total_models": 193,
   "models": [
@@ -116,17 +116,6 @@
       "url": "https://ollama.com/library/granite4"
     },
     {
-      "name": "rnj-1",
-      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/rnj-1"
-    },
-    {
       "name": "qwen3-next",
       "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
       "capabilities": [
@@ -137,6 +126,17 @@
         "80b"
       ],
       "url": "https://ollama.com/library/qwen3-next"
+    },
+    {
+      "name": "rnj-1",
+      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/rnj-1"
     },
     {
       "name": "deepseek-ocr",
@@ -640,16 +640,6 @@
       "url": "https://ollama.com/library/deepseek-v3"
     },
     {
-      "name": "olmo2",
-      "description": "OLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/olmo2"
-    },
-    {
       "name": "mxbai-embed-large",
       "description": "State-of-the-art large embedding model from mixedbread.ai",
       "capabilities": [
@@ -659,6 +649,16 @@
         "335m"
       ],
       "url": "https://ollama.com/library/mxbai-embed-large"
+    },
+    {
+      "name": "olmo2",
+      "description": "OLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/olmo2"
     },
     {
       "name": "llama3.2-vision",
@@ -1110,17 +1110,6 @@
       "url": "https://ollama.com/library/phi3.5"
     },
     {
-      "name": "command-r",
-      "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "35b"
-      ],
-      "url": "https://ollama.com/library/command-r"
-    },
-    {
       "name": "mistral-large",
       "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
       "capabilities": [
@@ -1130,6 +1119,17 @@
         "123b"
       ],
       "url": "https://ollama.com/library/mistral-large"
+    },
+    {
+      "name": "command-r",
+      "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "35b"
+      ],
+      "url": "https://ollama.com/library/command-r"
     },
     {
       "name": "opencoder",
@@ -1142,17 +1142,6 @@
       "url": "https://ollama.com/library/opencoder"
     },
     {
-      "name": "moondream",
-      "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1.8b"
-      ],
-      "url": "https://ollama.com/library/moondream"
-    },
-    {
       "name": "paraphrase-multilingual",
       "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
       "capabilities": [
@@ -1162,6 +1151,17 @@
         "278m"
       ],
       "url": "https://ollama.com/library/paraphrase-multilingual"
+    },
+    {
+      "name": "moondream",
+      "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1.8b"
+      ],
+      "url": "https://ollama.com/library/moondream"
     },
     {
       "name": "wizardlm2",
@@ -1240,15 +1240,6 @@
       "url": "https://ollama.com/library/llama-guard3"
     },
     {
-      "name": "glm4",
-      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/glm4"
-    },
-    {
       "name": "yi-coder",
       "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
       "capabilities": [],
@@ -1257,6 +1248,15 @@
         "9b"
       ],
       "url": "https://ollama.com/library/yi-coder"
+    },
+    {
+      "name": "glm4",
+      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/glm4"
     },
     {
       "name": "granite3-moe",
@@ -1552,6 +1552,16 @@
       "url": "https://ollama.com/library/starcoder"
     },
     {
+      "name": "stablelm2",
+      "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
+      "capabilities": [],
+      "sizes": [
+        "1.6b",
+        "12b"
+      ],
+      "url": "https://ollama.com/library/stablelm2"
+    },
+    {
       "name": "granite-embedding",
       "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
       "capabilities": [
@@ -1562,16 +1572,6 @@
         "278m"
       ],
       "url": "https://ollama.com/library/granite-embedding"
-    },
-    {
-      "name": "stablelm2",
-      "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
-      "capabilities": [],
-      "sizes": [
-        "1.6b",
-        "12b"
-      ],
-      "url": "https://ollama.com/library/stablelm2"
     },
     {
       "name": "nous-hermes2",
@@ -1663,15 +1663,6 @@
       "url": "https://ollama.com/library/sqlcoder"
     },
     {
-      "name": "tinydolphin",
-      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-      "capabilities": [],
-      "sizes": [
-        "1.1b"
-      ],
-      "url": "https://ollama.com/library/tinydolphin"
-    },
-    {
       "name": "llama2-chinese",
       "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.",
       "capabilities": [],
@@ -1680,6 +1671,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/llama2-chinese"
+    },
+    {
+      "name": "tinydolphin",
+      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
+      "capabilities": [],
+      "sizes": [
+        "1.1b"
+      ],
+      "url": "https://ollama.com/library/tinydolphin"
     },
     {
       "name": "starling-lm",
@@ -1846,6 +1846,15 @@
       "url": "https://ollama.com/library/firefunction-v2"
     },
     {
+      "name": "nexusraven",
+      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
+      "capabilities": [],
+      "sizes": [
+        "13b"
+      ],
+      "url": "https://ollama.com/library/nexusraven"
+    },
+    {
       "name": "meditron",
       "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
       "capabilities": [],
@@ -1854,15 +1863,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/meditron"
-    },
-    {
-      "name": "nexusraven",
-      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
-      "capabilities": [],
-      "sizes": [
-        "13b"
-      ],
-      "url": "https://ollama.com/library/nexusraven"
     },
     {
       "name": "stable-beluga",
@@ -1935,15 +1935,6 @@
       "url": "https://ollama.com/library/llava-phi3"
     },
     {
-      "name": "duckdb-nsql",
-      "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/duckdb-nsql"
-    },
-    {
       "name": "megadolphin",
       "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
       "capabilities": [],
@@ -1951,6 +1942,15 @@
         "120b"
       ],
       "url": "https://ollama.com/library/megadolphin"
+    },
+    {
+      "name": "duckdb-nsql",
+      "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/duckdb-nsql"
     },
     {
       "name": "wizardlm-uncensored",

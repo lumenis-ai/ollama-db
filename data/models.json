@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T01:47:11.879853+00:00",
+  "last_updated": "2026-03-07T01:28:24.753469+00:00",
   "total_pages": 11,
   "total_models": 193,
   "models": [
@@ -150,6 +150,18 @@
       "url": "https://ollama.com/library/deepseek-ocr"
     },
     {
+      "name": "devstral-small-2",
+      "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/devstral-small-2"
+    },
+    {
       "name": "nemotron-3-nano",
       "description": "Nemotron 3 Nano - A new Standard for Efficient, Open, and Intelligent Agentic Models",
       "capabilities": [
@@ -170,18 +182,6 @@
         "32b"
       ],
       "url": "https://ollama.com/library/olmo-3"
-    },
-    {
-      "name": "devstral-small-2",
-      "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/devstral-small-2"
     },
     {
       "name": "olmo-3.1",
@@ -983,6 +983,17 @@
       "url": "https://ollama.com/library/mixtral"
     },
     {
+      "name": "smollm",
+      "description": "🪐 A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.",
+      "capabilities": [],
+      "sizes": [
+        "135m",
+        "360m",
+        "1.7b"
+      ],
+      "url": "https://ollama.com/library/smollm"
+    },
+    {
       "name": "orca-mini",
       "description": "A general-purpose model ranging from 3 billion parameters to 70 billion, suitable for entry-level hardware.",
       "capabilities": [],
@@ -993,17 +1004,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/orca-mini"
-    },
-    {
-      "name": "smollm",
-      "description": "🪐 A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.",
-      "capabilities": [],
-      "sizes": [
-        "135m",
-        "360m",
-        "1.7b"
-      ],
-      "url": "https://ollama.com/library/smollm"
     },
     {
       "name": "llama2-uncensored",
@@ -1132,16 +1132,6 @@
       "url": "https://ollama.com/library/command-r"
     },
     {
-      "name": "opencoder",
-      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/opencoder"
-    },
-    {
       "name": "paraphrase-multilingual",
       "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
       "capabilities": [
@@ -1151,6 +1141,16 @@
         "278m"
       ],
       "url": "https://ollama.com/library/paraphrase-multilingual"
+    },
+    {
+      "name": "opencoder",
+      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/opencoder"
     },
     {
       "name": "moondream",
@@ -1186,15 +1186,6 @@
       "url": "https://ollama.com/library/granite3-dense"
     },
     {
-      "name": "dolphin-mistral",
-      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-mistral"
-    },
-    {
       "name": "qwen2-math",
       "description": "Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).",
       "capabilities": [],
@@ -1204,6 +1195,15 @@
         "72b"
       ],
       "url": "https://ollama.com/library/qwen2-math"
+    },
+    {
+      "name": "dolphin-mistral",
+      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-mistral"
     },
     {
       "name": "granite3.2",
@@ -1418,17 +1418,6 @@
       "url": "https://ollama.com/library/codegeex4"
     },
     {
-      "name": "bakllava",
-      "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/bakllava"
-    },
-    {
       "name": "zephyr",
       "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
       "capabilities": [],
@@ -1447,6 +1436,17 @@
         "70b"
       ],
       "url": "https://ollama.com/library/llama3-gradient"
+    },
+    {
+      "name": "bakllava",
+      "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/bakllava"
     },
     {
       "name": "nemotron",
@@ -1510,6 +1510,15 @@
       "url": "https://ollama.com/library/openchat"
     },
     {
+      "name": "stable-code",
+      "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/stable-code"
+    },
+    {
       "name": "wizard-vicuna-uncensored",
       "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
       "capabilities": [],
@@ -1519,15 +1528,6 @@
         "30b"
       ],
       "url": "https://ollama.com/library/wizard-vicuna-uncensored"
-    },
-    {
-      "name": "stable-code",
-      "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/stable-code"
     },
     {
       "name": "dolphincoder",
@@ -1673,15 +1673,6 @@
       "url": "https://ollama.com/library/llama2-chinese"
     },
     {
-      "name": "tinydolphin",
-      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-      "capabilities": [],
-      "sizes": [
-        "1.1b"
-      ],
-      "url": "https://ollama.com/library/tinydolphin"
-    },
-    {
       "name": "starling-lm",
       "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
       "capabilities": [],
@@ -1689,6 +1680,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/starling-lm"
+    },
+    {
+      "name": "tinydolphin",
+      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
+      "capabilities": [],
+      "sizes": [
+        "1.1b"
+      ],
+      "url": "https://ollama.com/library/tinydolphin"
     },
     {
       "name": "bespoke-minicheck",
@@ -1749,6 +1749,16 @@
       "url": "https://ollama.com/library/sailor2"
     },
     {
+      "name": "orca2",
+      "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/orca2"
+    },
+    {
       "name": "command-r7b",
       "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
       "capabilities": [
@@ -1758,16 +1768,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b"
-    },
-    {
-      "name": "orca2",
-      "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/orca2"
     },
     {
       "name": "wizard-math",
@@ -1817,15 +1817,6 @@
       "url": "https://ollama.com/library/nuextract"
     },
     {
-      "name": "mistral-openorca",
-      "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/mistral-openorca"
-    },
-    {
       "name": "yarn-mistral",
       "description": "An extension of Mistral to support context windows of 64K or 128K.",
       "capabilities": [],
@@ -1833,6 +1824,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/yarn-mistral"
+    },
+    {
+      "name": "mistral-openorca",
+      "description": "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/mistral-openorca"
     },
     {
       "name": "firefunction-v2",

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T01:46:11.883810+00:00",
+  "last_updated": "2026-03-09T01:47:13.925102+00:00",
   "total_pages": 11,
   "total_models": 193,
   "models": [
@@ -116,6 +116,18 @@
       "url": "https://ollama.com/library/granite4"
     },
     {
+      "name": "devstral-small-2",
+      "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/devstral-small-2"
+    },
+    {
       "name": "qwen3-next",
       "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
       "capabilities": [
@@ -137,18 +149,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/rnj-1"
-    },
-    {
-      "name": "devstral-small-2",
-      "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/devstral-small-2"
     },
     {
       "name": "deepseek-ocr",
@@ -237,21 +237,6 @@
         "120b"
       ],
       "url": "https://ollama.com/library/gpt-oss-safeguard"
-    },
-    {
-      "name": "gemma3",
-      "description": "The current, most capable model that runs on a single GPU.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "270m",
-        "1b",
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/gemma3"
     },
     {
       "name": "qwen3",
@@ -513,6 +498,21 @@
       "url": "https://ollama.com/library/llama3.1"
     },
     {
+      "name": "gemma3",
+      "description": "The current, most capable model that runs on a single GPU.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "270m",
+        "1b",
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/gemma3"
+    },
+    {
       "name": "llama3.2",
       "description": "Meta's Llama 3.2 goes small with 1B and 3B models.",
       "capabilities": [
@@ -553,6 +553,16 @@
       "url": "https://ollama.com/library/gemma2"
     },
     {
+      "name": "llama3",
+      "description": "Meta Llama 3: The most capable openly available LLM to date",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama3"
+    },
+    {
       "name": "qwen2.5-coder",
       "description": "The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.",
       "capabilities": [
@@ -567,16 +577,6 @@
         "32b"
       ],
       "url": "https://ollama.com/library/qwen2.5-coder"
-    },
-    {
-      "name": "llama3",
-      "description": "Meta Llama 3: The most capable openly available LLM to date",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/llama3"
     },
     {
       "name": "mistral",
@@ -631,15 +631,6 @@
       "url": "https://ollama.com/library/dolphin3"
     },
     {
-      "name": "deepseek-v3",
-      "description": "A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.",
-      "capabilities": [],
-      "sizes": [
-        "671b"
-      ],
-      "url": "https://ollama.com/library/deepseek-v3"
-    },
-    {
       "name": "mxbai-embed-large",
       "description": "State-of-the-art large embedding model from mixedbread.ai",
       "capabilities": [
@@ -649,6 +640,15 @@
         "335m"
       ],
       "url": "https://ollama.com/library/mxbai-embed-large"
+    },
+    {
+      "name": "deepseek-v3",
+      "description": "A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.",
+      "capabilities": [],
+      "sizes": [
+        "671b"
+      ],
+      "url": "https://ollama.com/library/deepseek-v3"
     },
     {
       "name": "olmo2",
@@ -758,17 +758,6 @@
       "url": "https://ollama.com/library/granite3.1-moe"
     },
     {
-      "name": "mistral-nemo",
-      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "12b"
-      ],
-      "url": "https://ollama.com/library/mistral-nemo"
-    },
-    {
       "name": "smollm2",
       "description": "SmolLM2 is a family of compact language models available in three size: 135M, 360M, and 1.7B parameters.",
       "capabilities": [
@@ -780,6 +769,17 @@
         "1.7b"
       ],
       "url": "https://ollama.com/library/smollm2"
+    },
+    {
+      "name": "mistral-nemo",
+      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "12b"
+      ],
+      "url": "https://ollama.com/library/mistral-nemo"
     },
     {
       "name": "falcon3",
@@ -1143,16 +1143,6 @@
       "url": "https://ollama.com/library/paraphrase-multilingual"
     },
     {
-      "name": "opencoder",
-      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/opencoder"
-    },
-    {
       "name": "moondream",
       "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
       "capabilities": [
@@ -1162,6 +1152,16 @@
         "1.8b"
       ],
       "url": "https://ollama.com/library/moondream"
+    },
+    {
+      "name": "opencoder",
+      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/opencoder"
     },
     {
       "name": "wizardlm2",
@@ -1206,18 +1206,6 @@
       "url": "https://ollama.com/library/dolphin-mistral"
     },
     {
-      "name": "granite3.2",
-      "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "2b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/granite3.2"
-    },
-    {
       "name": "aya-expanse",
       "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
       "capabilities": [
@@ -1228,6 +1216,18 @@
         "32b"
       ],
       "url": "https://ollama.com/library/aya-expanse"
+    },
+    {
+      "name": "granite3.2",
+      "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "2b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/granite3.2"
     },
     {
       "name": "llama-guard3",
@@ -1519,6 +1519,16 @@
       "url": "https://ollama.com/library/stable-code"
     },
     {
+      "name": "dolphincoder",
+      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "15b"
+      ],
+      "url": "https://ollama.com/library/dolphincoder"
+    },
+    {
       "name": "wizard-vicuna-uncensored",
       "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
       "capabilities": [],
@@ -1528,16 +1538,6 @@
         "30b"
       ],
       "url": "https://ollama.com/library/wizard-vicuna-uncensored"
-    },
-    {
-      "name": "dolphincoder",
-      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "15b"
-      ],
-      "url": "https://ollama.com/library/dolphincoder"
     },
     {
       "name": "starcoder",
@@ -1980,6 +1980,17 @@
       "url": "https://ollama.com/library/marco-o1"
     },
     {
+      "name": "command-r7b-arabic",
+      "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/command-r7b-arabic"
+    },
+    {
       "name": "magicoder",
       "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
       "capabilities": [],
@@ -1996,17 +2007,6 @@
         "3b"
       ],
       "url": "https://ollama.com/library/stablelm-zephyr"
-    },
-    {
-      "name": "command-r7b-arabic",
-      "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/command-r7b-arabic"
     },
     {
       "name": "notux",

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T01:47:13.925102+00:00",
+  "last_updated": "2026-03-10T01:29:00.825780+00:00",
   "total_pages": 11,
   "total_models": 193,
   "models": [
@@ -103,6 +103,18 @@
       "url": "https://ollama.com/library/ministral-3"
     },
     {
+      "name": "devstral-small-2",
+      "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/devstral-small-2"
+    },
+    {
       "name": "granite4",
       "description": "Granite 4 features improved instruction following (IF) and tool-calling capabilities, making them more effective in enterprise applications.",
       "capabilities": [
@@ -114,18 +126,6 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite4"
-    },
-    {
-      "name": "devstral-small-2",
-      "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/devstral-small-2"
     },
     {
       "name": "qwen3-next",
@@ -379,6 +379,17 @@
       "url": "https://ollama.com/library/llama4"
     },
     {
+      "name": "devstral",
+      "description": "Devstral: the best open source model for coding agents",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/devstral"
+    },
+    {
       "name": "granite3.3",
       "description": "IBM Granite 2B and 8B models are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities.",
       "capabilities": [
@@ -389,17 +400,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.3"
-    },
-    {
-      "name": "devstral",
-      "description": "Devstral: the best open source model for coding agents",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/devstral"
     },
     {
       "name": "deepseek-v3.1",
@@ -622,15 +622,6 @@
       "url": "https://ollama.com/library/llava"
     },
     {
-      "name": "dolphin3",
-      "description": "Dolphin 3.0 Llama 3.1 8B 🐬 is the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.",
-      "capabilities": [],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/dolphin3"
-    },
-    {
       "name": "mxbai-embed-large",
       "description": "State-of-the-art large embedding model from mixedbread.ai",
       "capabilities": [
@@ -640,6 +631,15 @@
         "335m"
       ],
       "url": "https://ollama.com/library/mxbai-embed-large"
+    },
+    {
+      "name": "dolphin3",
+      "description": "Dolphin 3.0 Llama 3.1 8B 🐬 is the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.",
+      "capabilities": [],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/dolphin3"
     },
     {
       "name": "deepseek-v3",
@@ -805,6 +805,17 @@
       "url": "https://ollama.com/library/qwq"
     },
     {
+      "name": "llama2",
+      "description": "Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama2"
+    },
+    {
       "name": "mistral-small",
       "description": "Mistral Small 3 sets a new benchmark in the “small” Large Language Models category below 70B.",
       "capabilities": [
@@ -815,17 +826,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/mistral-small"
-    },
-    {
-      "name": "llama2",
-      "description": "Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/llama2"
     },
     {
       "name": "tinyllama",
@@ -1218,6 +1218,16 @@
       "url": "https://ollama.com/library/aya-expanse"
     },
     {
+      "name": "llama-guard3",
+      "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
+      "capabilities": [],
+      "sizes": [
+        "1b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/llama-guard3"
+    },
+    {
       "name": "granite3.2",
       "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
       "capabilities": [
@@ -1230,16 +1240,6 @@
       "url": "https://ollama.com/library/granite3.2"
     },
     {
-      "name": "llama-guard3",
-      "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
-      "capabilities": [],
-      "sizes": [
-        "1b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/llama-guard3"
-    },
-    {
       "name": "yi-coder",
       "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
       "capabilities": [],
@@ -1248,15 +1248,6 @@
         "9b"
       ],
       "url": "https://ollama.com/library/yi-coder"
-    },
-    {
-      "name": "glm4",
-      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/glm4"
     },
     {
       "name": "granite3-moe",
@@ -1271,6 +1262,15 @@
       "url": "https://ollama.com/library/granite3-moe"
     },
     {
+      "name": "glm4",
+      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/glm4"
+    },
+    {
       "name": "deepseek-v2",
       "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
       "capabilities": [],
@@ -1279,16 +1279,6 @@
         "236b"
       ],
       "url": "https://ollama.com/library/deepseek-v2"
-    },
-    {
-      "name": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-      "capabilities": [],
-      "sizes": [
-        "70b",
-        "671b"
-      ],
-      "url": "https://ollama.com/library/r1-1776"
     },
     {
       "name": "shieldgemma",
@@ -1300,6 +1290,16 @@
         "27b"
       ],
       "url": "https://ollama.com/library/shieldgemma"
+    },
+    {
+      "name": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "capabilities": [],
+      "sizes": [
+        "70b",
+        "671b"
+      ],
+      "url": "https://ollama.com/library/r1-1776"
     },
     {
       "name": "aya",
@@ -1409,15 +1409,6 @@
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
     },
     {
-      "name": "codegeex4",
-      "description": "A versatile model for AI software development scenarios, including code completion.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/codegeex4"
-    },
-    {
       "name": "llama3-gradient",
       "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
       "capabilities": [],
@@ -1426,6 +1417,15 @@
         "70b"
       ],
       "url": "https://ollama.com/library/llama3-gradient"
+    },
+    {
+      "name": "codegeex4",
+      "description": "A versatile model for AI software development scenarios, including code completion.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/codegeex4"
     },
     {
       "name": "zephyr",
@@ -1738,6 +1738,16 @@
       "url": "https://ollama.com/library/yarn-llama2"
     },
     {
+      "name": "orca2",
+      "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/orca2"
+    },
+    {
       "name": "sailor2",
       "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
       "capabilities": [],
@@ -1747,16 +1757,6 @@
         "20b"
       ],
       "url": "https://ollama.com/library/sailor2"
-    },
-    {
-      "name": "orca2",
-      "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/orca2"
     },
     {
       "name": "command-r7b",
@@ -1790,15 +1790,6 @@
       "url": "https://ollama.com/library/mathstral"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "phind-codellama",
       "description": "Code generation model based on Code Llama.",
       "capabilities": [],
@@ -1806,6 +1797,15 @@
         "34b"
       ],
       "url": "https://ollama.com/library/phind-codellama"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "nuextract",
@@ -1876,6 +1876,15 @@
       "url": "https://ollama.com/library/meditron"
     },
     {
+      "name": "falcon2",
+      "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
+      "capabilities": [],
+      "sizes": [
+        "11b"
+      ],
+      "url": "https://ollama.com/library/falcon2"
+    },
+    {
       "name": "bge-large",
       "description": "Embedding model from BAAI mapping texts to vectors.",
       "capabilities": [
@@ -1885,15 +1894,6 @@
         "335m"
       ],
       "url": "https://ollama.com/library/bge-large"
-    },
-    {
-      "name": "falcon2",
-      "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
-      "capabilities": [],
-      "sizes": [
-        "11b"
-      ],
-      "url": "https://ollama.com/library/falcon2"
     },
     {
       "name": "granite3-guardian",

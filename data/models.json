@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T01:29:00.825780+00:00",
+  "last_updated": "2026-03-11T01:29:22.386101+00:00",
   "total_pages": 11,
   "total_models": 193,
   "models": [
@@ -128,6 +128,17 @@
       "url": "https://ollama.com/library/granite4"
     },
     {
+      "name": "rnj-1",
+      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/rnj-1"
+    },
+    {
       "name": "qwen3-next",
       "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
       "capabilities": [
@@ -138,17 +149,6 @@
         "80b"
       ],
       "url": "https://ollama.com/library/qwen3-next"
-    },
-    {
-      "name": "rnj-1",
-      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/rnj-1"
     },
     {
       "name": "deepseek-ocr",
@@ -633,15 +633,6 @@
       "url": "https://ollama.com/library/mxbai-embed-large"
     },
     {
-      "name": "dolphin3",
-      "description": "Dolphin 3.0 Llama 3.1 8B 🐬 is the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.",
-      "capabilities": [],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/dolphin3"
-    },
-    {
       "name": "deepseek-v3",
       "description": "A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.",
       "capabilities": [],
@@ -649,6 +640,15 @@
         "671b"
       ],
       "url": "https://ollama.com/library/deepseek-v3"
+    },
+    {
+      "name": "dolphin3",
+      "description": "Dolphin 3.0 Llama 3.1 8B 🐬 is the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.",
+      "capabilities": [],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/dolphin3"
     },
     {
       "name": "olmo2",
@@ -1154,16 +1154,6 @@
       "url": "https://ollama.com/library/moondream"
     },
     {
-      "name": "opencoder",
-      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/opencoder"
-    },
-    {
       "name": "wizardlm2",
       "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
       "capabilities": [],
@@ -1172,6 +1162,16 @@
         "8x22b"
       ],
       "url": "https://ollama.com/library/wizardlm2"
+    },
+    {
+      "name": "opencoder",
+      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/opencoder"
     },
     {
       "name": "granite3-dense",
@@ -1240,16 +1240,6 @@
       "url": "https://ollama.com/library/granite3.2"
     },
     {
-      "name": "yi-coder",
-      "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "9b"
-      ],
-      "url": "https://ollama.com/library/yi-coder"
-    },
-    {
       "name": "granite3-moe",
       "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -1260,6 +1250,16 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite3-moe"
+    },
+    {
+      "name": "yi-coder",
+      "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "9b"
+      ],
+      "url": "https://ollama.com/library/yi-coder"
     },
     {
       "name": "glm4",
@@ -1302,16 +1302,6 @@
       "url": "https://ollama.com/library/r1-1776"
     },
     {
-      "name": "aya",
-      "description": "Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/aya"
-    },
-    {
       "name": "reader-lm",
       "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
       "capabilities": [],
@@ -1320,6 +1310,16 @@
         "1.5b"
       ],
       "url": "https://ollama.com/library/reader-lm"
+    },
+    {
+      "name": "aya",
+      "description": "Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/aya"
     },
     {
       "name": "llama3-groq-tool-use",
@@ -1595,6 +1595,15 @@
       "url": "https://ollama.com/library/falcon"
     },
     {
+      "name": "neural-chat",
+      "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/neural-chat"
+    },
+    {
       "name": "nous-hermes",
       "description": "General use models based on Llama and Llama 2 from Nous Research.",
       "capabilities": [],
@@ -1603,15 +1612,6 @@
         "13b"
       ],
       "url": "https://ollama.com/library/nous-hermes"
-    },
-    {
-      "name": "neural-chat",
-      "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/neural-chat"
     },
     {
       "name": "vicuna",
@@ -1799,15 +1799,6 @@
       "url": "https://ollama.com/library/phind-codellama"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "nuextract",
       "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
       "capabilities": [],
@@ -1815,6 +1806,15 @@
         "3.8b"
       ],
       "url": "https://ollama.com/library/nuextract"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "yarn-mistral",
@@ -1971,6 +1971,15 @@
       "url": "https://ollama.com/library/dbrx"
     },
     {
+      "name": "magicoder",
+      "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/magicoder"
+    },
+    {
       "name": "marco-o1",
       "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
       "capabilities": [],
@@ -1989,15 +1998,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b-arabic"
-    },
-    {
-      "name": "magicoder",
-      "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/magicoder"
     },
     {
       "name": "stablelm-zephyr",

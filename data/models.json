@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-11T01:29:22.386101+00:00",
+  "last_updated": "2026-03-12T01:29:15.492118+00:00",
   "total_pages": 11,
-  "total_models": 193,
+  "total_models": 194,
   "models": [
     {
       "name": "lfm2",
@@ -32,6 +32,18 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
+    },
+    {
+      "name": "nemotron-3-super",
+      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
       "name": "lfm2.5-thinking",
@@ -1228,18 +1240,6 @@
       "url": "https://ollama.com/library/llama-guard3"
     },
     {
-      "name": "granite3.2",
-      "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "2b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/granite3.2"
-    },
-    {
       "name": "granite3-moe",
       "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -1269,6 +1269,18 @@
         "9b"
       ],
       "url": "https://ollama.com/library/glm4"
+    },
+    {
+      "name": "granite3.2",
+      "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "2b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/granite3.2"
     },
     {
       "name": "deepseek-v2",
@@ -1398,6 +1410,16 @@
       "url": "https://ollama.com/library/athene-v2"
     },
     {
+      "name": "llama3-gradient",
+      "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama3-gradient"
+    },
+    {
       "name": "snowflake-arctic-embed2",
       "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
       "capabilities": [
@@ -1407,16 +1429,6 @@
         "568m"
       ],
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
-    },
-    {
-      "name": "llama3-gradient",
-      "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/llama3-gradient"
     },
     {
       "name": "codegeex4",
@@ -1438,17 +1450,6 @@
       "url": "https://ollama.com/library/zephyr"
     },
     {
-      "name": "bakllava",
-      "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/bakllava"
-    },
-    {
       "name": "nemotron",
       "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
       "capabilities": [
@@ -1458,6 +1459,17 @@
         "70b"
       ],
       "url": "https://ollama.com/library/nemotron"
+    },
+    {
+      "name": "bakllava",
+      "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/bakllava"
     },
     {
       "name": "nemotron-mini",
@@ -1759,17 +1771,6 @@
       "url": "https://ollama.com/library/sailor2"
     },
     {
-      "name": "command-r7b",
-      "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/command-r7b"
-    },
-    {
       "name": "wizard-math",
       "description": "Model focused on math and logic problems",
       "capabilities": [],
@@ -1779,6 +1780,17 @@
         "70b"
       ],
       "url": "https://ollama.com/library/wizard-math"
+    },
+    {
+      "name": "command-r7b",
+      "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/command-r7b"
     },
     {
       "name": "mathstral",
@@ -1808,15 +1820,6 @@
       "url": "https://ollama.com/library/nuextract"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "yarn-mistral",
       "description": "An extension of Mistral to support context windows of 64K or 128K.",
       "capabilities": [],
@@ -1824,6 +1827,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/yarn-mistral"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "mistral-openorca",
@@ -1962,15 +1974,6 @@
       "url": "https://ollama.com/library/wizardlm-uncensored"
     },
     {
-      "name": "dbrx",
-      "description": "DBRX is an open, general-purpose LLM created by Databricks.",
-      "capabilities": [],
-      "sizes": [
-        "132b"
-      ],
-      "url": "https://ollama.com/library/dbrx"
-    },
-    {
       "name": "magicoder",
       "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
       "capabilities": [],
@@ -1980,13 +1983,13 @@
       "url": "https://ollama.com/library/magicoder"
     },
     {
-      "name": "marco-o1",
-      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
+      "name": "dbrx",
+      "description": "DBRX is an open, general-purpose LLM created by Databricks.",
       "capabilities": [],
       "sizes": [
-        "7b"
+        "132b"
       ],
-      "url": "https://ollama.com/library/marco-o1"
+      "url": "https://ollama.com/library/dbrx"
     },
     {
       "name": "command-r7b-arabic",
@@ -2000,13 +2003,13 @@
       "url": "https://ollama.com/library/command-r7b-arabic"
     },
     {
-      "name": "stablelm-zephyr",
-      "description": "A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware.",
+      "name": "marco-o1",
+      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
       "capabilities": [],
       "sizes": [
-        "3b"
+        "7b"
       ],
-      "url": "https://ollama.com/library/stablelm-zephyr"
+      "url": "https://ollama.com/library/marco-o1"
     },
     {
       "name": "notux",
@@ -2016,6 +2019,15 @@
         "8x7b"
       ],
       "url": "https://ollama.com/library/notux"
+    },
+    {
+      "name": "stablelm-zephyr",
+      "description": "A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/stablelm-zephyr"
     },
     {
       "name": "notus",

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T01:57:46.870273+00:00",
+  "last_updated": "2026-03-16T01:59:00.111713+00:00",
   "total_pages": 11,
   "total_models": 194,
   "models": [
@@ -1102,15 +1102,6 @@
       "url": "https://ollama.com/library/granite-code"
     },
     {
-      "name": "phi3.5",
-      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/phi3.5"
-    },
-    {
       "name": "mistral-large",
       "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
       "capabilities": [
@@ -1120,6 +1111,15 @@
         "123b"
       ],
       "url": "https://ollama.com/library/mistral-large"
+    },
+    {
+      "name": "phi3.5",
+      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/phi3.5"
     },
     {
       "name": "command-r",
@@ -1198,15 +1198,6 @@
       "url": "https://ollama.com/library/opencoder"
     },
     {
-      "name": "dolphin-mistral",
-      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-mistral"
-    },
-    {
       "name": "aya-expanse",
       "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
       "capabilities": [
@@ -1217,6 +1208,15 @@
         "32b"
       ],
       "url": "https://ollama.com/library/aya-expanse"
+    },
+    {
+      "name": "dolphin-mistral",
+      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-mistral"
     },
     {
       "name": "llama-guard3",
@@ -1303,16 +1303,6 @@
       "url": "https://ollama.com/library/reader-lm"
     },
     {
-      "name": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-      "capabilities": [],
-      "sizes": [
-        "70b",
-        "671b"
-      ],
-      "url": "https://ollama.com/library/r1-1776"
-    },
-    {
       "name": "aya",
       "description": "Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.",
       "capabilities": [],
@@ -1321,6 +1311,16 @@
         "35b"
       ],
       "url": "https://ollama.com/library/aya"
+    },
+    {
+      "name": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "capabilities": [],
+      "sizes": [
+        "70b",
+        "671b"
+      ],
+      "url": "https://ollama.com/library/r1-1776"
     },
     {
       "name": "llama3-groq-tool-use",
@@ -1439,15 +1439,14 @@
       "url": "https://ollama.com/library/nemotron"
     },
     {
-      "name": "snowflake-arctic-embed2",
-      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-      "capabilities": [
-        "embedding"
-      ],
+      "name": "deepseek-llm",
+      "description": "An advanced language model crafted with 2 trillion bilingual tokens.",
+      "capabilities": [],
       "sizes": [
-        "568m"
+        "7b",
+        "67b"
       ],
-      "url": "https://ollama.com/library/snowflake-arctic-embed2"
+      "url": "https://ollama.com/library/deepseek-llm"
     },
     {
       "name": "bakllava",
@@ -1461,16 +1460,6 @@
       "url": "https://ollama.com/library/bakllava"
     },
     {
-      "name": "deepseek-llm",
-      "description": "An advanced language model crafted with 2 trillion bilingual tokens.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "67b"
-      ],
-      "url": "https://ollama.com/library/deepseek-llm"
-    },
-    {
       "name": "nemotron-mini",
       "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
       "capabilities": [
@@ -1480,6 +1469,17 @@
         "4b"
       ],
       "url": "https://ollama.com/library/nemotron-mini"
+    },
+    {
+      "name": "snowflake-arctic-embed2",
+      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "568m"
+      ],
+      "url": "https://ollama.com/library/snowflake-arctic-embed2"
     },
     {
       "name": "reflection",
@@ -1701,15 +1701,6 @@
       "url": "https://ollama.com/library/wizardcoder"
     },
     {
-      "name": "tinydolphin",
-      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-      "capabilities": [],
-      "sizes": [
-        "1.1b"
-      ],
-      "url": "https://ollama.com/library/tinydolphin"
-    },
-    {
       "name": "xwinlm",
       "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
       "capabilities": [],
@@ -1718,6 +1709,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/xwinlm"
+    },
+    {
+      "name": "tinydolphin",
+      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
+      "capabilities": [],
+      "sizes": [
+        "1.1b"
+      ],
+      "url": "https://ollama.com/library/tinydolphin"
     },
     {
       "name": "samantha-mistral",
@@ -1789,6 +1789,24 @@
       "url": "https://ollama.com/library/phind-codellama"
     },
     {
+      "name": "yarn-mistral",
+      "description": "An extension of Mistral to support context windows of 64K or 128K.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/yarn-mistral"
+    },
+    {
+      "name": "nuextract",
+      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/nuextract"
+    },
+    {
       "name": "command-a",
       "description": "111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI",
       "capabilities": [
@@ -1800,15 +1818,6 @@
       "url": "https://ollama.com/library/command-a"
     },
     {
-      "name": "yarn-mistral",
-      "description": "An extension of Mistral to support context windows of 64K or 128K.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/yarn-mistral"
-    },
-    {
       "name": "command-r7b",
       "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
       "capabilities": [
@@ -1818,15 +1827,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b"
-    },
-    {
-      "name": "nuextract",
-      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/nuextract"
     },
     {
       "name": "firefunction-v2",
@@ -1849,15 +1849,6 @@
       "url": "https://ollama.com/library/nexusraven"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "stable-beluga",
       "description": "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.",
       "capabilities": [],
@@ -1867,6 +1858,15 @@
         "70b"
       ],
       "url": "https://ollama.com/library/stable-beluga"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "mistral-openorca",
@@ -1907,6 +1907,15 @@
       "url": "https://ollama.com/library/granite3-guardian"
     },
     {
+      "name": "nous-hermes2-mixtral",
+      "description": "The Nous Hermes 2 model from Nous Research, now trained over Mixtral.",
+      "capabilities": [],
+      "sizes": [
+        "8x7b"
+      ],
+      "url": "https://ollama.com/library/nous-hermes2-mixtral"
+    },
+    {
       "name": "bge-large",
       "description": "Embedding model from BAAI mapping texts to vectors.",
       "capabilities": [
@@ -1916,15 +1925,6 @@
         "335m"
       ],
       "url": "https://ollama.com/library/bge-large"
-    },
-    {
-      "name": "nous-hermes2-mixtral",
-      "description": "The Nous Hermes 2 model from Nous Research, now trained over Mixtral.",
-      "capabilities": [],
-      "sizes": [
-        "8x7b"
-      ],
-      "url": "https://ollama.com/library/nous-hermes2-mixtral"
     },
     {
       "name": "megadolphin",
@@ -1963,17 +1963,6 @@
       "url": "https://ollama.com/library/wizardlm-uncensored"
     },
     {
-      "name": "llava-phi3",
-      "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/llava-phi3"
-    },
-    {
       "name": "magicoder",
       "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
       "capabilities": [],
@@ -1999,6 +1988,17 @@
         "7b"
       ],
       "url": "https://ollama.com/library/notus"
+    },
+    {
+      "name": "llava-phi3",
+      "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/llava-phi3"
     },
     {
       "name": "stablelm-zephyr",

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T01:52:03.128540+00:00",
+  "last_updated": "2026-03-20T01:46:34.248513+00:00",
   "total_pages": 11,
   "total_models": 194,
   "models": [
@@ -447,17 +447,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/mistral-small3.1"
-    },
-    {
-      "name": "exaone-deep",
-      "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
-      "capabilities": [],
-      "sizes": [
-        "2.4b",
-        "7.8b",
-        "32b"
-      ],
-      "url": "https://ollama.com/library/exaone-deep"
     },
     {
       "name": "phi4-mini-reasoning",
@@ -1008,14 +997,15 @@
       "url": "https://ollama.com/library/orca-mini"
     },
     {
-      "name": "llama2-uncensored",
-      "description": "Uncensored Llama 2 model by George Sung and Jarrad Hope.",
+      "name": "exaone-deep",
+      "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
       "capabilities": [],
       "sizes": [
-        "7b",
-        "70b"
+        "2.4b",
+        "7.8b",
+        "32b"
       ],
-      "url": "https://ollama.com/library/llama2-uncensored"
+      "url": "https://ollama.com/library/exaone-deep"
     },
     {
       "name": "dolphin-llama3",
@@ -1026,6 +1016,16 @@
         "70b"
       ],
       "url": "https://ollama.com/library/dolphin-llama3"
+    },
+    {
+      "name": "llama2-uncensored",
+      "description": "Uncensored Llama 2 model by George Sung and Jarrad Hope.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama2-uncensored"
     },
     {
       "name": "hermes3",
@@ -1125,15 +1125,6 @@
       "url": "https://ollama.com/library/command-r"
     },
     {
-      "name": "phi3.5",
-      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/phi3.5"
-    },
-    {
       "name": "granite3-dense",
       "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
       "capabilities": [
@@ -1144,6 +1135,15 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3-dense"
+    },
+    {
+      "name": "phi3.5",
+      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/phi3.5"
     },
     {
       "name": "qwen2-math",
@@ -1179,15 +1179,16 @@
       "url": "https://ollama.com/library/llama-guard3"
     },
     {
-      "name": "paraphrase-multilingual",
-      "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
+      "name": "granite3-moe",
+      "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
-        "embedding"
+        "tools"
       ],
       "sizes": [
-        "278m"
+        "1b",
+        "3b"
       ],
-      "url": "https://ollama.com/library/paraphrase-multilingual"
+      "url": "https://ollama.com/library/granite3-moe"
     },
     {
       "name": "moondream",
@@ -1211,16 +1212,15 @@
       "url": "https://ollama.com/library/wizardlm2"
     },
     {
-      "name": "granite3-moe",
-      "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
+      "name": "paraphrase-multilingual",
+      "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
       "capabilities": [
-        "tools"
+        "embedding"
       ],
       "sizes": [
-        "1b",
-        "3b"
+        "278m"
       ],
-      "url": "https://ollama.com/library/granite3-moe"
+      "url": "https://ollama.com/library/paraphrase-multilingual"
     },
     {
       "name": "yi-coder",
@@ -1338,6 +1338,15 @@
       "url": "https://ollama.com/library/internlm2"
     },
     {
+      "name": "codeqwen",
+      "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/codeqwen"
+    },
+    {
       "name": "r1-1776",
       "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
       "capabilities": [],
@@ -1346,15 +1355,6 @@
         "671b"
       ],
       "url": "https://ollama.com/library/r1-1776"
-    },
-    {
-      "name": "codeqwen",
-      "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/codeqwen"
     },
     {
       "name": "llama3-chatqa",
@@ -1551,17 +1551,6 @@
       "url": "https://ollama.com/library/nous-hermes2"
     },
     {
-      "name": "snowflake-arctic-embed2",
-      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "568m"
-      ],
-      "url": "https://ollama.com/library/snowflake-arctic-embed2"
-    },
-    {
       "name": "starcoder",
       "description": "StarCoder is a code generation model trained on 80+ programming languages.",
       "capabilities": [],
@@ -1572,6 +1561,17 @@
         "15b"
       ],
       "url": "https://ollama.com/library/starcoder"
+    },
+    {
+      "name": "snowflake-arctic-embed2",
+      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "568m"
+      ],
+      "url": "https://ollama.com/library/snowflake-arctic-embed2"
     },
     {
       "name": "neural-chat",
@@ -1633,18 +1633,6 @@
       "url": "https://ollama.com/library/solar"
     },
     {
-      "name": "granite-embedding",
-      "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "30m",
-        "278m"
-      ],
-      "url": "https://ollama.com/library/granite-embedding"
-    },
-    {
       "name": "starling-lm",
       "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
       "capabilities": [],
@@ -1664,14 +1652,16 @@
       "url": "https://ollama.com/library/sqlcoder"
     },
     {
-      "name": "tulu3",
-      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
+      "name": "granite-embedding",
+      "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
+      "capabilities": [
+        "embedding"
       ],
-      "url": "https://ollama.com/library/tulu3"
+      "sizes": [
+        "30m",
+        "278m"
+      ],
+      "url": "https://ollama.com/library/granite-embedding"
     },
     {
       "name": "llama2-chinese",
@@ -1691,6 +1681,16 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bespoke-minicheck"
+    },
+    {
+      "name": "tulu3",
+      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/tulu3"
     },
     {
       "name": "xwinlm",
@@ -1722,15 +1722,6 @@
       "url": "https://ollama.com/library/orca2"
     },
     {
-      "name": "samantha-mistral",
-      "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/samantha-mistral"
-    },
-    {
       "name": "yarn-llama2",
       "description": "An extension of Llama 2 that supports a context of up to 128k tokens.",
       "capabilities": [],
@@ -1741,13 +1732,13 @@
       "url": "https://ollama.com/library/yarn-llama2"
     },
     {
-      "name": "tinydolphin",
-      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
+      "name": "samantha-mistral",
+      "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
       "capabilities": [],
       "sizes": [
-        "1.1b"
+        "7b"
       ],
-      "url": "https://ollama.com/library/tinydolphin"
+      "url": "https://ollama.com/library/samantha-mistral"
     },
     {
       "name": "sailor2",
@@ -1759,6 +1750,15 @@
         "20b"
       ],
       "url": "https://ollama.com/library/sailor2"
+    },
+    {
+      "name": "tinydolphin",
+      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
+      "capabilities": [],
+      "sizes": [
+        "1.1b"
+      ],
+      "url": "https://ollama.com/library/tinydolphin"
     },
     {
       "name": "wizard-math",
@@ -1880,15 +1880,6 @@
       "url": "https://ollama.com/library/mistral-openorca"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "falcon2",
       "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
       "capabilities": [],
@@ -1896,6 +1887,15 @@
         "11b"
       ],
       "url": "https://ollama.com/library/falcon2"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "granite3-guardian",
@@ -1946,15 +1946,6 @@
       "url": "https://ollama.com/library/duckdb-nsql"
     },
     {
-      "name": "deepseek-v2.5",
-      "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
-      "capabilities": [],
-      "sizes": [
-        "236b"
-      ],
-      "url": "https://ollama.com/library/deepseek-v2.5"
-    },
-    {
       "name": "wizardlm-uncensored",
       "description": "Uncensored version of Wizard LM model",
       "capabilities": [],
@@ -1971,6 +1962,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/magicoder"
+    },
+    {
+      "name": "deepseek-v2.5",
+      "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
+      "capabilities": [],
+      "sizes": [
+        "236b"
+      ],
+      "url": "https://ollama.com/library/deepseek-v2.5"
     },
     {
       "name": "notus",
@@ -2011,15 +2011,13 @@
       "url": "https://ollama.com/library/command-r7b-arabic"
     },
     {
-      "name": "llava-phi3",
-      "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
-      "capabilities": [
-        "vision"
-      ],
+      "name": "codeup",
+      "description": "Great code generation model based on Llama2.",
+      "capabilities": [],
       "sizes": [
-        "3.8b"
+        "13b"
       ],
-      "url": "https://ollama.com/library/llava-phi3"
+      "url": "https://ollama.com/library/codeup"
     },
     {
       "name": "medllama2",
@@ -2031,13 +2029,24 @@
       "url": "https://ollama.com/library/medllama2"
     },
     {
-      "name": "codeup",
-      "description": "Great code generation model based on Llama2.",
+      "name": "mistrallite",
+      "description": "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.",
       "capabilities": [],
       "sizes": [
-        "13b"
+        "7b"
       ],
-      "url": "https://ollama.com/library/codeup"
+      "url": "https://ollama.com/library/mistrallite"
+    },
+    {
+      "name": "llava-phi3",
+      "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/llava-phi3"
     },
     {
       "name": "marco-o1",
@@ -2047,15 +2056,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/marco-o1"
-    },
-    {
-      "name": "mistrallite",
-      "description": "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/mistrallite"
     },
     {
       "name": "dbrx",

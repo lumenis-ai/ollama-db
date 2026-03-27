@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T01:56:19.280712+00:00",
+  "last_updated": "2026-03-27T01:56:51.212186+00:00",
   "total_pages": 11,
   "total_models": 195,
   "models": [
@@ -920,6 +920,16 @@
       "url": "https://ollama.com/library/phi4-mini"
     },
     {
+      "name": "deepseek-coder-v2",
+      "description": "An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks.",
+      "capabilities": [],
+      "sizes": [
+        "16b",
+        "236b"
+      ],
+      "url": "https://ollama.com/library/deepseek-coder-v2"
+    },
+    {
       "name": "llava-llama3",
       "description": "A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks.",
       "capabilities": [
@@ -929,16 +939,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/llava-llama3"
-    },
-    {
-      "name": "deepseek-coder-v2",
-      "description": "An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks.",
-      "capabilities": [],
-      "sizes": [
-        "16b",
-        "236b"
-      ],
-      "url": "https://ollama.com/library/deepseek-coder-v2"
     },
     {
       "name": "starcoder2",
@@ -1149,15 +1149,6 @@
       "url": "https://ollama.com/library/command-r"
     },
     {
-      "name": "phi3.5",
-      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/phi3.5"
-    },
-    {
       "name": "aya-expanse",
       "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
       "capabilities": [
@@ -1191,6 +1182,15 @@
       "url": "https://ollama.com/library/llama-guard3"
     },
     {
+      "name": "phi3.5",
+      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/phi3.5"
+    },
+    {
       "name": "granite3-moe",
       "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -1222,6 +1222,17 @@
       "url": "https://ollama.com/library/glm4"
     },
     {
+      "name": "shieldgemma",
+      "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
+      "capabilities": [],
+      "sizes": [
+        "2b",
+        "9b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/shieldgemma"
+    },
+    {
       "name": "moondream",
       "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
       "capabilities": [
@@ -1250,17 +1261,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/dolphin-mistral"
-    },
-    {
-      "name": "shieldgemma",
-      "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
-      "capabilities": [],
-      "sizes": [
-        "2b",
-        "9b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/shieldgemma"
     },
     {
       "name": "paraphrase-multilingual",
@@ -1614,6 +1614,15 @@
       "url": "https://ollama.com/library/solar-pro"
     },
     {
+      "name": "solar",
+      "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
+      "capabilities": [],
+      "sizes": [
+        "10.7b"
+      ],
+      "url": "https://ollama.com/library/solar"
+    },
+    {
       "name": "vicuna",
       "description": "General use chat model based on Llama and Llama 2 with 2K to 16K context sizes.",
       "capabilities": [],
@@ -1623,15 +1632,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/vicuna"
-    },
-    {
-      "name": "solar",
-      "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
-      "capabilities": [],
-      "sizes": [
-        "10.7b"
-      ],
-      "url": "https://ollama.com/library/solar"
     },
     {
       "name": "snowflake-arctic-embed2",
@@ -1731,16 +1731,15 @@
       "url": "https://ollama.com/library/samantha-mistral"
     },
     {
-      "name": "granite-embedding",
-      "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
-      "capabilities": [
-        "embedding"
-      ],
+      "name": "sailor2",
+      "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
+      "capabilities": [],
       "sizes": [
-        "30m",
-        "278m"
+        "1b",
+        "8b",
+        "20b"
       ],
-      "url": "https://ollama.com/library/granite-embedding"
+      "url": "https://ollama.com/library/sailor2"
     },
     {
       "name": "tulu3",
@@ -1753,15 +1752,16 @@
       "url": "https://ollama.com/library/tulu3"
     },
     {
-      "name": "sailor2",
-      "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
-      "capabilities": [],
-      "sizes": [
-        "1b",
-        "8b",
-        "20b"
+      "name": "granite-embedding",
+      "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
+      "capabilities": [
+        "embedding"
       ],
-      "url": "https://ollama.com/library/sailor2"
+      "sizes": [
+        "30m",
+        "278m"
+      ],
+      "url": "https://ollama.com/library/granite-embedding"
     },
     {
       "name": "wizard-math",
@@ -1773,15 +1773,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/wizard-math"
-    },
-    {
-      "name": "tinydolphin",
-      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-      "capabilities": [],
-      "sizes": [
-        "1.1b"
-      ],
-      "url": "https://ollama.com/library/tinydolphin"
     },
     {
       "name": "yarn-mistral",
@@ -1800,6 +1791,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/mathstral"
+    },
+    {
+      "name": "tinydolphin",
+      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
+      "capabilities": [],
+      "sizes": [
+        "1.1b"
+      ],
+      "url": "https://ollama.com/library/tinydolphin"
     },
     {
       "name": "phind-codellama",

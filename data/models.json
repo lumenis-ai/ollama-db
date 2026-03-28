@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T01:56:51.212186+00:00",
+  "last_updated": "2026-03-28T01:48:41.124900+00:00",
   "total_pages": 11,
   "total_models": 195,
   "models": [
@@ -88,18 +88,6 @@
       "url": "https://ollama.com/library/qwen3-vl"
     },
     {
-      "name": "devstral-small-2",
-      "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/devstral-small-2"
-    },
-    {
       "name": "ministral-3",
       "description": "The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware.",
       "capabilities": [
@@ -112,6 +100,18 @@
         "14b"
       ],
       "url": "https://ollama.com/library/ministral-3"
+    },
+    {
+      "name": "devstral-small-2",
+      "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/devstral-small-2"
     },
     {
       "name": "granite4",
@@ -359,6 +359,17 @@
       "url": "https://ollama.com/library/cogito"
     },
     {
+      "name": "embeddinggemma",
+      "description": "EmbeddingGemma is a 300M parameter embedding model from Google.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "300m"
+      ],
+      "url": "https://ollama.com/library/embeddinggemma"
+    },
+    {
       "name": "magistral",
       "description": "Magistral is a small, efficient reasoning model with 24B parameters.",
       "capabilities": [
@@ -369,17 +380,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/magistral"
-    },
-    {
-      "name": "embeddinggemma",
-      "description": "EmbeddingGemma is a 300M parameter embedding model from Google.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "300m"
-      ],
-      "url": "https://ollama.com/library/embeddinggemma"
     },
     {
       "name": "phi4-reasoning",
@@ -863,15 +863,6 @@
       "url": "https://ollama.com/library/deepseek-coder"
     },
     {
-      "name": "deepscaler",
-      "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b"
-      ],
-      "url": "https://ollama.com/library/deepscaler"
-    },
-    {
       "name": "snowflake-arctic-embed",
       "description": "A suite of text embedding models by Snowflake, optimized for performance.",
       "capabilities": [
@@ -885,6 +876,15 @@
         "335m"
       ],
       "url": "https://ollama.com/library/snowflake-arctic-embed"
+    },
+    {
+      "name": "deepscaler",
+      "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b"
+      ],
+      "url": "https://ollama.com/library/deepscaler"
     },
     {
       "name": "codegemma",
@@ -1129,15 +1129,6 @@
       "url": "https://ollama.com/library/granite3-dense"
     },
     {
-      "name": "phi",
-      "description": "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.",
-      "capabilities": [],
-      "sizes": [
-        "2.7b"
-      ],
-      "url": "https://ollama.com/library/phi"
-    },
-    {
       "name": "command-r",
       "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
       "capabilities": [
@@ -1147,6 +1138,15 @@
         "35b"
       ],
       "url": "https://ollama.com/library/command-r"
+    },
+    {
+      "name": "phi",
+      "description": "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.",
+      "capabilities": [],
+      "sizes": [
+        "2.7b"
+      ],
+      "url": "https://ollama.com/library/phi"
     },
     {
       "name": "aya-expanse",
@@ -1244,6 +1244,15 @@
       "url": "https://ollama.com/library/moondream"
     },
     {
+      "name": "dolphin-mistral",
+      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-mistral"
+    },
+    {
       "name": "wizardlm2",
       "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
       "capabilities": [],
@@ -1252,15 +1261,6 @@
         "8x22b"
       ],
       "url": "https://ollama.com/library/wizardlm2"
-    },
-    {
-      "name": "dolphin-mistral",
-      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-mistral"
     },
     {
       "name": "paraphrase-multilingual",
@@ -1326,18 +1326,6 @@
       "url": "https://ollama.com/library/aya"
     },
     {
-      "name": "granite3.2",
-      "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "2b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/granite3.2"
-    },
-    {
       "name": "internlm2",
       "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
       "capabilities": [],
@@ -1348,6 +1336,18 @@
         "20b"
       ],
       "url": "https://ollama.com/library/internlm2"
+    },
+    {
+      "name": "granite3.2",
+      "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "2b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/granite3.2"
     },
     {
       "name": "codeqwen",
@@ -1422,16 +1422,6 @@
       "url": "https://ollama.com/library/exaone3.5"
     },
     {
-      "name": "zephyr",
-      "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "141b"
-      ],
-      "url": "https://ollama.com/library/zephyr"
-    },
-    {
       "name": "nemotron",
       "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
       "capabilities": [
@@ -1441,6 +1431,16 @@
         "70b"
       ],
       "url": "https://ollama.com/library/nemotron"
+    },
+    {
+      "name": "zephyr",
+      "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "141b"
+      ],
+      "url": "https://ollama.com/library/zephyr"
     },
     {
       "name": "dolphincoder",
@@ -1501,15 +1501,6 @@
       "url": "https://ollama.com/library/openchat"
     },
     {
-      "name": "reflection",
-      "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
-      "capabilities": [],
-      "sizes": [
-        "70b"
-      ],
-      "url": "https://ollama.com/library/reflection"
-    },
-    {
       "name": "stablelm2",
       "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
       "capabilities": [],
@@ -1518,6 +1509,15 @@
         "12b"
       ],
       "url": "https://ollama.com/library/stablelm2"
+    },
+    {
+      "name": "reflection",
+      "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
+      "capabilities": [],
+      "sizes": [
+        "70b"
+      ],
+      "url": "https://ollama.com/library/reflection"
     },
     {
       "name": "nous-hermes2",
@@ -1634,6 +1634,15 @@
       "url": "https://ollama.com/library/vicuna"
     },
     {
+      "name": "starling-lm",
+      "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/starling-lm"
+    },
+    {
       "name": "snowflake-arctic-embed2",
       "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
       "capabilities": [
@@ -1643,15 +1652,6 @@
         "568m"
       ],
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
-    },
-    {
-      "name": "starling-lm",
-      "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/starling-lm"
     },
     {
       "name": "sqlcoder",
@@ -1901,15 +1901,6 @@
       "url": "https://ollama.com/library/mistral-openorca"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "granite3-guardian",
       "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
       "capabilities": [],
@@ -1918,6 +1909,15 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3-guardian"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "nous-hermes2-mixtral",

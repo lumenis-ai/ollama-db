@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-01T02:06:35.547714+00:00",
+  "last_updated": "2026-04-02T01:54:10.416659+00:00",
   "total_pages": 11,
   "total_models": 195,
   "models": [
@@ -930,17 +930,6 @@
       "url": "https://ollama.com/library/phi4-mini"
     },
     {
-      "name": "llava-llama3",
-      "description": "A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/llava-llama3"
-    },
-    {
       "name": "starcoder2",
       "description": "StarCoder2 is the next generation of transparently trained open code LLMs that comes in three sizes: 3B, 7B and 15B parameters.",
       "capabilities": [],
@@ -950,6 +939,17 @@
         "15b"
       ],
       "url": "https://ollama.com/library/starcoder2"
+    },
+    {
+      "name": "llava-llama3",
+      "description": "A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/llava-llama3"
     },
     {
       "name": "openthinker",
@@ -1066,15 +1066,6 @@
       "url": "https://ollama.com/library/granite3.1-dense"
     },
     {
-      "name": "codestral",
-      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
-      "capabilities": [],
-      "sizes": [
-        "22b"
-      ],
-      "url": "https://ollama.com/library/codestral"
-    },
-    {
       "name": "dolphin-mixtral",
       "description": "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.",
       "capabilities": [],
@@ -1083,6 +1074,15 @@
         "8x22b"
       ],
       "url": "https://ollama.com/library/dolphin-mixtral"
+    },
+    {
+      "name": "codestral",
+      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/codestral"
     },
     {
       "name": "granite-code",
@@ -1095,15 +1095,6 @@
         "34b"
       ],
       "url": "https://ollama.com/library/granite-code"
-    },
-    {
-      "name": "dolphin-phi",
-      "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
-      "capabilities": [],
-      "sizes": [
-        "2.7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-phi"
     },
     {
       "name": "mistral-large",
@@ -1129,6 +1120,15 @@
       "url": "https://ollama.com/library/granite3-dense"
     },
     {
+      "name": "dolphin-phi",
+      "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
+      "capabilities": [],
+      "sizes": [
+        "2.7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-phi"
+    },
+    {
       "name": "aya-expanse",
       "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
       "capabilities": [
@@ -1139,17 +1139,6 @@
         "32b"
       ],
       "url": "https://ollama.com/library/aya-expanse"
-    },
-    {
-      "name": "command-r",
-      "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "35b"
-      ],
-      "url": "https://ollama.com/library/command-r"
     },
     {
       "name": "llama-guard3",
@@ -1171,6 +1160,17 @@
         "72b"
       ],
       "url": "https://ollama.com/library/qwen2-math"
+    },
+    {
+      "name": "command-r",
+      "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "35b"
+      ],
+      "url": "https://ollama.com/library/command-r"
     },
     {
       "name": "granite3-moe",
@@ -1662,16 +1662,6 @@
       "url": "https://ollama.com/library/bespoke-minicheck"
     },
     {
-      "name": "llama2-chinese",
-      "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/llama2-chinese"
-    },
-    {
       "name": "xwinlm",
       "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
       "capabilities": [],
@@ -1680,6 +1670,16 @@
         "13b"
       ],
       "url": "https://ollama.com/library/xwinlm"
+    },
+    {
+      "name": "llama2-chinese",
+      "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/llama2-chinese"
     },
     {
       "name": "orca2",
@@ -1762,6 +1762,15 @@
       "url": "https://ollama.com/library/wizard-math"
     },
     {
+      "name": "mathstral",
+      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/mathstral"
+    },
+    {
       "name": "tulu3",
       "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
       "capabilities": [],
@@ -1772,15 +1781,6 @@
       "url": "https://ollama.com/library/tulu3"
     },
     {
-      "name": "mathstral",
-      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/mathstral"
-    },
-    {
       "name": "phind-codellama",
       "description": "Code generation model based on Code Llama.",
       "capabilities": [],
@@ -1788,18 +1788,6 @@
         "34b"
       ],
       "url": "https://ollama.com/library/phind-codellama"
-    },
-    {
-      "name": "granite-embedding",
-      "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "30m",
-        "278m"
-      ],
-      "url": "https://ollama.com/library/granite-embedding"
     },
     {
       "name": "nuextract",
@@ -1818,6 +1806,18 @@
         "1.1b"
       ],
       "url": "https://ollama.com/library/tinydolphin"
+    },
+    {
+      "name": "granite-embedding",
+      "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "30m",
+        "278m"
+      ],
+      "url": "https://ollama.com/library/granite-embedding"
     },
     {
       "name": "nexusraven",
@@ -2028,6 +2028,15 @@
       "url": "https://ollama.com/library/medllama2"
     },
     {
+      "name": "everythinglm",
+      "description": "Uncensored Llama2 based model with support for a 16K context window.",
+      "capabilities": [],
+      "sizes": [
+        "13b"
+      ],
+      "url": "https://ollama.com/library/everythinglm"
+    },
+    {
       "name": "bge-large",
       "description": "Embedding model from BAAI mapping texts to vectors.",
       "capabilities": [
@@ -2037,15 +2046,6 @@
         "335m"
       ],
       "url": "https://ollama.com/library/bge-large"
-    },
-    {
-      "name": "everythinglm",
-      "description": "Uncensored Llama2 based model with support for a 16K context window.",
-      "capabilities": [],
-      "sizes": [
-        "13b"
-      ],
-      "url": "https://ollama.com/library/everythinglm"
     },
     {
       "name": "command-r7b-arabic",
@@ -2086,15 +2086,6 @@
       "url": "https://ollama.com/library/wizard-vicuna"
     },
     {
-      "name": "dbrx",
-      "description": "DBRX is an open, general-purpose LLM created by Databricks.",
-      "capabilities": [],
-      "sizes": [
-        "132b"
-      ],
-      "url": "https://ollama.com/library/dbrx"
-    },
-    {
       "name": "open-orca-platypus2",
       "description": "Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation.",
       "capabilities": [],
@@ -2102,6 +2093,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/open-orca-platypus2"
+    },
+    {
+      "name": "dbrx",
+      "description": "DBRX is an open, general-purpose LLM created by Databricks.",
+      "capabilities": [],
+      "sizes": [
+        "132b"
+      ],
+      "url": "https://ollama.com/library/dbrx"
     },
     {
       "name": "llava-phi3",

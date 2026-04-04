@@ -1,20 +1,8 @@
 {
-  "last_updated": "2026-04-03T01:55:45.532346+00:00",
+  "last_updated": "2026-04-04T01:48:52.889584+00:00",
   "total_pages": 11,
   "total_models": 196,
   "models": [
-    {
-      "name": "nemotron-cascade-2",
-      "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "30b"
-      ],
-      "url": "https://ollama.com/library/nemotron-cascade-2"
-    },
     {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
@@ -30,6 +18,18 @@
         "31b"
       ],
       "url": "https://ollama.com/library/gemma4"
+    },
+    {
+      "name": "nemotron-cascade-2",
+      "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "30b"
+      ],
+      "url": "https://ollama.com/library/nemotron-cascade-2"
     },
     {
       "name": "qwen3.5",
@@ -1092,15 +1092,6 @@
       "url": "https://ollama.com/library/dolphin-mixtral"
     },
     {
-      "name": "codestral",
-      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
-      "capabilities": [],
-      "sizes": [
-        "22b"
-      ],
-      "url": "https://ollama.com/library/codestral"
-    },
-    {
       "name": "granite-code",
       "description": "A family of open foundation models by IBM for Code Intelligence",
       "capabilities": [],
@@ -1123,6 +1114,15 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3-dense"
+    },
+    {
+      "name": "codestral",
+      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/codestral"
     },
     {
       "name": "mistral-large",
@@ -1178,17 +1178,6 @@
       "url": "https://ollama.com/library/qwen2-math"
     },
     {
-      "name": "command-r",
-      "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "35b"
-      ],
-      "url": "https://ollama.com/library/command-r"
-    },
-    {
       "name": "granite3-moe",
       "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -1199,6 +1188,17 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite3-moe"
+    },
+    {
+      "name": "command-r",
+      "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "35b"
+      ],
+      "url": "https://ollama.com/library/command-r"
     },
     {
       "name": "yi-coder",
@@ -1269,6 +1269,16 @@
       "url": "https://ollama.com/library/dolphin-mistral"
     },
     {
+      "name": "reader-lm",
+      "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
+      "capabilities": [],
+      "sizes": [
+        "0.5b",
+        "1.5b"
+      ],
+      "url": "https://ollama.com/library/reader-lm"
+    },
+    {
       "name": "deepseek-v2",
       "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
       "capabilities": [],
@@ -1287,16 +1297,6 @@
         "8x22b"
       ],
       "url": "https://ollama.com/library/wizardlm2"
-    },
-    {
-      "name": "reader-lm",
-      "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
-      "capabilities": [],
-      "sizes": [
-        "0.5b",
-        "1.5b"
-      ],
-      "url": "https://ollama.com/library/reader-lm"
     },
     {
       "name": "paraphrase-multilingual",
@@ -1499,15 +1499,6 @@
       "url": "https://ollama.com/library/stable-code"
     },
     {
-      "name": "openchat",
-      "description": "A family of open-source models trained on a wide variety of data, surpassing ChatGPT on various benchmarks. Updated to version 3.5-0106.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/openchat"
-    },
-    {
       "name": "stablelm2",
       "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
       "capabilities": [],
@@ -1518,13 +1509,13 @@
       "url": "https://ollama.com/library/stablelm2"
     },
     {
-      "name": "codegeex4",
-      "description": "A versatile model for AI software development scenarios, including code completion.",
+      "name": "openchat",
+      "description": "A family of open-source models trained on a wide variety of data, surpassing ChatGPT on various benchmarks. Updated to version 3.5-0106.",
       "capabilities": [],
       "sizes": [
-        "9b"
+        "7b"
       ],
-      "url": "https://ollama.com/library/codegeex4"
+      "url": "https://ollama.com/library/openchat"
     },
     {
       "name": "reflection",
@@ -1534,6 +1525,15 @@
         "70b"
       ],
       "url": "https://ollama.com/library/reflection"
+    },
+    {
+      "name": "codegeex4",
+      "description": "A versatile model for AI software development scenarios, including code completion.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/codegeex4"
     },
     {
       "name": "nous-hermes2",
@@ -1610,17 +1610,6 @@
       "url": "https://ollama.com/library/nous-hermes"
     },
     {
-      "name": "bakllava",
-      "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/bakllava"
-    },
-    {
       "name": "solar-pro",
       "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
       "capabilities": [],
@@ -1637,6 +1626,17 @@
         "10.7b"
       ],
       "url": "https://ollama.com/library/solar"
+    },
+    {
+      "name": "bakllava",
+      "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/bakllava"
     },
     {
       "name": "vicuna",
@@ -1747,17 +1747,6 @@
       "url": "https://ollama.com/library/sailor2"
     },
     {
-      "name": "snowflake-arctic-embed2",
-      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "568m"
-      ],
-      "url": "https://ollama.com/library/snowflake-arctic-embed2"
-    },
-    {
       "name": "yarn-mistral",
       "description": "An extension of Mistral to support context windows of 64K or 128K.",
       "capabilities": [],
@@ -1778,6 +1767,17 @@
       "url": "https://ollama.com/library/wizard-math"
     },
     {
+      "name": "snowflake-arctic-embed2",
+      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "568m"
+      ],
+      "url": "https://ollama.com/library/snowflake-arctic-embed2"
+    },
+    {
       "name": "mathstral",
       "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
       "capabilities": [],
@@ -1785,6 +1785,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/mathstral"
+    },
+    {
+      "name": "phind-codellama",
+      "description": "Code generation model based on Code Llama.",
+      "capabilities": [],
+      "sizes": [
+        "34b"
+      ],
+      "url": "https://ollama.com/library/phind-codellama"
     },
     {
       "name": "tulu3",
@@ -1797,15 +1806,6 @@
       "url": "https://ollama.com/library/tulu3"
     },
     {
-      "name": "phind-codellama",
-      "description": "Code generation model based on Code Llama.",
-      "capabilities": [],
-      "sizes": [
-        "34b"
-      ],
-      "url": "https://ollama.com/library/phind-codellama"
-    },
-    {
       "name": "nuextract",
       "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
       "capabilities": [],
@@ -1815,15 +1815,6 @@
       "url": "https://ollama.com/library/nuextract"
     },
     {
-      "name": "tinydolphin",
-      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-      "capabilities": [],
-      "sizes": [
-        "1.1b"
-      ],
-      "url": "https://ollama.com/library/tinydolphin"
-    },
-    {
       "name": "nexusraven",
       "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
       "capabilities": [],
@@ -1831,6 +1822,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/nexusraven"
+    },
+    {
+      "name": "tinydolphin",
+      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
+      "capabilities": [],
+      "sizes": [
+        "1.1b"
+      ],
+      "url": "https://ollama.com/library/tinydolphin"
     },
     {
       "name": "granite-embedding",

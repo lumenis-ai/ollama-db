@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T01:48:52.889584+00:00",
+  "last_updated": "2026-04-05T02:01:18.675452+00:00",
   "total_pages": 11,
   "total_models": 196,
   "models": [
@@ -9,6 +9,7 @@
       "capabilities": [
         "vision",
         "tools",
+        "thinking",
         "audio"
       ],
       "sizes": [
@@ -978,6 +979,17 @@
       "url": "https://ollama.com/library/openthinker"
     },
     {
+      "name": "smollm",
+      "description": "🪐 A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.",
+      "capabilities": [],
+      "sizes": [
+        "135m",
+        "360m",
+        "1.7b"
+      ],
+      "url": "https://ollama.com/library/smollm"
+    },
+    {
       "name": "granite3.2-vision",
       "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
       "capabilities": [
@@ -988,17 +1000,6 @@
         "2b"
       ],
       "url": "https://ollama.com/library/granite3.2-vision"
-    },
-    {
-      "name": "smollm",
-      "description": "🪐 A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.",
-      "capabilities": [],
-      "sizes": [
-        "135m",
-        "360m",
-        "1.7b"
-      ],
-      "url": "https://ollama.com/library/smollm"
     },
     {
       "name": "mixtral",
@@ -1082,16 +1083,6 @@
       "url": "https://ollama.com/library/granite3.1-dense"
     },
     {
-      "name": "dolphin-mixtral",
-      "description": "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.",
-      "capabilities": [],
-      "sizes": [
-        "8x7b",
-        "8x22b"
-      ],
-      "url": "https://ollama.com/library/dolphin-mixtral"
-    },
-    {
       "name": "granite-code",
       "description": "A family of open foundation models by IBM for Code Intelligence",
       "capabilities": [],
@@ -1116,13 +1107,14 @@
       "url": "https://ollama.com/library/granite3-dense"
     },
     {
-      "name": "codestral",
-      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
+      "name": "dolphin-mixtral",
+      "description": "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.",
       "capabilities": [],
       "sizes": [
-        "22b"
+        "8x7b",
+        "8x22b"
       ],
-      "url": "https://ollama.com/library/codestral"
+      "url": "https://ollama.com/library/dolphin-mixtral"
     },
     {
       "name": "mistral-large",
@@ -1134,6 +1126,15 @@
         "123b"
       ],
       "url": "https://ollama.com/library/mistral-large"
+    },
+    {
+      "name": "codestral",
+      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/codestral"
     },
     {
       "name": "dolphin-phi",
@@ -1220,15 +1221,6 @@
       "url": "https://ollama.com/library/phi"
     },
     {
-      "name": "phi3.5",
-      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/phi3.5"
-    },
-    {
       "name": "glm4",
       "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
       "capabilities": [],
@@ -1236,6 +1228,15 @@
         "9b"
       ],
       "url": "https://ollama.com/library/glm4"
+    },
+    {
+      "name": "phi3.5",
+      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/phi3.5"
     },
     {
       "name": "shieldgemma",
@@ -1299,17 +1300,6 @@
       "url": "https://ollama.com/library/wizardlm2"
     },
     {
-      "name": "paraphrase-multilingual",
-      "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "278m"
-      ],
-      "url": "https://ollama.com/library/paraphrase-multilingual"
-    },
-    {
       "name": "llama3-groq-tool-use",
       "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
       "capabilities": [
@@ -1320,6 +1310,17 @@
         "70b"
       ],
       "url": "https://ollama.com/library/llama3-groq-tool-use"
+    },
+    {
+      "name": "paraphrase-multilingual",
+      "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "278m"
+      ],
+      "url": "https://ollama.com/library/paraphrase-multilingual"
     },
     {
       "name": "aya",
@@ -1344,6 +1345,15 @@
       "url": "https://ollama.com/library/internlm2"
     },
     {
+      "name": "codeqwen",
+      "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/codeqwen"
+    },
+    {
       "name": "opencoder",
       "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
       "capabilities": [],
@@ -1352,15 +1362,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/opencoder"
-    },
-    {
-      "name": "codeqwen",
-      "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/codeqwen"
     },
     {
       "name": "granite3.2",
@@ -1527,15 +1528,6 @@
       "url": "https://ollama.com/library/reflection"
     },
     {
-      "name": "codegeex4",
-      "description": "A versatile model for AI software development scenarios, including code completion.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/codegeex4"
-    },
-    {
       "name": "nous-hermes2",
       "description": "The powerful family of models by Nous Research that excels at scientific discussion and coding tasks.",
       "capabilities": [],
@@ -1544,6 +1536,15 @@
         "34b"
       ],
       "url": "https://ollama.com/library/nous-hermes2"
+    },
+    {
+      "name": "codegeex4",
+      "description": "A versatile model for AI software development scenarios, including code completion.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/codegeex4"
     },
     {
       "name": "wizard-vicuna-uncensored",
@@ -1600,6 +1601,15 @@
       "url": "https://ollama.com/library/falcon"
     },
     {
+      "name": "solar-pro",
+      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/solar-pro"
+    },
+    {
       "name": "nous-hermes",
       "description": "General use models based on Llama and Llama 2 from Nous Research.",
       "capabilities": [],
@@ -1608,15 +1618,6 @@
         "13b"
       ],
       "url": "https://ollama.com/library/nous-hermes"
-    },
-    {
-      "name": "solar-pro",
-      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
-      "capabilities": [],
-      "sizes": [
-        "22b"
-      ],
-      "url": "https://ollama.com/library/solar-pro"
     },
     {
       "name": "solar",
@@ -1678,16 +1679,6 @@
       "url": "https://ollama.com/library/bespoke-minicheck"
     },
     {
-      "name": "xwinlm",
-      "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/xwinlm"
-    },
-    {
       "name": "orca2",
       "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
       "capabilities": [],
@@ -1696,6 +1687,16 @@
         "13b"
       ],
       "url": "https://ollama.com/library/orca2"
+    },
+    {
+      "name": "xwinlm",
+      "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/xwinlm"
     },
     {
       "name": "llama2-chinese",
@@ -1796,6 +1797,15 @@
       "url": "https://ollama.com/library/phind-codellama"
     },
     {
+      "name": "nuextract",
+      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/nuextract"
+    },
+    {
       "name": "tulu3",
       "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
       "capabilities": [],
@@ -1804,15 +1814,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/tulu3"
-    },
-    {
-      "name": "nuextract",
-      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/nuextract"
     },
     {
       "name": "nexusraven",
@@ -1917,6 +1918,15 @@
       "url": "https://ollama.com/library/command-r7b"
     },
     {
+      "name": "nous-hermes2-mixtral",
+      "description": "The Nous Hermes 2 model from Nous Research, now trained over Mixtral.",
+      "capabilities": [],
+      "sizes": [
+        "8x7b"
+      ],
+      "url": "https://ollama.com/library/nous-hermes2-mixtral"
+    },
+    {
       "name": "granite3-guardian",
       "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
       "capabilities": [],
@@ -1927,13 +1937,13 @@
       "url": "https://ollama.com/library/granite3-guardian"
     },
     {
-      "name": "nous-hermes2-mixtral",
-      "description": "The Nous Hermes 2 model from Nous Research, now trained over Mixtral.",
+      "name": "megadolphin",
+      "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
       "capabilities": [],
       "sizes": [
-        "8x7b"
+        "120b"
       ],
-      "url": "https://ollama.com/library/nous-hermes2-mixtral"
+      "url": "https://ollama.com/library/megadolphin"
     },
     {
       "name": "smallthinker",
@@ -1943,15 +1953,6 @@
         "3b"
       ],
       "url": "https://ollama.com/library/smallthinker"
-    },
-    {
-      "name": "megadolphin",
-      "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
-      "capabilities": [],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/megadolphin"
     },
     {
       "name": "duckdb-nsql",
@@ -2064,6 +2065,15 @@
       "url": "https://ollama.com/library/command-r7b-arabic"
     },
     {
+      "name": "codebooga",
+      "description": "A high-performing code instruct model created by merging two existing code models.",
+      "capabilities": [],
+      "sizes": [
+        "34b"
+      ],
+      "url": "https://ollama.com/library/codebooga"
+    },
+    {
       "name": "bge-large",
       "description": "Embedding model from BAAI mapping texts to vectors.",
       "capabilities": [
@@ -2075,15 +2085,6 @@
       "url": "https://ollama.com/library/bge-large"
     },
     {
-      "name": "codebooga",
-      "description": "A high-performing code instruct model created by merging two existing code models.",
-      "capabilities": [],
-      "sizes": [
-        "34b"
-      ],
-      "url": "https://ollama.com/library/codebooga"
-    },
-    {
       "name": "wizard-vicuna",
       "description": "Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj.",
       "capabilities": [],
@@ -2093,15 +2094,6 @@
       "url": "https://ollama.com/library/wizard-vicuna"
     },
     {
-      "name": "marco-o1",
-      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/marco-o1"
-    },
-    {
       "name": "open-orca-platypus2",
       "description": "Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation.",
       "capabilities": [],
@@ -2109,6 +2101,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/open-orca-platypus2"
+    },
+    {
+      "name": "marco-o1",
+      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/marco-o1"
     },
     {
       "name": "dbrx",

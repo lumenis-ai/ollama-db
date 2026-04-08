@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T01:58:38.672536+00:00",
+  "last_updated": "2026-04-08T01:59:29.402337+00:00",
   "total_pages": 11,
   "total_models": 196,
   "models": [
@@ -74,19 +74,6 @@
       "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
       "name": "qwen3-vl",
       "description": "The most powerful vision-language model in the Qwen model family to date.",
       "capabilities": [
@@ -103,6 +90,19 @@
         "235b"
       ],
       "url": "https://ollama.com/library/qwen3-vl"
+    },
+    {
+      "name": "translategemma",
+      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/translategemma"
     },
     {
       "name": "ministral-3",
@@ -436,18 +436,6 @@
         "14b"
       ],
       "url": "https://ollama.com/library/deepcoder"
-    },
-    {
-      "name": "mistral-small3.1",
-      "description": "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/mistral-small3.1"
     },
     {
       "name": "phi4-mini-reasoning",
@@ -936,17 +924,6 @@
       "url": "https://ollama.com/library/deepseek-coder-v2"
     },
     {
-      "name": "phi4-mini",
-      "description": "Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/phi4-mini"
-    },
-    {
       "name": "starcoder2",
       "description": "StarCoder2 is the next generation of transparently trained open code LLMs that comes in three sizes: 3B, 7B and 15B parameters.",
       "capabilities": [],
@@ -956,6 +933,17 @@
         "15b"
       ],
       "url": "https://ollama.com/library/starcoder2"
+    },
+    {
+      "name": "phi4-mini",
+      "description": "Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/phi4-mini"
     },
     {
       "name": "llava-llama3",
@@ -1012,6 +1000,18 @@
         "8x22b"
       ],
       "url": "https://ollama.com/library/mixtral"
+    },
+    {
+      "name": "mistral-small3.1",
+      "description": "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/mistral-small3.1"
     },
     {
       "name": "orca-mini",
@@ -1159,15 +1159,6 @@
       "url": "https://ollama.com/library/llama-guard3"
     },
     {
-      "name": "dolphin-phi",
-      "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
-      "capabilities": [],
-      "sizes": [
-        "2.7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-phi"
-    },
-    {
       "name": "granite3-moe",
       "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -1189,6 +1180,15 @@
         "72b"
       ],
       "url": "https://ollama.com/library/qwen2-math"
+    },
+    {
+      "name": "dolphin-phi",
+      "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
+      "capabilities": [],
+      "sizes": [
+        "2.7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-phi"
     },
     {
       "name": "command-r",
@@ -1271,15 +1271,6 @@
       "url": "https://ollama.com/library/moondream"
     },
     {
-      "name": "dolphin-mistral",
-      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-mistral"
-    },
-    {
       "name": "deepseek-v2",
       "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
       "capabilities": [],
@@ -1288,6 +1279,15 @@
         "236b"
       ],
       "url": "https://ollama.com/library/deepseek-v2"
+    },
+    {
+      "name": "dolphin-mistral",
+      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-mistral"
     },
     {
       "name": "wizardlm2",
@@ -1312,6 +1312,16 @@
       "url": "https://ollama.com/library/llama3-groq-tool-use"
     },
     {
+      "name": "aya",
+      "description": "Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/aya"
+    },
+    {
       "name": "paraphrase-multilingual",
       "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
       "capabilities": [
@@ -1321,16 +1331,6 @@
         "278m"
       ],
       "url": "https://ollama.com/library/paraphrase-multilingual"
-    },
-    {
-      "name": "aya",
-      "description": "Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/aya"
     },
     {
       "name": "internlm2",
@@ -1354,16 +1354,6 @@
       "url": "https://ollama.com/library/codeqwen"
     },
     {
-      "name": "opencoder",
-      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/opencoder"
-    },
-    {
       "name": "llama3-chatqa",
       "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
       "capabilities": [],
@@ -1372,6 +1362,16 @@
         "70b"
       ],
       "url": "https://ollama.com/library/llama3-chatqa"
+    },
+    {
+      "name": "opencoder",
+      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/opencoder"
     },
     {
       "name": "granite3.2",
@@ -1629,6 +1629,15 @@
       "url": "https://ollama.com/library/nous-hermes"
     },
     {
+      "name": "starling-lm",
+      "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/starling-lm"
+    },
+    {
       "name": "vicuna",
       "description": "General use chat model based on Llama and Llama 2 with 2K to 16K context sizes.",
       "capabilities": [],
@@ -1638,15 +1647,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/vicuna"
-    },
-    {
-      "name": "starling-lm",
-      "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/starling-lm"
     },
     {
       "name": "bakllava",
@@ -1804,6 +1804,16 @@
       "url": "https://ollama.com/library/nexusraven"
     },
     {
+      "name": "tulu3",
+      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/tulu3"
+    },
+    {
       "name": "snowflake-arctic-embed2",
       "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
       "capabilities": [
@@ -1813,16 +1823,6 @@
         "568m"
       ],
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
-    },
-    {
-      "name": "tulu3",
-      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/tulu3"
     },
     {
       "name": "tinydolphin",
@@ -2054,6 +2054,15 @@
       "url": "https://ollama.com/library/everythinglm"
     },
     {
+      "name": "codebooga",
+      "description": "A high-performing code instruct model created by merging two existing code models.",
+      "capabilities": [],
+      "sizes": [
+        "34b"
+      ],
+      "url": "https://ollama.com/library/codebooga"
+    },
+    {
       "name": "command-r7b-arabic",
       "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
       "capabilities": [
@@ -2063,15 +2072,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b-arabic"
-    },
-    {
-      "name": "codebooga",
-      "description": "A high-performing code instruct model created by merging two existing code models.",
-      "capabilities": [],
-      "sizes": [
-        "34b"
-      ],
-      "url": "https://ollama.com/library/codebooga"
     },
     {
       "name": "bge-large",

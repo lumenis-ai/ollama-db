@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-10T02:04:16.546758+00:00",
+  "last_updated": "2026-04-11T01:53:12.821243+00:00",
   "total_pages": 11,
   "total_models": 196,
   "models": [
@@ -1095,6 +1095,17 @@
       "url": "https://ollama.com/library/granite3-dense"
     },
     {
+      "name": "mistral-large",
+      "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "123b"
+      ],
+      "url": "https://ollama.com/library/mistral-large"
+    },
+    {
       "name": "granite-code",
       "description": "A family of open foundation models by IBM for Code Intelligence",
       "capabilities": [],
@@ -1105,17 +1116,6 @@
         "34b"
       ],
       "url": "https://ollama.com/library/granite-code"
-    },
-    {
-      "name": "mistral-large",
-      "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "123b"
-      ],
-      "url": "https://ollama.com/library/mistral-large"
     },
     {
       "name": "dolphin-mixtral",
@@ -1140,15 +1140,6 @@
       "url": "https://ollama.com/library/aya-expanse"
     },
     {
-      "name": "codestral",
-      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
-      "capabilities": [],
-      "sizes": [
-        "22b"
-      ],
-      "url": "https://ollama.com/library/codestral"
-    },
-    {
       "name": "llama-guard3",
       "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
       "capabilities": [],
@@ -1157,6 +1148,15 @@
         "8b"
       ],
       "url": "https://ollama.com/library/llama-guard3"
+    },
+    {
+      "name": "codestral",
+      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/codestral"
     },
     {
       "name": "granite3-moe",
@@ -1374,6 +1374,16 @@
       "url": "https://ollama.com/library/opencoder"
     },
     {
+      "name": "llama3-gradient",
+      "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama3-gradient"
+    },
+    {
       "name": "granite3.2",
       "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
       "capabilities": [
@@ -1384,16 +1394,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.2"
-    },
-    {
-      "name": "llama3-gradient",
-      "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/llama3-gradient"
     },
     {
       "name": "yi",
@@ -1804,16 +1804,6 @@
       "url": "https://ollama.com/library/nexusraven"
     },
     {
-      "name": "tulu3",
-      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/tulu3"
-    },
-    {
       "name": "tinydolphin",
       "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
       "capabilities": [],
@@ -1832,6 +1822,16 @@
         "70b"
       ],
       "url": "https://ollama.com/library/stable-beluga"
+    },
+    {
+      "name": "tulu3",
+      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/tulu3"
     },
     {
       "name": "firefunction-v2",
@@ -1946,15 +1946,6 @@
       "url": "https://ollama.com/library/megadolphin"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "duckdb-nsql",
       "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
       "capabilities": [],
@@ -1962,6 +1953,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/duckdb-nsql"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "notus",
@@ -2054,15 +2054,6 @@
       "url": "https://ollama.com/library/deepseek-v2.5"
     },
     {
-      "name": "codebooga",
-      "description": "A high-performing code instruct model created by merging two existing code models.",
-      "capabilities": [],
-      "sizes": [
-        "34b"
-      ],
-      "url": "https://ollama.com/library/codebooga"
-    },
-    {
       "name": "command-r7b-arabic",
       "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
       "capabilities": [
@@ -2074,6 +2065,15 @@
       "url": "https://ollama.com/library/command-r7b-arabic"
     },
     {
+      "name": "codebooga",
+      "description": "A high-performing code instruct model created by merging two existing code models.",
+      "capabilities": [],
+      "sizes": [
+        "34b"
+      ],
+      "url": "https://ollama.com/library/codebooga"
+    },
+    {
       "name": "wizard-vicuna",
       "description": "Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj.",
       "capabilities": [],
@@ -2081,6 +2081,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/wizard-vicuna"
+    },
+    {
+      "name": "open-orca-platypus2",
+      "description": "Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation.",
+      "capabilities": [],
+      "sizes": [
+        "13b"
+      ],
+      "url": "https://ollama.com/library/open-orca-platypus2"
     },
     {
       "name": "bge-large",
@@ -2092,15 +2101,6 @@
         "335m"
       ],
       "url": "https://ollama.com/library/bge-large"
-    },
-    {
-      "name": "open-orca-platypus2",
-      "description": "Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation.",
-      "capabilities": [],
-      "sizes": [
-        "13b"
-      ],
-      "url": "https://ollama.com/library/open-orca-platypus2"
     },
     {
       "name": "marco-o1",

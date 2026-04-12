@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-11T01:53:12.821243+00:00",
+  "last_updated": "2026-04-12T02:05:48.473824+00:00",
   "total_pages": 11,
   "total_models": 196,
   "models": [
@@ -72,24 +72,6 @@
         "1.2b"
       ],
       "url": "https://ollama.com/library/lfm2.5-thinking"
-    },
-    {
-      "name": "qwen3-vl",
-      "description": "The most powerful vision-language model in the Qwen model family to date.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "2b",
-        "4b",
-        "8b",
-        "30b",
-        "32b",
-        "235b"
-      ],
-      "url": "https://ollama.com/library/qwen3-vl"
     },
     {
       "name": "translategemma",
@@ -285,6 +267,24 @@
         "120b"
       ],
       "url": "https://ollama.com/library/gpt-oss"
+    },
+    {
+      "name": "qwen3-vl",
+      "description": "The most powerful vision-language model in the Qwen model family to date.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "2b",
+        "4b",
+        "8b",
+        "30b",
+        "32b",
+        "235b"
+      ],
+      "url": "https://ollama.com/library/qwen3-vl"
     },
     {
       "name": "qwen3-coder",
@@ -892,6 +892,16 @@
       "url": "https://ollama.com/library/deepscaler"
     },
     {
+      "name": "deepseek-coder-v2",
+      "description": "An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks.",
+      "capabilities": [],
+      "sizes": [
+        "16b",
+        "236b"
+      ],
+      "url": "https://ollama.com/library/deepseek-coder-v2"
+    },
+    {
       "name": "all-minilm",
       "description": "Embedding models on very large sentence level datasets.",
       "capabilities": [
@@ -902,16 +912,6 @@
         "33m"
       ],
       "url": "https://ollama.com/library/all-minilm"
-    },
-    {
-      "name": "deepseek-coder-v2",
-      "description": "An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks.",
-      "capabilities": [],
-      "sizes": [
-        "16b",
-        "236b"
-      ],
-      "url": "https://ollama.com/library/deepseek-coder-v2"
     },
     {
       "name": "starcoder2",
@@ -1150,15 +1150,6 @@
       "url": "https://ollama.com/library/llama-guard3"
     },
     {
-      "name": "codestral",
-      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
-      "capabilities": [],
-      "sizes": [
-        "22b"
-      ],
-      "url": "https://ollama.com/library/codestral"
-    },
-    {
       "name": "granite3-moe",
       "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -1169,6 +1160,15 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite3-moe"
+    },
+    {
+      "name": "codestral",
+      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/codestral"
     },
     {
       "name": "qwen2-math",
@@ -1193,15 +1193,6 @@
       "url": "https://ollama.com/library/command-r"
     },
     {
-      "name": "dolphin-phi",
-      "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
-      "capabilities": [],
-      "sizes": [
-        "2.7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-phi"
-    },
-    {
       "name": "yi-coder",
       "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
       "capabilities": [],
@@ -1210,6 +1201,15 @@
         "9b"
       ],
       "url": "https://ollama.com/library/yi-coder"
+    },
+    {
+      "name": "dolphin-phi",
+      "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
+      "capabilities": [],
+      "sizes": [
+        "2.7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-phi"
     },
     {
       "name": "glm4",
@@ -1418,16 +1418,6 @@
       "url": "https://ollama.com/library/athene-v2"
     },
     {
-      "name": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-      "capabilities": [],
-      "sizes": [
-        "70b",
-        "671b"
-      ],
-      "url": "https://ollama.com/library/r1-1776"
-    },
-    {
       "name": "dolphincoder",
       "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
       "capabilities": [],
@@ -1436,6 +1426,16 @@
         "15b"
       ],
       "url": "https://ollama.com/library/dolphincoder"
+    },
+    {
+      "name": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "capabilities": [],
+      "sizes": [
+        "70b",
+        "671b"
+      ],
+      "url": "https://ollama.com/library/r1-1776"
     },
     {
       "name": "exaone3.5",
@@ -1547,17 +1547,6 @@
       "url": "https://ollama.com/library/codegeex4"
     },
     {
-      "name": "wizard-vicuna-uncensored",
-      "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b",
-        "30b"
-      ],
-      "url": "https://ollama.com/library/wizard-vicuna-uncensored"
-    },
-    {
       "name": "starcoder",
       "description": "StarCoder is a code generation model trained on 80+ programming languages.",
       "capabilities": [],
@@ -1568,6 +1557,17 @@
         "15b"
       ],
       "url": "https://ollama.com/library/starcoder"
+    },
+    {
+      "name": "wizard-vicuna-uncensored",
+      "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b",
+        "30b"
+      ],
+      "url": "https://ollama.com/library/wizard-vicuna-uncensored"
     },
     {
       "name": "command-r-plus",
@@ -1629,6 +1629,15 @@
       "url": "https://ollama.com/library/nous-hermes"
     },
     {
+      "name": "starling-lm",
+      "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/starling-lm"
+    },
+    {
       "name": "vicuna",
       "description": "General use chat model based on Llama and Llama 2 with 2K to 16K context sizes.",
       "capabilities": [],
@@ -1640,13 +1649,14 @@
       "url": "https://ollama.com/library/vicuna"
     },
     {
-      "name": "starling-lm",
-      "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
+      "name": "sqlcoder",
+      "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
       "capabilities": [],
       "sizes": [
-        "7b"
+        "7b",
+        "15b"
       ],
-      "url": "https://ollama.com/library/starling-lm"
+      "url": "https://ollama.com/library/sqlcoder"
     },
     {
       "name": "bakllava",
@@ -1658,16 +1668,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bakllava"
-    },
-    {
-      "name": "sqlcoder",
-      "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "15b"
-      ],
-      "url": "https://ollama.com/library/sqlcoder"
     },
     {
       "name": "bespoke-minicheck",
@@ -1737,6 +1737,15 @@
       "url": "https://ollama.com/library/wizardcoder"
     },
     {
+      "name": "yarn-mistral",
+      "description": "An extension of Mistral to support context windows of 64K or 128K.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/yarn-mistral"
+    },
+    {
       "name": "sailor2",
       "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
       "capabilities": [],
@@ -1746,15 +1755,6 @@
         "20b"
       ],
       "url": "https://ollama.com/library/sailor2"
-    },
-    {
-      "name": "yarn-mistral",
-      "description": "An extension of Mistral to support context windows of 64K or 128K.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/yarn-mistral"
     },
     {
       "name": "wizard-math",
@@ -1804,15 +1804,6 @@
       "url": "https://ollama.com/library/nexusraven"
     },
     {
-      "name": "tinydolphin",
-      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-      "capabilities": [],
-      "sizes": [
-        "1.1b"
-      ],
-      "url": "https://ollama.com/library/tinydolphin"
-    },
-    {
       "name": "stable-beluga",
       "description": "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.",
       "capabilities": [],
@@ -1824,14 +1815,13 @@
       "url": "https://ollama.com/library/stable-beluga"
     },
     {
-      "name": "tulu3",
-      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
+      "name": "tinydolphin",
+      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
       "capabilities": [],
       "sizes": [
-        "8b",
-        "70b"
+        "1.1b"
       ],
-      "url": "https://ollama.com/library/tulu3"
+      "url": "https://ollama.com/library/tinydolphin"
     },
     {
       "name": "firefunction-v2",
@@ -1843,6 +1833,16 @@
         "70b"
       ],
       "url": "https://ollama.com/library/firefunction-v2"
+    },
+    {
+      "name": "tulu3",
+      "description": "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/tulu3"
     },
     {
       "name": "snowflake-arctic-embed2",
@@ -2045,15 +2045,6 @@
       "url": "https://ollama.com/library/everythinglm"
     },
     {
-      "name": "deepseek-v2.5",
-      "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
-      "capabilities": [],
-      "sizes": [
-        "236b"
-      ],
-      "url": "https://ollama.com/library/deepseek-v2.5"
-    },
-    {
       "name": "command-r7b-arabic",
       "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
       "capabilities": [
@@ -2063,6 +2054,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b-arabic"
+    },
+    {
+      "name": "deepseek-v2.5",
+      "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
+      "capabilities": [],
+      "sizes": [
+        "236b"
+      ],
+      "url": "https://ollama.com/library/deepseek-v2.5"
     },
     {
       "name": "codebooga",

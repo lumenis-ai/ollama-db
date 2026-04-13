@@ -1,8 +1,20 @@
 {
-  "last_updated": "2026-04-12T02:05:48.473824+00:00",
+  "last_updated": "2026-04-13T02:10:41.014374+00:00",
   "total_pages": 11,
   "total_models": 196,
   "models": [
+    {
+      "name": "nemotron-cascade-2",
+      "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "30b"
+      ],
+      "url": "https://ollama.com/library/nemotron-cascade-2"
+    },
     {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
@@ -19,18 +31,6 @@
         "31b"
       ],
       "url": "https://ollama.com/library/gemma4"
-    },
-    {
-      "name": "nemotron-cascade-2",
-      "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "30b"
-      ],
-      "url": "https://ollama.com/library/nemotron-cascade-2"
     },
     {
       "name": "qwen3.5",
@@ -468,6 +468,18 @@
       "url": "https://ollama.com/library/llama3.1"
     },
     {
+      "name": "llama3.2",
+      "description": "Meta's Llama 3.2 goes small with 1B and 3B models.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1b",
+        "3b"
+      ],
+      "url": "https://ollama.com/library/llama3.2"
+    },
+    {
       "name": "gemma3",
       "description": "The current, most capable model that runs on a single GPU.",
       "capabilities": [
@@ -481,18 +493,6 @@
         "27b"
       ],
       "url": "https://ollama.com/library/gemma3"
-    },
-    {
-      "name": "llama3.2",
-      "description": "Meta's Llama 3.2 goes small with 1B and 3B models.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "1b",
-        "3b"
-      ],
-      "url": "https://ollama.com/library/llama3.2"
     },
     {
       "name": "qwen2.5",
@@ -779,6 +779,17 @@
       "url": "https://ollama.com/library/falcon3"
     },
     {
+      "name": "llama2",
+      "description": "Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama2"
+    },
+    {
       "name": "llama4",
       "description": "Meta's latest collection of multimodal models.",
       "capabilities": [
@@ -790,17 +801,6 @@
         "128x17b"
       ],
       "url": "https://ollama.com/library/llama4"
-    },
-    {
-      "name": "llama2",
-      "description": "Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/llama2"
     },
     {
       "name": "mistral-small",
@@ -978,18 +978,6 @@
       "url": "https://ollama.com/library/smollm"
     },
     {
-      "name": "granite3.2-vision",
-      "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "2b"
-      ],
-      "url": "https://ollama.com/library/granite3.2-vision"
-    },
-    {
       "name": "mixtral",
       "description": "A set of Mixture of Experts (MoE) model with open weights by Mistral AI in 8x7b and 8x22b parameter sizes.",
       "capabilities": [
@@ -1000,6 +988,18 @@
         "8x22b"
       ],
       "url": "https://ollama.com/library/mixtral"
+    },
+    {
+      "name": "granite3.2-vision",
+      "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "2b"
+      ],
+      "url": "https://ollama.com/library/granite3.2-vision"
     },
     {
       "name": "mistral-small3.1",
@@ -1118,16 +1118,6 @@
       "url": "https://ollama.com/library/granite-code"
     },
     {
-      "name": "dolphin-mixtral",
-      "description": "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.",
-      "capabilities": [],
-      "sizes": [
-        "8x7b",
-        "8x22b"
-      ],
-      "url": "https://ollama.com/library/dolphin-mixtral"
-    },
-    {
       "name": "aya-expanse",
       "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
       "capabilities": [
@@ -1138,6 +1128,16 @@
         "32b"
       ],
       "url": "https://ollama.com/library/aya-expanse"
+    },
+    {
+      "name": "dolphin-mixtral",
+      "description": "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.",
+      "capabilities": [],
+      "sizes": [
+        "8x7b",
+        "8x22b"
+      ],
+      "url": "https://ollama.com/library/dolphin-mixtral"
     },
     {
       "name": "llama-guard3",
@@ -1162,15 +1162,6 @@
       "url": "https://ollama.com/library/granite3-moe"
     },
     {
-      "name": "codestral",
-      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
-      "capabilities": [],
-      "sizes": [
-        "22b"
-      ],
-      "url": "https://ollama.com/library/codestral"
-    },
-    {
       "name": "qwen2-math",
       "description": "Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).",
       "capabilities": [],
@@ -1180,6 +1171,15 @@
         "72b"
       ],
       "url": "https://ollama.com/library/qwen2-math"
+    },
+    {
+      "name": "codestral",
+      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/codestral"
     },
     {
       "name": "command-r",
@@ -1364,16 +1364,6 @@
       "url": "https://ollama.com/library/llama3-chatqa"
     },
     {
-      "name": "opencoder",
-      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/opencoder"
-    },
-    {
       "name": "llama3-gradient",
       "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
       "capabilities": [],
@@ -1382,6 +1372,16 @@
         "70b"
       ],
       "url": "https://ollama.com/library/llama3-gradient"
+    },
+    {
+      "name": "opencoder",
+      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/opencoder"
     },
     {
       "name": "granite3.2",
@@ -1570,6 +1570,15 @@
       "url": "https://ollama.com/library/wizard-vicuna-uncensored"
     },
     {
+      "name": "neural-chat",
+      "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/neural-chat"
+    },
+    {
       "name": "command-r-plus",
       "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
       "capabilities": [
@@ -1579,15 +1588,6 @@
         "104b"
       ],
       "url": "https://ollama.com/library/command-r-plus"
-    },
-    {
-      "name": "neural-chat",
-      "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/neural-chat"
     },
     {
       "name": "falcon",
@@ -1768,15 +1768,6 @@
       "url": "https://ollama.com/library/wizard-math"
     },
     {
-      "name": "mathstral",
-      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/mathstral"
-    },
-    {
       "name": "phind-codellama",
       "description": "Code generation model based on Code Llama.",
       "capabilities": [],
@@ -1786,13 +1777,13 @@
       "url": "https://ollama.com/library/phind-codellama"
     },
     {
-      "name": "nuextract",
-      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
+      "name": "mathstral",
+      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
       "capabilities": [],
       "sizes": [
-        "3.8b"
+        "7b"
       ],
-      "url": "https://ollama.com/library/nuextract"
+      "url": "https://ollama.com/library/mathstral"
     },
     {
       "name": "nexusraven",
@@ -1802,6 +1793,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/nexusraven"
+    },
+    {
+      "name": "nuextract",
+      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/nuextract"
     },
     {
       "name": "stable-beluga",
@@ -2018,6 +2018,17 @@
       "url": "https://ollama.com/library/codeup"
     },
     {
+      "name": "command-r7b-arabic",
+      "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/command-r7b-arabic"
+    },
+    {
       "name": "mistrallite",
       "description": "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.",
       "capabilities": [],
@@ -2043,17 +2054,6 @@
         "13b"
       ],
       "url": "https://ollama.com/library/everythinglm"
-    },
-    {
-      "name": "command-r7b-arabic",
-      "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/command-r7b-arabic"
     },
     {
       "name": "deepseek-v2.5",

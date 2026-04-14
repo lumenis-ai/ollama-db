@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-13T02:10:41.014374+00:00",
+  "last_updated": "2026-04-14T02:05:04.207075+00:00",
   "total_pages": 11,
   "total_models": 196,
   "models": [
@@ -883,15 +883,6 @@
       "url": "https://ollama.com/library/codegemma"
     },
     {
-      "name": "deepscaler",
-      "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b"
-      ],
-      "url": "https://ollama.com/library/deepscaler"
-    },
-    {
       "name": "deepseek-coder-v2",
       "description": "An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks.",
       "capabilities": [],
@@ -900,6 +891,15 @@
         "236b"
       ],
       "url": "https://ollama.com/library/deepseek-coder-v2"
+    },
+    {
+      "name": "deepscaler",
+      "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b"
+      ],
+      "url": "https://ollama.com/library/deepscaler"
     },
     {
       "name": "all-minilm",
@@ -1610,15 +1610,6 @@
       "url": "https://ollama.com/library/solar"
     },
     {
-      "name": "solar-pro",
-      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
-      "capabilities": [],
-      "sizes": [
-        "22b"
-      ],
-      "url": "https://ollama.com/library/solar-pro"
-    },
-    {
       "name": "nous-hermes",
       "description": "General use models based on Llama and Llama 2 from Nous Research.",
       "capabilities": [],
@@ -1627,6 +1618,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/nous-hermes"
+    },
+    {
+      "name": "solar-pro",
+      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/solar-pro"
     },
     {
       "name": "starling-lm",
@@ -1804,6 +1804,17 @@
       "url": "https://ollama.com/library/nuextract"
     },
     {
+      "name": "snowflake-arctic-embed2",
+      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "568m"
+      ],
+      "url": "https://ollama.com/library/snowflake-arctic-embed2"
+    },
+    {
       "name": "stable-beluga",
       "description": "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.",
       "capabilities": [],
@@ -1843,17 +1854,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/tulu3"
-    },
-    {
-      "name": "snowflake-arctic-embed2",
-      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "568m"
-      ],
-      "url": "https://ollama.com/library/snowflake-arctic-embed2"
     },
     {
       "name": "granite-embedding",

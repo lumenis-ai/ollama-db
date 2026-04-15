@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-14T02:05:04.207075+00:00",
+  "last_updated": "2026-04-15T02:02:22.466005+00:00",
   "total_pages": 11,
   "total_models": 196,
   "models": [
@@ -1438,6 +1438,17 @@
       "url": "https://ollama.com/library/r1-1776"
     },
     {
+      "name": "nemotron-mini",
+      "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "4b"
+      ],
+      "url": "https://ollama.com/library/nemotron-mini"
+    },
+    {
       "name": "exaone3.5",
       "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
       "capabilities": [],
@@ -1458,17 +1469,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/nemotron"
-    },
-    {
-      "name": "nemotron-mini",
-      "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "4b"
-      ],
-      "url": "https://ollama.com/library/nemotron-mini"
     },
     {
       "name": "zephyr",
@@ -1538,15 +1538,6 @@
       "url": "https://ollama.com/library/reflection"
     },
     {
-      "name": "codegeex4",
-      "description": "A versatile model for AI software development scenarios, including code completion.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/codegeex4"
-    },
-    {
       "name": "starcoder",
       "description": "StarCoder is a code generation model trained on 80+ programming languages.",
       "capabilities": [],
@@ -1568,6 +1559,15 @@
         "30b"
       ],
       "url": "https://ollama.com/library/wizard-vicuna-uncensored"
+    },
+    {
+      "name": "codegeex4",
+      "description": "A versatile model for AI software development scenarios, including code completion.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/codegeex4"
     },
     {
       "name": "neural-chat",
@@ -1795,15 +1795,6 @@
       "url": "https://ollama.com/library/nexusraven"
     },
     {
-      "name": "nuextract",
-      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/nuextract"
-    },
-    {
       "name": "snowflake-arctic-embed2",
       "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
       "capabilities": [
@@ -1813,6 +1804,15 @@
         "568m"
       ],
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
+    },
+    {
+      "name": "nuextract",
+      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/nuextract"
     },
     {
       "name": "stable-beluga",

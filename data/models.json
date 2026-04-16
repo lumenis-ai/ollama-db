@@ -1,8 +1,31 @@
 {
-  "last_updated": "2026-04-15T02:02:22.466005+00:00",
-  "total_pages": 11,
-  "total_models": 196,
+  "last_updated": "2026-04-16T02:10:07.092758+00:00",
+  "total_pages": 12,
+  "total_models": 198,
   "models": [
+    {
+      "name": "medgemma1.5",
+      "description": "MedGemma 1.5 4B is an updated version of the MedGemma 4B model.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b"
+      ],
+      "url": "https://ollama.com/library/medgemma1.5"
+    },
+    {
+      "name": "medgemma",
+      "description": "MedGemma is a collection of Gemma 3 variants that are trained for performance on medical text and image comprehension.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/medgemma"
+    },
     {
       "name": "nemotron-cascade-2",
       "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
@@ -893,15 +916,6 @@
       "url": "https://ollama.com/library/deepseek-coder-v2"
     },
     {
-      "name": "deepscaler",
-      "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b"
-      ],
-      "url": "https://ollama.com/library/deepscaler"
-    },
-    {
       "name": "all-minilm",
       "description": "Embedding models on very large sentence level datasets.",
       "capabilities": [
@@ -912,6 +926,15 @@
         "33m"
       ],
       "url": "https://ollama.com/library/all-minilm"
+    },
+    {
+      "name": "deepscaler",
+      "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b"
+      ],
+      "url": "https://ollama.com/library/deepscaler"
     },
     {
       "name": "starcoder2",
@@ -1428,16 +1451,6 @@
       "url": "https://ollama.com/library/dolphincoder"
     },
     {
-      "name": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-      "capabilities": [],
-      "sizes": [
-        "70b",
-        "671b"
-      ],
-      "url": "https://ollama.com/library/r1-1776"
-    },
-    {
       "name": "nemotron-mini",
       "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
       "capabilities": [
@@ -1447,6 +1460,16 @@
         "4b"
       ],
       "url": "https://ollama.com/library/nemotron-mini"
+    },
+    {
+      "name": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "capabilities": [],
+      "sizes": [
+        "70b",
+        "671b"
+      ],
+      "url": "https://ollama.com/library/r1-1776"
     },
     {
       "name": "exaone3.5",
@@ -1786,15 +1809,6 @@
       "url": "https://ollama.com/library/mathstral"
     },
     {
-      "name": "nexusraven",
-      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
-      "capabilities": [],
-      "sizes": [
-        "13b"
-      ],
-      "url": "https://ollama.com/library/nexusraven"
-    },
-    {
       "name": "snowflake-arctic-embed2",
       "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
       "capabilities": [
@@ -1804,6 +1818,15 @@
         "568m"
       ],
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
+    },
+    {
+      "name": "nexusraven",
+      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
+      "capabilities": [],
+      "sizes": [
+        "13b"
+      ],
+      "url": "https://ollama.com/library/nexusraven"
     },
     {
       "name": "nuextract",

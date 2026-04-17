@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-16T02:10:07.092758+00:00",
+  "last_updated": "2026-04-17T02:06:09.853771+00:00",
   "total_pages": 12,
   "total_models": 198,
   "models": [
@@ -437,18 +437,6 @@
         "671b"
       ],
       "url": "https://ollama.com/library/deepseek-v3.1"
-    },
-    {
-      "name": "granite3.3",
-      "description": "IBM Granite 2B and 8B models are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "2b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/granite3.3"
     },
     {
       "name": "phi4-mini-reasoning",
@@ -906,6 +894,18 @@
       "url": "https://ollama.com/library/codegemma"
     },
     {
+      "name": "granite3.3",
+      "description": "IBM Granite 2B and 8B models are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "2b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/granite3.3"
+    },
+    {
       "name": "deepseek-coder-v2",
       "description": "An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks.",
       "capabilities": [],
@@ -1173,6 +1173,17 @@
       "url": "https://ollama.com/library/llama-guard3"
     },
     {
+      "name": "qwen2-math",
+      "description": "Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "7b",
+        "72b"
+      ],
+      "url": "https://ollama.com/library/qwen2-math"
+    },
+    {
       "name": "granite3-moe",
       "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -1183,17 +1194,6 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite3-moe"
-    },
-    {
-      "name": "qwen2-math",
-      "description": "Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "7b",
-        "72b"
-      ],
-      "url": "https://ollama.com/library/qwen2-math"
     },
     {
       "name": "codestral",
@@ -1462,16 +1462,6 @@
       "url": "https://ollama.com/library/nemotron-mini"
     },
     {
-      "name": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-      "capabilities": [],
-      "sizes": [
-        "70b",
-        "671b"
-      ],
-      "url": "https://ollama.com/library/r1-1776"
-    },
-    {
       "name": "exaone3.5",
       "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
       "capabilities": [],
@@ -1492,6 +1482,16 @@
         "70b"
       ],
       "url": "https://ollama.com/library/nemotron"
+    },
+    {
+      "name": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "capabilities": [],
+      "sizes": [
+        "70b",
+        "671b"
+      ],
+      "url": "https://ollama.com/library/r1-1776"
     },
     {
       "name": "zephyr",
@@ -2041,6 +2041,15 @@
       "url": "https://ollama.com/library/codeup"
     },
     {
+      "name": "mistrallite",
+      "description": "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/mistrallite"
+    },
+    {
       "name": "command-r7b-arabic",
       "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
       "capabilities": [
@@ -2050,15 +2059,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b-arabic"
-    },
-    {
-      "name": "mistrallite",
-      "description": "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/mistrallite"
     },
     {
       "name": "medllama2",

@@ -1,18 +1,20 @@
 {
-  "last_updated": "2026-04-17T02:06:09.853771+00:00",
+  "last_updated": "2026-04-18T01:57:02.482767+00:00",
   "total_pages": 12,
-  "total_models": 198,
+  "total_models": 199,
   "models": [
     {
-      "name": "medgemma1.5",
-      "description": "MedGemma 1.5 4B is an updated version of the MedGemma 4B model.",
+      "name": "qwen3.6",
+      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
-        "vision"
+        "vision",
+        "tools",
+        "thinking"
       ],
       "sizes": [
-        "4b"
+        "35b"
       ],
-      "url": "https://ollama.com/library/medgemma1.5"
+      "url": "https://ollama.com/library/qwen3.6"
     },
     {
       "name": "medgemma",
@@ -25,6 +27,17 @@
         "27b"
       ],
       "url": "https://ollama.com/library/medgemma"
+    },
+    {
+      "name": "medgemma1.5",
+      "description": "MedGemma 1.5 4B is an updated version of the MedGemma 4B model.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b"
+      ],
+      "url": "https://ollama.com/library/medgemma1.5"
     },
     {
       "name": "nemotron-cascade-2",
@@ -894,6 +907,16 @@
       "url": "https://ollama.com/library/codegemma"
     },
     {
+      "name": "deepseek-coder-v2",
+      "description": "An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks.",
+      "capabilities": [],
+      "sizes": [
+        "16b",
+        "236b"
+      ],
+      "url": "https://ollama.com/library/deepseek-coder-v2"
+    },
+    {
       "name": "granite3.3",
       "description": "IBM Granite 2B and 8B models are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities.",
       "capabilities": [
@@ -904,16 +927,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.3"
-    },
-    {
-      "name": "deepseek-coder-v2",
-      "description": "An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks.",
-      "capabilities": [],
-      "sizes": [
-        "16b",
-        "236b"
-      ],
-      "url": "https://ollama.com/library/deepseek-coder-v2"
     },
     {
       "name": "all-minilm",
@@ -980,16 +993,6 @@
       "url": "https://ollama.com/library/openthinker"
     },
     {
-      "name": "deepcoder",
-      "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "14b"
-      ],
-      "url": "https://ollama.com/library/deepcoder"
-    },
-    {
       "name": "smollm",
       "description": "🪐 A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.",
       "capabilities": [],
@@ -999,6 +1002,16 @@
         "1.7b"
       ],
       "url": "https://ollama.com/library/smollm"
+    },
+    {
+      "name": "deepcoder",
+      "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "14b"
+      ],
+      "url": "https://ollama.com/library/deepcoder"
     },
     {
       "name": "mixtral",
@@ -1313,16 +1326,6 @@
       "url": "https://ollama.com/library/moondream"
     },
     {
-      "name": "wizardlm2",
-      "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "8x22b"
-      ],
-      "url": "https://ollama.com/library/wizardlm2"
-    },
-    {
       "name": "llama3-groq-tool-use",
       "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
       "capabilities": [
@@ -1333,6 +1336,16 @@
         "70b"
       ],
       "url": "https://ollama.com/library/llama3-groq-tool-use"
+    },
+    {
+      "name": "wizardlm2",
+      "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "8x22b"
+      ],
+      "url": "https://ollama.com/library/wizardlm2"
     },
     {
       "name": "aya",
@@ -1462,17 +1475,6 @@
       "url": "https://ollama.com/library/nemotron-mini"
     },
     {
-      "name": "exaone3.5",
-      "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
-      "capabilities": [],
-      "sizes": [
-        "2.4b",
-        "7.8b",
-        "32b"
-      ],
-      "url": "https://ollama.com/library/exaone3.5"
-    },
-    {
       "name": "nemotron",
       "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
       "capabilities": [
@@ -1482,6 +1484,17 @@
         "70b"
       ],
       "url": "https://ollama.com/library/nemotron"
+    },
+    {
+      "name": "exaone3.5",
+      "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
+      "capabilities": [],
+      "sizes": [
+        "2.4b",
+        "7.8b",
+        "32b"
+      ],
+      "url": "https://ollama.com/library/exaone3.5"
     },
     {
       "name": "r1-1776",
@@ -1693,15 +1706,6 @@
       "url": "https://ollama.com/library/bakllava"
     },
     {
-      "name": "bespoke-minicheck",
-      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/bespoke-minicheck"
-    },
-    {
       "name": "orca2",
       "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
       "capabilities": [],
@@ -1710,6 +1714,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/orca2"
+    },
+    {
+      "name": "bespoke-minicheck",
+      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/bespoke-minicheck"
     },
     {
       "name": "xwinlm",
@@ -1769,17 +1782,6 @@
       "url": "https://ollama.com/library/yarn-mistral"
     },
     {
-      "name": "sailor2",
-      "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
-      "capabilities": [],
-      "sizes": [
-        "1b",
-        "8b",
-        "20b"
-      ],
-      "url": "https://ollama.com/library/sailor2"
-    },
-    {
       "name": "wizard-math",
       "description": "Model focused on math and logic problems",
       "capabilities": [],
@@ -1789,6 +1791,17 @@
         "70b"
       ],
       "url": "https://ollama.com/library/wizard-math"
+    },
+    {
+      "name": "sailor2",
+      "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
+      "capabilities": [],
+      "sizes": [
+        "1b",
+        "8b",
+        "20b"
+      ],
+      "url": "https://ollama.com/library/sailor2"
     },
     {
       "name": "phind-codellama",
@@ -1978,15 +1991,6 @@
       "url": "https://ollama.com/library/duckdb-nsql"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "notus",
       "description": "A 7B chat model fine-tuned with high-quality data and based on Zephyr.",
       "capabilities": [],
@@ -1994,6 +1998,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/notus"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "notux",

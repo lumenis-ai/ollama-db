@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18T01:57:02.482767+00:00",
+  "last_updated": "2026-04-19T02:10:08.037416+00:00",
   "total_pages": 12,
   "total_models": 199,
   "models": [
@@ -429,17 +429,6 @@
       "url": "https://ollama.com/library/phi4-reasoning"
     },
     {
-      "name": "devstral",
-      "description": "Devstral: the best open source model for coding agents",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/devstral"
-    },
-    {
       "name": "deepseek-v3.1",
       "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
       "capabilities": [
@@ -450,6 +439,17 @@
         "671b"
       ],
       "url": "https://ollama.com/library/deepseek-v3.1"
+    },
+    {
+      "name": "devstral",
+      "description": "Devstral: the best open source model for coding agents",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/devstral"
     },
     {
       "name": "phi4-mini-reasoning",
@@ -1239,15 +1239,6 @@
       "url": "https://ollama.com/library/yi-coder"
     },
     {
-      "name": "dolphin-phi",
-      "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
-      "capabilities": [],
-      "sizes": [
-        "2.7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-phi"
-    },
-    {
       "name": "glm4",
       "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
       "capabilities": [],
@@ -1255,6 +1246,15 @@
         "9b"
       ],
       "url": "https://ollama.com/library/glm4"
+    },
+    {
+      "name": "dolphin-phi",
+      "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
+      "capabilities": [],
+      "sizes": [
+        "2.7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-phi"
     },
     {
       "name": "shieldgemma",
@@ -1497,16 +1497,6 @@
       "url": "https://ollama.com/library/exaone3.5"
     },
     {
-      "name": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-      "capabilities": [],
-      "sizes": [
-        "70b",
-        "671b"
-      ],
-      "url": "https://ollama.com/library/r1-1776"
-    },
-    {
       "name": "zephyr",
       "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
       "capabilities": [],
@@ -1525,6 +1515,16 @@
         "67b"
       ],
       "url": "https://ollama.com/library/deepseek-llm"
+    },
+    {
+      "name": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "capabilities": [],
+      "sizes": [
+        "70b",
+        "671b"
+      ],
+      "url": "https://ollama.com/library/r1-1776"
     },
     {
       "name": "stable-code",
@@ -1813,15 +1813,6 @@
       "url": "https://ollama.com/library/phind-codellama"
     },
     {
-      "name": "mathstral",
-      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/mathstral"
-    },
-    {
       "name": "snowflake-arctic-embed2",
       "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
       "capabilities": [
@@ -1831,6 +1822,15 @@
         "568m"
       ],
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
+    },
+    {
+      "name": "mathstral",
+      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/mathstral"
     },
     {
       "name": "nexusraven",
@@ -2000,15 +2000,6 @@
       "url": "https://ollama.com/library/notus"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "notux",
       "description": "A top-performing mixture of experts model, fine-tuned with high-quality data.",
       "capabilities": [],
@@ -2016,6 +2007,15 @@
         "8x7b"
       ],
       "url": "https://ollama.com/library/notux"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "magicoder",

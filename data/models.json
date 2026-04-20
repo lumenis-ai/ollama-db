@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T02:10:08.037416+00:00",
+  "last_updated": "2026-04-20T02:10:46.125321+00:00",
   "total_pages": 12,
   "total_models": 199,
   "models": [
@@ -38,18 +38,6 @@
         "4b"
       ],
       "url": "https://ollama.com/library/medgemma1.5"
-    },
-    {
-      "name": "nemotron-cascade-2",
-      "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "30b"
-      ],
-      "url": "https://ollama.com/library/nemotron-cascade-2"
     },
     {
       "name": "gemma4",
@@ -159,6 +147,18 @@
         "120b"
       ],
       "url": "https://ollama.com/library/nemotron-3-super"
+    },
+    {
+      "name": "nemotron-cascade-2",
+      "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "30b"
+      ],
+      "url": "https://ollama.com/library/nemotron-cascade-2"
     },
     {
       "name": "qwen3-next",
@@ -373,16 +373,6 @@
       "url": "https://ollama.com/library/mistral-small3.2"
     },
     {
-      "name": "gemma3n",
-      "description": "Gemma 3n models are designed for efficient execution on everyday devices such as laptops, tablets or phones.",
-      "capabilities": [],
-      "sizes": [
-        "e2b",
-        "e4b"
-      ],
-      "url": "https://ollama.com/library/gemma3n"
-    },
-    {
       "name": "embeddinggemma",
       "description": "EmbeddingGemma is a 300M parameter embedding model from Google.",
       "capabilities": [
@@ -392,6 +382,16 @@
         "300m"
       ],
       "url": "https://ollama.com/library/embeddinggemma"
+    },
+    {
+      "name": "gemma3n",
+      "description": "Gemma 3n models are designed for efficient execution on everyday devices such as laptops, tablets or phones.",
+      "capabilities": [],
+      "sizes": [
+        "e2b",
+        "e4b"
+      ],
+      "url": "https://ollama.com/library/gemma3n"
     },
     {
       "name": "qwen2.5vl",
@@ -1038,18 +1038,6 @@
       "url": "https://ollama.com/library/granite3.2-vision"
     },
     {
-      "name": "mistral-small3.1",
-      "description": "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/mistral-small3.1"
-    },
-    {
       "name": "orca-mini",
       "description": "A general-purpose model ranging from 3 billion parameters to 70 billion, suitable for entry-level hardware.",
       "capabilities": [],
@@ -1060,6 +1048,18 @@
         "70b"
       ],
       "url": "https://ollama.com/library/orca-mini"
+    },
+    {
+      "name": "mistral-small3.1",
+      "description": "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/mistral-small3.1"
     },
     {
       "name": "dolphin-llama3",
@@ -1093,18 +1093,6 @@
       "url": "https://ollama.com/library/llama2-uncensored"
     },
     {
-      "name": "granite3.1-dense",
-      "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "2b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/granite3.1-dense"
-    },
-    {
       "name": "hermes3",
       "description": "Hermes 3 is the latest version of the flagship Hermes series of LLMs by Nous Research",
       "capabilities": [
@@ -1117,6 +1105,18 @@
         "405b"
       ],
       "url": "https://ollama.com/library/hermes3"
+    },
+    {
+      "name": "granite3.1-dense",
+      "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "2b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/granite3.1-dense"
     },
     {
       "name": "granite3-dense",
@@ -1486,17 +1486,6 @@
       "url": "https://ollama.com/library/nemotron"
     },
     {
-      "name": "exaone3.5",
-      "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
-      "capabilities": [],
-      "sizes": [
-        "2.4b",
-        "7.8b",
-        "32b"
-      ],
-      "url": "https://ollama.com/library/exaone3.5"
-    },
-    {
       "name": "zephyr",
       "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
       "capabilities": [],
@@ -1517,14 +1506,15 @@
       "url": "https://ollama.com/library/deepseek-llm"
     },
     {
-      "name": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "name": "exaone3.5",
+      "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
       "capabilities": [],
       "sizes": [
-        "70b",
-        "671b"
+        "2.4b",
+        "7.8b",
+        "32b"
       ],
-      "url": "https://ollama.com/library/r1-1776"
+      "url": "https://ollama.com/library/exaone3.5"
     },
     {
       "name": "stable-code",
@@ -1534,6 +1524,16 @@
         "3b"
       ],
       "url": "https://ollama.com/library/stable-code"
+    },
+    {
+      "name": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "capabilities": [],
+      "sizes": [
+        "70b",
+        "671b"
+      ],
+      "url": "https://ollama.com/library/r1-1776"
     },
     {
       "name": "stablelm2",
@@ -1665,15 +1665,6 @@
       "url": "https://ollama.com/library/solar-pro"
     },
     {
-      "name": "starling-lm",
-      "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/starling-lm"
-    },
-    {
       "name": "vicuna",
       "description": "General use chat model based on Llama and Llama 2 with 2K to 16K context sizes.",
       "capabilities": [],
@@ -1683,6 +1674,15 @@
         "33b"
       ],
       "url": "https://ollama.com/library/vicuna"
+    },
+    {
+      "name": "starling-lm",
+      "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/starling-lm"
     },
     {
       "name": "sqlcoder",
@@ -1716,15 +1716,6 @@
       "url": "https://ollama.com/library/orca2"
     },
     {
-      "name": "bespoke-minicheck",
-      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/bespoke-minicheck"
-    },
-    {
       "name": "xwinlm",
       "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
       "capabilities": [],
@@ -1733,6 +1724,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/xwinlm"
+    },
+    {
+      "name": "bespoke-minicheck",
+      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/bespoke-minicheck"
     },
     {
       "name": "llama2-chinese",
@@ -1804,15 +1804,6 @@
       "url": "https://ollama.com/library/sailor2"
     },
     {
-      "name": "phind-codellama",
-      "description": "Code generation model based on Code Llama.",
-      "capabilities": [],
-      "sizes": [
-        "34b"
-      ],
-      "url": "https://ollama.com/library/phind-codellama"
-    },
-    {
       "name": "snowflake-arctic-embed2",
       "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
       "capabilities": [
@@ -1822,6 +1813,15 @@
         "568m"
       ],
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
+    },
+    {
+      "name": "phind-codellama",
+      "description": "Code generation model based on Code Llama.",
+      "capabilities": [],
+      "sizes": [
+        "34b"
+      ],
+      "url": "https://ollama.com/library/phind-codellama"
     },
     {
       "name": "mathstral",

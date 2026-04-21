@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-20T02:10:46.125321+00:00",
+  "last_updated": "2026-04-21T02:06:58.285236+00:00",
   "total_pages": 12,
   "total_models": 199,
   "models": [
@@ -917,18 +917,6 @@
       "url": "https://ollama.com/library/deepseek-coder-v2"
     },
     {
-      "name": "granite3.3",
-      "description": "IBM Granite 2B and 8B models are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "2b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/granite3.3"
-    },
-    {
       "name": "all-minilm",
       "description": "Embedding models on very large sentence level datasets.",
       "capabilities": [
@@ -939,6 +927,18 @@
         "33m"
       ],
       "url": "https://ollama.com/library/all-minilm"
+    },
+    {
+      "name": "granite3.3",
+      "description": "IBM Granite 2B and 8B models are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "2b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/granite3.3"
     },
     {
       "name": "deepscaler",
@@ -1475,6 +1475,16 @@
       "url": "https://ollama.com/library/nemotron-mini"
     },
     {
+      "name": "zephyr",
+      "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "141b"
+      ],
+      "url": "https://ollama.com/library/zephyr"
+    },
+    {
       "name": "nemotron",
       "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
       "capabilities": [
@@ -1484,16 +1494,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/nemotron"
-    },
-    {
-      "name": "zephyr",
-      "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "141b"
-      ],
-      "url": "https://ollama.com/library/zephyr"
     },
     {
       "name": "deepseek-llm",
@@ -2009,15 +2009,6 @@
       "url": "https://ollama.com/library/notux"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "magicoder",
       "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
       "capabilities": [],
@@ -2025,6 +2016,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/magicoder"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "wizardlm-uncensored",

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T02:06:58.285236+00:00",
+  "last_updated": "2026-04-22T02:05:02.169903+00:00",
   "total_pages": 12,
   "total_models": 199,
   "models": [
@@ -1154,6 +1154,16 @@
       "url": "https://ollama.com/library/granite-code"
     },
     {
+      "name": "dolphin-mixtral",
+      "description": "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.",
+      "capabilities": [],
+      "sizes": [
+        "8x7b",
+        "8x22b"
+      ],
+      "url": "https://ollama.com/library/dolphin-mixtral"
+    },
+    {
       "name": "aya-expanse",
       "description": "Cohere For AI's language models trained to perform well across 23 different languages.",
       "capabilities": [
@@ -1164,16 +1174,6 @@
         "32b"
       ],
       "url": "https://ollama.com/library/aya-expanse"
-    },
-    {
-      "name": "dolphin-mixtral",
-      "description": "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.",
-      "capabilities": [],
-      "sizes": [
-        "8x7b",
-        "8x22b"
-      ],
-      "url": "https://ollama.com/library/dolphin-mixtral"
     },
     {
       "name": "llama-guard3",
@@ -1358,6 +1358,17 @@
       "url": "https://ollama.com/library/aya"
     },
     {
+      "name": "paraphrase-multilingual",
+      "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "278m"
+      ],
+      "url": "https://ollama.com/library/paraphrase-multilingual"
+    },
+    {
       "name": "internlm2",
       "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
       "capabilities": [],
@@ -1368,17 +1379,6 @@
         "20b"
       ],
       "url": "https://ollama.com/library/internlm2"
-    },
-    {
-      "name": "paraphrase-multilingual",
-      "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "278m"
-      ],
-      "url": "https://ollama.com/library/paraphrase-multilingual"
     },
     {
       "name": "codeqwen",
@@ -1485,6 +1485,16 @@
       "url": "https://ollama.com/library/zephyr"
     },
     {
+      "name": "deepseek-llm",
+      "description": "An advanced language model crafted with 2 trillion bilingual tokens.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "67b"
+      ],
+      "url": "https://ollama.com/library/deepseek-llm"
+    },
+    {
       "name": "nemotron",
       "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
       "capabilities": [
@@ -1494,16 +1504,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/nemotron"
-    },
-    {
-      "name": "deepseek-llm",
-      "description": "An advanced language model crafted with 2 trillion bilingual tokens.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "67b"
-      ],
-      "url": "https://ollama.com/library/deepseek-llm"
     },
     {
       "name": "exaone3.5",
@@ -1565,6 +1565,17 @@
       "url": "https://ollama.com/library/nous-hermes2"
     },
     {
+      "name": "wizard-vicuna-uncensored",
+      "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b",
+        "30b"
+      ],
+      "url": "https://ollama.com/library/wizard-vicuna-uncensored"
+    },
+    {
       "name": "reflection",
       "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
       "capabilities": [],
@@ -1584,17 +1595,6 @@
         "15b"
       ],
       "url": "https://ollama.com/library/starcoder"
-    },
-    {
-      "name": "wizard-vicuna-uncensored",
-      "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b",
-        "30b"
-      ],
-      "url": "https://ollama.com/library/wizard-vicuna-uncensored"
     },
     {
       "name": "codegeex4",
@@ -1962,6 +1962,15 @@
       "url": "https://ollama.com/library/command-a"
     },
     {
+      "name": "megadolphin",
+      "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
+      "capabilities": [],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/megadolphin"
+    },
+    {
       "name": "command-r7b",
       "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
       "capabilities": [
@@ -1971,15 +1980,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b"
-    },
-    {
-      "name": "megadolphin",
-      "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
-      "capabilities": [],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/megadolphin"
     },
     {
       "name": "duckdb-nsql",

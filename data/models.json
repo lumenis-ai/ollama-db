@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-22T02:05:02.169903+00:00",
+  "last_updated": "2026-04-23T02:09:04.147908+00:00",
   "total_pages": 12,
   "total_models": 199,
   "models": [
@@ -12,6 +12,7 @@
         "thinking"
       ],
       "sizes": [
+        "27b",
         "35b"
       ],
       "url": "https://ollama.com/library/qwen3.6"
@@ -384,16 +385,6 @@
       "url": "https://ollama.com/library/embeddinggemma"
     },
     {
-      "name": "gemma3n",
-      "description": "Gemma 3n models are designed for efficient execution on everyday devices such as laptops, tablets or phones.",
-      "capabilities": [],
-      "sizes": [
-        "e2b",
-        "e4b"
-      ],
-      "url": "https://ollama.com/library/gemma3n"
-    },
-    {
       "name": "qwen2.5vl",
       "description": "Flagship vision-language model of Qwen and also a significant leap from the previous Qwen2-VL.",
       "capabilities": [
@@ -406,6 +397,16 @@
         "72b"
       ],
       "url": "https://ollama.com/library/qwen2.5vl"
+    },
+    {
+      "name": "gemma3n",
+      "description": "Gemma 3n models are designed for efficient execution on everyday devices such as laptops, tablets or phones.",
+      "capabilities": [],
+      "sizes": [
+        "e2b",
+        "e4b"
+      ],
+      "url": "https://ollama.com/library/gemma3n"
     },
     {
       "name": "magistral",
@@ -1506,6 +1507,15 @@
       "url": "https://ollama.com/library/nemotron"
     },
     {
+      "name": "stable-code",
+      "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/stable-code"
+    },
+    {
       "name": "exaone3.5",
       "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
       "capabilities": [],
@@ -1515,15 +1525,6 @@
         "32b"
       ],
       "url": "https://ollama.com/library/exaone3.5"
-    },
-    {
-      "name": "stable-code",
-      "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/stable-code"
     },
     {
       "name": "r1-1776",
@@ -1576,15 +1577,6 @@
       "url": "https://ollama.com/library/wizard-vicuna-uncensored"
     },
     {
-      "name": "reflection",
-      "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
-      "capabilities": [],
-      "sizes": [
-        "70b"
-      ],
-      "url": "https://ollama.com/library/reflection"
-    },
-    {
       "name": "starcoder",
       "description": "StarCoder is a code generation model trained on 80+ programming languages.",
       "capabilities": [],
@@ -1595,6 +1587,15 @@
         "15b"
       ],
       "url": "https://ollama.com/library/starcoder"
+    },
+    {
+      "name": "reflection",
+      "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
+      "capabilities": [],
+      "sizes": [
+        "70b"
+      ],
+      "url": "https://ollama.com/library/reflection"
     },
     {
       "name": "codegeex4",
@@ -2018,15 +2019,6 @@
       "url": "https://ollama.com/library/magicoder"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "wizardlm-uncensored",
       "description": "Uncensored version of Wizard LM model",
       "capabilities": [],
@@ -2034,6 +2026,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/wizardlm-uncensored"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "stablelm-zephyr",

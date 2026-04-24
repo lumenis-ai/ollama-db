@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23T02:09:04.147908+00:00",
+  "last_updated": "2026-04-24T02:09:33.799872+00:00",
   "total_pages": 12,
   "total_models": 199,
   "models": [
@@ -88,17 +88,6 @@
       "url": "https://ollama.com/library/lfm2"
     },
     {
-      "name": "lfm2.5-thinking",
-      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "1.2b"
-      ],
-      "url": "https://ollama.com/library/lfm2.5-thinking"
-    },
-    {
       "name": "translategemma",
       "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
       "capabilities": [
@@ -110,6 +99,17 @@
         "27b"
       ],
       "url": "https://ollama.com/library/translategemma"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "ministral-3",
@@ -730,18 +730,6 @@
       "url": "https://ollama.com/library/qwen"
     },
     {
-      "name": "granite3.1-moe",
-      "description": "The IBM Granite 1B and 3B models are long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "1b",
-        "3b"
-      ],
-      "url": "https://ollama.com/library/granite3.1-moe"
-    },
-    {
       "name": "smollm2",
       "description": "SmolLM2 is a family of compact language models available in three size: 135M, 360M, and 1.7B parameters.",
       "capabilities": [
@@ -753,6 +741,18 @@
         "1.7b"
       ],
       "url": "https://ollama.com/library/smollm2"
+    },
+    {
+      "name": "granite3.1-moe",
+      "description": "The IBM Granite 1B and 3B models are long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1b",
+        "3b"
+      ],
+      "url": "https://ollama.com/library/granite3.1-moe"
     },
     {
       "name": "cogito",
@@ -1327,6 +1327,16 @@
       "url": "https://ollama.com/library/moondream"
     },
     {
+      "name": "wizardlm2",
+      "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "8x22b"
+      ],
+      "url": "https://ollama.com/library/wizardlm2"
+    },
+    {
       "name": "llama3-groq-tool-use",
       "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
       "capabilities": [
@@ -1337,16 +1347,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/llama3-groq-tool-use"
-    },
-    {
-      "name": "wizardlm2",
-      "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "8x22b"
-      ],
-      "url": "https://ollama.com/library/wizardlm2"
     },
     {
       "name": "aya",
@@ -1638,15 +1638,6 @@
       "url": "https://ollama.com/library/falcon"
     },
     {
-      "name": "solar",
-      "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
-      "capabilities": [],
-      "sizes": [
-        "10.7b"
-      ],
-      "url": "https://ollama.com/library/solar"
-    },
-    {
       "name": "nous-hermes",
       "description": "General use models based on Llama and Llama 2 from Nous Research.",
       "capabilities": [],
@@ -1655,6 +1646,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/nous-hermes"
+    },
+    {
+      "name": "solar",
+      "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
+      "capabilities": [],
+      "sizes": [
+        "10.7b"
+      ],
+      "url": "https://ollama.com/library/solar"
     },
     {
       "name": "solar-pro",
@@ -1952,6 +1952,15 @@
       "url": "https://ollama.com/library/granite3-guardian"
     },
     {
+      "name": "megadolphin",
+      "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
+      "capabilities": [],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/megadolphin"
+    },
+    {
       "name": "command-a",
       "description": "111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI",
       "capabilities": [
@@ -1961,15 +1970,6 @@
         "111b"
       ],
       "url": "https://ollama.com/library/command-a"
-    },
-    {
-      "name": "megadolphin",
-      "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
-      "capabilities": [],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/megadolphin"
     },
     {
       "name": "command-r7b",

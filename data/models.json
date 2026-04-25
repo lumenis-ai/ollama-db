@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T02:09:33.799872+00:00",
+  "last_updated": "2026-04-25T01:59:25.969695+00:00",
   "total_pages": 12,
   "total_models": 199,
   "models": [
@@ -984,16 +984,6 @@
       "url": "https://ollama.com/library/llava-llama3"
     },
     {
-      "name": "openthinker",
-      "description": "A fully open-source family of reasoning models built using a dataset derived by distilling DeepSeek-R1.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "32b"
-      ],
-      "url": "https://ollama.com/library/openthinker"
-    },
-    {
       "name": "smollm",
       "description": "🪐 A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.",
       "capabilities": [],
@@ -1003,6 +993,16 @@
         "1.7b"
       ],
       "url": "https://ollama.com/library/smollm"
+    },
+    {
+      "name": "openthinker",
+      "description": "A fully open-source family of reasoning models built using a dataset derived by distilling DeepSeek-R1.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "32b"
+      ],
+      "url": "https://ollama.com/library/openthinker"
     },
     {
       "name": "deepcoder",
@@ -1421,6 +1421,17 @@
       "url": "https://ollama.com/library/opencoder"
     },
     {
+      "name": "yi",
+      "description": "Yi 1.5 is a high-performing, bilingual language model.",
+      "capabilities": [],
+      "sizes": [
+        "6b",
+        "9b",
+        "34b"
+      ],
+      "url": "https://ollama.com/library/yi"
+    },
+    {
       "name": "granite3.2",
       "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
       "capabilities": [
@@ -1431,17 +1442,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.2"
-    },
-    {
-      "name": "yi",
-      "description": "Yi 1.5 is a high-performing, bilingual language model.",
-      "capabilities": [],
-      "sizes": [
-        "6b",
-        "9b",
-        "34b"
-      ],
-      "url": "https://ollama.com/library/yi"
     },
     {
       "name": "athene-v2",
@@ -1496,6 +1496,15 @@
       "url": "https://ollama.com/library/deepseek-llm"
     },
     {
+      "name": "stable-code",
+      "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/stable-code"
+    },
+    {
       "name": "nemotron",
       "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
       "capabilities": [
@@ -1505,15 +1514,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/nemotron"
-    },
-    {
-      "name": "stable-code",
-      "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/stable-code"
     },
     {
       "name": "exaone3.5",
@@ -1696,6 +1696,16 @@
       "url": "https://ollama.com/library/sqlcoder"
     },
     {
+      "name": "orca2",
+      "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/orca2"
+    },
+    {
       "name": "bakllava",
       "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
       "capabilities": [
@@ -1705,16 +1715,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bakllava"
-    },
-    {
-      "name": "orca2",
-      "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models.  The model is designed to excel particularly in reasoning.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/orca2"
     },
     {
       "name": "xwinlm",
@@ -1727,15 +1727,6 @@
       "url": "https://ollama.com/library/xwinlm"
     },
     {
-      "name": "bespoke-minicheck",
-      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/bespoke-minicheck"
-    },
-    {
       "name": "llama2-chinese",
       "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.",
       "capabilities": [],
@@ -1744,6 +1735,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/llama2-chinese"
+    },
+    {
+      "name": "bespoke-minicheck",
+      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/bespoke-minicheck"
     },
     {
       "name": "yarn-llama2",
@@ -1893,6 +1893,16 @@
       "url": "https://ollama.com/library/tulu3"
     },
     {
+      "name": "meditron",
+      "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/meditron"
+    },
+    {
       "name": "granite-embedding",
       "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
       "capabilities": [
@@ -1903,16 +1913,6 @@
         "278m"
       ],
       "url": "https://ollama.com/library/granite-embedding"
-    },
-    {
-      "name": "meditron",
-      "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/meditron"
     },
     {
       "name": "falcon2",
@@ -2093,15 +2093,6 @@
       "url": "https://ollama.com/library/everythinglm"
     },
     {
-      "name": "deepseek-v2.5",
-      "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
-      "capabilities": [],
-      "sizes": [
-        "236b"
-      ],
-      "url": "https://ollama.com/library/deepseek-v2.5"
-    },
-    {
       "name": "codebooga",
       "description": "A high-performing code instruct model created by merging two existing code models.",
       "capabilities": [],
@@ -2109,6 +2100,15 @@
         "34b"
       ],
       "url": "https://ollama.com/library/codebooga"
+    },
+    {
+      "name": "deepseek-v2.5",
+      "description": "An upgraded version of DeekSeek-V2  that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
+      "capabilities": [],
+      "sizes": [
+        "236b"
+      ],
+      "url": "https://ollama.com/library/deepseek-v2.5"
     },
     {
       "name": "wizard-vicuna",

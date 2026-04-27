@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-26T02:13:05.699523+00:00",
+  "last_updated": "2026-04-27T02:24:15.872326+00:00",
   "total_pages": 12,
   "total_models": 199,
   "models": [
@@ -261,19 +261,6 @@
       "url": "https://ollama.com/library/cogito-2.1"
     },
     {
-      "name": "gpt-oss-safeguard",
-      "description": "gpt-oss-safeguard-20b and gpt-oss-safeguard-120b are safety reasoning models built-upon gpt-oss",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "20b",
-        "120b"
-      ],
-      "url": "https://ollama.com/library/gpt-oss-safeguard"
-    },
-    {
       "name": "qwen3",
       "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models.",
       "capabilities": [
@@ -451,6 +438,19 @@
         "24b"
       ],
       "url": "https://ollama.com/library/devstral"
+    },
+    {
+      "name": "gpt-oss-safeguard",
+      "description": "gpt-oss-safeguard-20b and gpt-oss-safeguard-120b are safety reasoning models built-upon gpt-oss",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "20b",
+        "120b"
+      ],
+      "url": "https://ollama.com/library/gpt-oss-safeguard"
     },
     {
       "name": "phi4-mini-reasoning",
@@ -755,6 +755,17 @@
       "url": "https://ollama.com/library/granite3.1-moe"
     },
     {
+      "name": "mistral-nemo",
+      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "12b"
+      ],
+      "url": "https://ollama.com/library/mistral-nemo"
+    },
+    {
       "name": "cogito",
       "description": "Cogito v1 Preview is a family of hybrid reasoning models by Deep Cogito that outperform the best available open models of the same size, including counterparts from LLaMA, DeepSeek, and Qwen across most standard benchmarks.",
       "capabilities": [
@@ -768,17 +779,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/cogito"
-    },
-    {
-      "name": "mistral-nemo",
-      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "12b"
-      ],
-      "url": "https://ollama.com/library/mistral-nemo"
     },
     {
       "name": "bge-m3",
@@ -1359,17 +1359,6 @@
       "url": "https://ollama.com/library/aya"
     },
     {
-      "name": "paraphrase-multilingual",
-      "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "278m"
-      ],
-      "url": "https://ollama.com/library/paraphrase-multilingual"
-    },
-    {
       "name": "internlm2",
       "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
       "capabilities": [],
@@ -1380,6 +1369,17 @@
         "20b"
       ],
       "url": "https://ollama.com/library/internlm2"
+    },
+    {
+      "name": "paraphrase-multilingual",
+      "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "278m"
+      ],
+      "url": "https://ollama.com/library/paraphrase-multilingual"
     },
     {
       "name": "codeqwen",
@@ -1598,15 +1598,6 @@
       "url": "https://ollama.com/library/reflection"
     },
     {
-      "name": "codegeex4",
-      "description": "A versatile model for AI software development scenarios, including code completion.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/codegeex4"
-    },
-    {
       "name": "neural-chat",
       "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
       "capabilities": [],
@@ -1614,6 +1605,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/neural-chat"
+    },
+    {
+      "name": "codegeex4",
+      "description": "A versatile model for AI software development scenarios, including code completion.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/codegeex4"
     },
     {
       "name": "command-r-plus",

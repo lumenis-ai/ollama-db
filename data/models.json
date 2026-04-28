@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27T02:24:15.872326+00:00",
+  "last_updated": "2026-04-28T02:31:11.603090+00:00",
   "total_pages": 12,
   "total_models": 199,
   "models": [
@@ -1120,6 +1120,17 @@
       "url": "https://ollama.com/library/granite3.1-dense"
     },
     {
+      "name": "mistral-large",
+      "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "123b"
+      ],
+      "url": "https://ollama.com/library/mistral-large"
+    },
+    {
       "name": "granite3-dense",
       "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
       "capabilities": [
@@ -1130,17 +1141,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3-dense"
-    },
-    {
-      "name": "mistral-large",
-      "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "123b"
-      ],
-      "url": "https://ollama.com/library/mistral-large"
     },
     {
       "name": "granite-code",
@@ -1198,6 +1198,15 @@
       "url": "https://ollama.com/library/qwen2-math"
     },
     {
+      "name": "codestral",
+      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/codestral"
+    },
+    {
       "name": "granite3-moe",
       "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -1208,15 +1217,6 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite3-moe"
-    },
-    {
-      "name": "codestral",
-      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
-      "capabilities": [],
-      "sizes": [
-        "22b"
-      ],
-      "url": "https://ollama.com/library/codestral"
     },
     {
       "name": "command-r",
@@ -1297,6 +1297,15 @@
       "url": "https://ollama.com/library/deepseek-v2"
     },
     {
+      "name": "dolphin-mistral",
+      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-mistral"
+    },
+    {
       "name": "reader-lm",
       "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
       "capabilities": [],
@@ -1305,15 +1314,6 @@
         "1.5b"
       ],
       "url": "https://ollama.com/library/reader-lm"
-    },
-    {
-      "name": "dolphin-mistral",
-      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-mistral"
     },
     {
       "name": "moondream",
@@ -1527,14 +1527,13 @@
       "url": "https://ollama.com/library/exaone3.5"
     },
     {
-      "name": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "name": "openchat",
+      "description": "A family of open-source models trained on a wide variety of data, surpassing ChatGPT on various benchmarks. Updated to version 3.5-0106.",
       "capabilities": [],
       "sizes": [
-        "70b",
-        "671b"
+        "7b"
       ],
-      "url": "https://ollama.com/library/r1-1776"
+      "url": "https://ollama.com/library/openchat"
     },
     {
       "name": "stablelm2",
@@ -1547,13 +1546,14 @@
       "url": "https://ollama.com/library/stablelm2"
     },
     {
-      "name": "openchat",
-      "description": "A family of open-source models trained on a wide variety of data, surpassing ChatGPT on various benchmarks. Updated to version 3.5-0106.",
+      "name": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
       "capabilities": [],
       "sizes": [
-        "7b"
+        "70b",
+        "671b"
       ],
-      "url": "https://ollama.com/library/openchat"
+      "url": "https://ollama.com/library/r1-1776"
     },
     {
       "name": "nous-hermes2",
@@ -2073,6 +2073,15 @@
       "url": "https://ollama.com/library/medllama2"
     },
     {
+      "name": "everythinglm",
+      "description": "Uncensored Llama2 based model with support for a 16K context window.",
+      "capabilities": [],
+      "sizes": [
+        "13b"
+      ],
+      "url": "https://ollama.com/library/everythinglm"
+    },
+    {
       "name": "command-r7b-arabic",
       "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
       "capabilities": [
@@ -2082,15 +2091,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b-arabic"
-    },
-    {
-      "name": "everythinglm",
-      "description": "Uncensored Llama2 based model with support for a 16K context window.",
-      "capabilities": [],
-      "sizes": [
-        "13b"
-      ],
-      "url": "https://ollama.com/library/everythinglm"
     },
     {
       "name": "codebooga",

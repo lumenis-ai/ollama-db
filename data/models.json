@@ -1,8 +1,22 @@
 {
-  "last_updated": "2026-04-28T02:31:11.603090+00:00",
+  "last_updated": "2026-04-29T02:31:32.993861+00:00",
   "total_pages": 12,
-  "total_models": 199,
+  "total_models": 200,
   "models": [
+    {
+      "name": "nemotron3",
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/nemotron3"
+    },
     {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
@@ -150,18 +164,6 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
-      "name": "nemotron-cascade-2",
-      "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "30b"
-      ],
-      "url": "https://ollama.com/library/nemotron-cascade-2"
-    },
-    {
       "name": "qwen3-next",
       "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
       "capabilities": [
@@ -172,6 +174,18 @@
         "80b"
       ],
       "url": "https://ollama.com/library/qwen3-next"
+    },
+    {
+      "name": "nemotron-cascade-2",
+      "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "30b"
+      ],
+      "url": "https://ollama.com/library/nemotron-cascade-2"
     },
     {
       "name": "rnj-1",
@@ -259,25 +273,6 @@
         "671b"
       ],
       "url": "https://ollama.com/library/cogito-2.1"
-    },
-    {
-      "name": "qwen3",
-      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "0.6b",
-        "1.7b",
-        "4b",
-        "8b",
-        "14b",
-        "30b",
-        "32b",
-        "235b"
-      ],
-      "url": "https://ollama.com/library/qwen3"
     },
     {
       "name": "gpt-oss",
@@ -518,6 +513,25 @@
         "27b"
       ],
       "url": "https://ollama.com/library/gemma3"
+    },
+    {
+      "name": "qwen3",
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "0.6b",
+        "1.7b",
+        "4b",
+        "8b",
+        "14b",
+        "30b",
+        "32b",
+        "235b"
+      ],
+      "url": "https://ollama.com/library/qwen3"
     },
     {
       "name": "qwen2.5",
@@ -766,6 +780,17 @@
       "url": "https://ollama.com/library/mistral-nemo"
     },
     {
+      "name": "bge-m3",
+      "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "567m"
+      ],
+      "url": "https://ollama.com/library/bge-m3"
+    },
+    {
       "name": "cogito",
       "description": "Cogito v1 Preview is a family of hybrid reasoning models by Deep Cogito that outperform the best available open models of the same size, including counterparts from LLaMA, DeepSeek, and Qwen across most standard benchmarks.",
       "capabilities": [
@@ -779,17 +804,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/cogito"
-    },
-    {
-      "name": "bge-m3",
-      "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "567m"
-      ],
-      "url": "https://ollama.com/library/bge-m3"
     },
     {
       "name": "falcon3",
@@ -815,6 +829,18 @@
       "url": "https://ollama.com/library/llama2"
     },
     {
+      "name": "mistral-small",
+      "description": "Mistral Small 3 sets a new benchmark in the “small” Large Language Models category below 70B.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "22b",
+        "24b"
+      ],
+      "url": "https://ollama.com/library/mistral-small"
+    },
+    {
       "name": "llama4",
       "description": "Meta's latest collection of multimodal models.",
       "capabilities": [
@@ -826,18 +852,6 @@
         "128x17b"
       ],
       "url": "https://ollama.com/library/llama4"
-    },
-    {
-      "name": "mistral-small",
-      "description": "Mistral Small 3 sets a new benchmark in the “small” Large Language Models category below 70B.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "22b",
-        "24b"
-      ],
-      "url": "https://ollama.com/library/mistral-small"
     },
     {
       "name": "tinyllama",
@@ -1455,16 +1469,6 @@
       "url": "https://ollama.com/library/athene-v2"
     },
     {
-      "name": "dolphincoder",
-      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "15b"
-      ],
-      "url": "https://ollama.com/library/dolphincoder"
-    },
-    {
       "name": "nemotron-mini",
       "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
       "capabilities": [
@@ -1474,6 +1478,16 @@
         "4b"
       ],
       "url": "https://ollama.com/library/nemotron-mini"
+    },
+    {
+      "name": "dolphincoder",
+      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "15b"
+      ],
+      "url": "https://ollama.com/library/dolphincoder"
     },
     {
       "name": "zephyr",
@@ -1657,15 +1671,6 @@
       "url": "https://ollama.com/library/solar"
     },
     {
-      "name": "solar-pro",
-      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
-      "capabilities": [],
-      "sizes": [
-        "22b"
-      ],
-      "url": "https://ollama.com/library/solar-pro"
-    },
-    {
       "name": "vicuna",
       "description": "General use chat model based on Llama and Llama 2 with 2K to 16K context sizes.",
       "capabilities": [],
@@ -1675,6 +1680,15 @@
         "33b"
       ],
       "url": "https://ollama.com/library/vicuna"
+    },
+    {
+      "name": "solar-pro",
+      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/solar-pro"
     },
     {
       "name": "starling-lm",
@@ -1706,6 +1720,16 @@
       "url": "https://ollama.com/library/orca2"
     },
     {
+      "name": "xwinlm",
+      "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/xwinlm"
+    },
+    {
       "name": "bakllava",
       "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
       "capabilities": [
@@ -1715,16 +1739,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bakllava"
-    },
-    {
-      "name": "xwinlm",
-      "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/xwinlm"
     },
     {
       "name": "llama2-chinese",
@@ -1737,15 +1751,6 @@
       "url": "https://ollama.com/library/llama2-chinese"
     },
     {
-      "name": "bespoke-minicheck",
-      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/bespoke-minicheck"
-    },
-    {
       "name": "yarn-llama2",
       "description": "An extension of Llama 2 that supports a context of up to 128k tokens.",
       "capabilities": [],
@@ -1754,6 +1759,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/yarn-llama2"
+    },
+    {
+      "name": "bespoke-minicheck",
+      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/bespoke-minicheck"
     },
     {
       "name": "samantha-mistral",
@@ -1961,17 +1975,6 @@
       "url": "https://ollama.com/library/megadolphin"
     },
     {
-      "name": "command-a",
-      "description": "111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "111b"
-      ],
-      "url": "https://ollama.com/library/command-a"
-    },
-    {
       "name": "command-r7b",
       "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
       "capabilities": [
@@ -1981,6 +1984,17 @@
         "7b"
       ],
       "url": "https://ollama.com/library/command-r7b"
+    },
+    {
+      "name": "command-a",
+      "description": "111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "111b"
+      ],
+      "url": "https://ollama.com/library/command-a"
     },
     {
       "name": "duckdb-nsql",

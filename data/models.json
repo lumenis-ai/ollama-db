@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-29T02:31:32.993861+00:00",
+  "last_updated": "2026-04-30T02:32:29.467081+00:00",
   "total_pages": 12,
-  "total_models": 200,
+  "total_models": 202,
   "models": [
     {
       "name": "nemotron3",
@@ -16,6 +16,32 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
+    },
+    {
+      "name": "granite4.1",
+      "description": null,
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "3b",
+        "8b",
+        "30b"
+      ],
+      "url": "https://ollama.com/library/granite4.1"
+    },
+    {
+      "name": "mistral-medium-3.5",
+      "description": "Mistral Medium 3.5 is the first flagship model of Mistral AI that merged instruction-following, reasoning, and coding in a single set of 128B weights.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "128b"
+      ],
+      "url": "https://ollama.com/library/mistral-medium-3.5"
     },
     {
       "name": "qwen3.6",
@@ -1087,27 +1113,6 @@
       "url": "https://ollama.com/library/mistral-small3.1"
     },
     {
-      "name": "exaone-deep",
-      "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
-      "capabilities": [],
-      "sizes": [
-        "2.4b",
-        "7.8b",
-        "32b"
-      ],
-      "url": "https://ollama.com/library/exaone-deep"
-    },
-    {
-      "name": "llama2-uncensored",
-      "description": "Uncensored Llama 2 model by George Sung and Jarrad Hope.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/llama2-uncensored"
-    },
-    {
       "name": "hermes3",
       "description": "Hermes 3 is the latest version of the flagship Hermes series of LLMs by Nous Research",
       "capabilities": [
@@ -1120,6 +1125,27 @@
         "405b"
       ],
       "url": "https://ollama.com/library/hermes3"
+    },
+    {
+      "name": "llama2-uncensored",
+      "description": "Uncensored Llama 2 model by George Sung and Jarrad Hope.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama2-uncensored"
+    },
+    {
+      "name": "exaone-deep",
+      "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
+      "capabilities": [],
+      "sizes": [
+        "2.4b",
+        "7.8b",
+        "32b"
+      ],
+      "url": "https://ollama.com/library/exaone-deep"
     },
     {
       "name": "granite3.1-dense",
@@ -1145,18 +1171,6 @@
       "url": "https://ollama.com/library/mistral-large"
     },
     {
-      "name": "granite3-dense",
-      "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "2b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/granite3-dense"
-    },
-    {
       "name": "granite-code",
       "description": "A family of open foundation models by IBM for Code Intelligence",
       "capabilities": [],
@@ -1167,6 +1181,18 @@
         "34b"
       ],
       "url": "https://ollama.com/library/granite-code"
+    },
+    {
+      "name": "granite3-dense",
+      "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "2b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/granite3-dense"
     },
     {
       "name": "dolphin-mixtral",
@@ -1244,6 +1270,15 @@
       "url": "https://ollama.com/library/command-r"
     },
     {
+      "name": "glm4",
+      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/glm4"
+    },
+    {
       "name": "yi-coder",
       "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
       "capabilities": [],
@@ -1252,15 +1287,6 @@
         "9b"
       ],
       "url": "https://ollama.com/library/yi-coder"
-    },
-    {
-      "name": "glm4",
-      "description": "A strong multi-lingual general language model with competitive performance to Llama 3.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/glm4"
     },
     {
       "name": "dolphin-phi",
@@ -1425,16 +1451,6 @@
       "url": "https://ollama.com/library/llama3-gradient"
     },
     {
-      "name": "opencoder",
-      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/opencoder"
-    },
-    {
       "name": "yi",
       "description": "Yi 1.5 is a high-performing, bilingual language model.",
       "capabilities": [],
@@ -1444,6 +1460,16 @@
         "34b"
       ],
       "url": "https://ollama.com/library/yi"
+    },
+    {
+      "name": "opencoder",
+      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/opencoder"
     },
     {
       "name": "granite3.2",
@@ -1839,15 +1865,6 @@
       "url": "https://ollama.com/library/phind-codellama"
     },
     {
-      "name": "mathstral",
-      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/mathstral"
-    },
-    {
       "name": "nexusraven",
       "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
       "capabilities": [],
@@ -1855,6 +1872,15 @@
         "13b"
       ],
       "url": "https://ollama.com/library/nexusraven"
+    },
+    {
+      "name": "mathstral",
+      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/mathstral"
     },
     {
       "name": "nuextract",

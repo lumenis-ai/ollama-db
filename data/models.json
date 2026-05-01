@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30T02:32:29.467081+00:00",
+  "last_updated": "2026-05-01T02:37:46.158144+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -1327,6 +1327,15 @@
       "url": "https://ollama.com/library/phi"
     },
     {
+      "name": "dolphin-mistral",
+      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-mistral"
+    },
+    {
       "name": "deepseek-v2",
       "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
       "capabilities": [],
@@ -1335,15 +1344,6 @@
         "236b"
       ],
       "url": "https://ollama.com/library/deepseek-v2"
-    },
-    {
-      "name": "dolphin-mistral",
-      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-mistral"
     },
     {
       "name": "reader-lm",

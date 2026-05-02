@@ -1,22 +1,8 @@
 {
-  "last_updated": "2026-05-01T02:37:46.158144+00:00",
+  "last_updated": "2026-05-02T02:13:17.219257+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
-    {
-      "name": "nemotron3",
-      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "33b"
-      ],
-      "url": "https://ollama.com/library/nemotron3"
-    },
     {
       "name": "granite4.1",
       "description": null,
@@ -56,6 +42,20 @@
         "35b"
       ],
       "url": "https://ollama.com/library/qwen3.6"
+    },
+    {
+      "name": "nemotron3",
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/nemotron3"
     },
     {
       "name": "medgemma",
@@ -429,15 +429,6 @@
       "url": "https://ollama.com/library/magistral"
     },
     {
-      "name": "phi4-reasoning",
-      "description": "Phi 4 reasoning and reasoning plus are 14-billion parameter open-weight reasoning models that rival much larger models on complex reasoning tasks.",
-      "capabilities": [],
-      "sizes": [
-        "14b"
-      ],
-      "url": "https://ollama.com/library/phi4-reasoning"
-    },
-    {
       "name": "deepseek-v3.1",
       "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
       "capabilities": [
@@ -472,15 +463,6 @@
         "120b"
       ],
       "url": "https://ollama.com/library/gpt-oss-safeguard"
-    },
-    {
-      "name": "phi4-mini-reasoning",
-      "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/phi4-mini-reasoning"
     },
     {
       "name": "deepseek-r1",
@@ -853,6 +835,15 @@
         "70b"
       ],
       "url": "https://ollama.com/library/llama2"
+    },
+    {
+      "name": "phi4-reasoning",
+      "description": "Phi 4 reasoning and reasoning plus are 14-billion parameter open-weight reasoning models that rival much larger models on complex reasoning tasks.",
+      "capabilities": [],
+      "sizes": [
+        "14b"
+      ],
+      "url": "https://ollama.com/library/phi4-reasoning"
     },
     {
       "name": "mistral-small",
@@ -1247,6 +1238,17 @@
       "url": "https://ollama.com/library/codestral"
     },
     {
+      "name": "command-r",
+      "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "35b"
+      ],
+      "url": "https://ollama.com/library/command-r"
+    },
+    {
       "name": "granite3-moe",
       "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -1257,17 +1259,6 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite3-moe"
-    },
-    {
-      "name": "command-r",
-      "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "35b"
-      ],
-      "url": "https://ollama.com/library/command-r"
     },
     {
       "name": "glm4",
@@ -1346,16 +1337,6 @@
       "url": "https://ollama.com/library/deepseek-v2"
     },
     {
-      "name": "reader-lm",
-      "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
-      "capabilities": [],
-      "sizes": [
-        "0.5b",
-        "1.5b"
-      ],
-      "url": "https://ollama.com/library/reader-lm"
-    },
-    {
       "name": "moondream",
       "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
       "capabilities": [
@@ -1365,6 +1346,16 @@
         "1.8b"
       ],
       "url": "https://ollama.com/library/moondream"
+    },
+    {
+      "name": "reader-lm",
+      "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
+      "capabilities": [],
+      "sizes": [
+        "0.5b",
+        "1.5b"
+      ],
+      "url": "https://ollama.com/library/reader-lm"
     },
     {
       "name": "wizardlm2",
@@ -1814,6 +1805,15 @@
       "url": "https://ollama.com/library/wizardcoder"
     },
     {
+      "name": "phi4-mini-reasoning",
+      "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/phi4-mini-reasoning"
+    },
+    {
       "name": "yarn-mistral",
       "description": "An extension of Mistral to support context windows of 64K or 128K.",
       "capabilities": [],
@@ -1834,17 +1834,6 @@
       "url": "https://ollama.com/library/wizard-math"
     },
     {
-      "name": "sailor2",
-      "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
-      "capabilities": [],
-      "sizes": [
-        "1b",
-        "8b",
-        "20b"
-      ],
-      "url": "https://ollama.com/library/sailor2"
-    },
-    {
       "name": "snowflake-arctic-embed2",
       "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
       "capabilities": [
@@ -1854,6 +1843,17 @@
         "568m"
       ],
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
+    },
+    {
+      "name": "sailor2",
+      "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
+      "capabilities": [],
+      "sizes": [
+        "1b",
+        "8b",
+        "20b"
+      ],
+      "url": "https://ollama.com/library/sailor2"
     },
     {
       "name": "phind-codellama",

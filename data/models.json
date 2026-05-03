@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T02:13:17.219257+00:00",
+  "last_updated": "2026-05-03T02:29:23.133320+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -1300,6 +1300,15 @@
       "url": "https://ollama.com/library/shieldgemma"
     },
     {
+      "name": "dolphin-mistral",
+      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-mistral"
+    },
+    {
       "name": "phi3.5",
       "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
       "capabilities": [],
@@ -1316,15 +1325,6 @@
         "2.7b"
       ],
       "url": "https://ollama.com/library/phi"
-    },
-    {
-      "name": "dolphin-mistral",
-      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-mistral"
     },
     {
       "name": "deepseek-v2",
@@ -1547,6 +1547,15 @@
       "url": "https://ollama.com/library/nemotron"
     },
     {
+      "name": "openchat",
+      "description": "A family of open-source models trained on a wide variety of data, surpassing ChatGPT on various benchmarks. Updated to version 3.5-0106.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/openchat"
+    },
+    {
       "name": "exaone3.5",
       "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
       "capabilities": [],
@@ -1556,15 +1565,6 @@
         "32b"
       ],
       "url": "https://ollama.com/library/exaone3.5"
-    },
-    {
-      "name": "openchat",
-      "description": "A family of open-source models trained on a wide variety of data, surpassing ChatGPT on various benchmarks. Updated to version 3.5-0106.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/openchat"
     },
     {
       "name": "stablelm2",
@@ -1747,6 +1747,16 @@
       "url": "https://ollama.com/library/xwinlm"
     },
     {
+      "name": "llama2-chinese",
+      "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/llama2-chinese"
+    },
+    {
       "name": "bakllava",
       "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
       "capabilities": [
@@ -1756,16 +1766,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bakllava"
-    },
-    {
-      "name": "llama2-chinese",
-      "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/llama2-chinese"
     },
     {
       "name": "yarn-llama2",
@@ -1834,6 +1834,15 @@
       "url": "https://ollama.com/library/wizard-math"
     },
     {
+      "name": "phind-codellama",
+      "description": "Code generation model based on Code Llama.",
+      "capabilities": [],
+      "sizes": [
+        "34b"
+      ],
+      "url": "https://ollama.com/library/phind-codellama"
+    },
+    {
       "name": "snowflake-arctic-embed2",
       "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
       "capabilities": [
@@ -1854,15 +1863,6 @@
         "20b"
       ],
       "url": "https://ollama.com/library/sailor2"
-    },
-    {
-      "name": "phind-codellama",
-      "description": "Code generation model based on Code Llama.",
-      "capabilities": [],
-      "sizes": [
-        "34b"
-      ],
-      "url": "https://ollama.com/library/phind-codellama"
     },
     {
       "name": "nexusraven",

@@ -1,34 +1,8 @@
 {
-  "last_updated": "2026-05-05T02:23:02.968054+00:00",
+  "last_updated": "2026-05-06T02:26:48.570605+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
-    {
-      "name": "granite4.1",
-      "description": null,
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "3b",
-        "8b",
-        "30b"
-      ],
-      "url": "https://ollama.com/library/granite4.1"
-    },
-    {
-      "name": "mistral-medium-3.5",
-      "description": "Mistral Medium 3.5 is the first flagship model of Mistral AI that merged instruction-following, reasoning, and coding in a single set of 128B weights.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "128b"
-      ],
-      "url": "https://ollama.com/library/mistral-medium-3.5"
-    },
     {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
@@ -56,6 +30,32 @@
         "35b"
       ],
       "url": "https://ollama.com/library/qwen3.6"
+    },
+    {
+      "name": "granite4.1",
+      "description": null,
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "3b",
+        "8b",
+        "30b"
+      ],
+      "url": "https://ollama.com/library/granite4.1"
+    },
+    {
+      "name": "mistral-medium-3.5",
+      "description": "Mistral Medium 3.5 is the first flagship model of Mistral AI that merged instruction-following, reasoning, and coding in a single set of 128B weights.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "128b"
+      ],
+      "url": "https://ollama.com/library/mistral-medium-3.5"
     },
     {
       "name": "medgemma",
@@ -166,18 +166,6 @@
       "url": "https://ollama.com/library/ministral-3"
     },
     {
-      "name": "devstral-small-2",
-      "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/devstral-small-2"
-    },
-    {
       "name": "nemotron-3-super",
       "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
       "capabilities": [
@@ -188,6 +176,18 @@
         "120b"
       ],
       "url": "https://ollama.com/library/nemotron-3-super"
+    },
+    {
+      "name": "devstral-small-2",
+      "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/devstral-small-2"
     },
     {
       "name": "qwen3-next",
@@ -202,6 +202,17 @@
       "url": "https://ollama.com/library/qwen3-next"
     },
     {
+      "name": "rnj-1",
+      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/rnj-1"
+    },
+    {
       "name": "nemotron-cascade-2",
       "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
       "capabilities": [
@@ -212,17 +223,6 @@
         "30b"
       ],
       "url": "https://ollama.com/library/nemotron-cascade-2"
-    },
-    {
-      "name": "rnj-1",
-      "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/rnj-1"
     },
     {
       "name": "nemotron-3-nano",
@@ -765,6 +765,17 @@
       "url": "https://ollama.com/library/smollm2"
     },
     {
+      "name": "mistral-nemo",
+      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "12b"
+      ],
+      "url": "https://ollama.com/library/mistral-nemo"
+    },
+    {
       "name": "granite3.1-moe",
       "description": "The IBM Granite 1B and 3B models are long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -775,17 +786,6 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite3.1-moe"
-    },
-    {
-      "name": "mistral-nemo",
-      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "12b"
-      ],
-      "url": "https://ollama.com/library/mistral-nemo"
     },
     {
       "name": "bge-m3",
@@ -1620,15 +1620,6 @@
       "url": "https://ollama.com/library/starcoder"
     },
     {
-      "name": "reflection",
-      "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
-      "capabilities": [],
-      "sizes": [
-        "70b"
-      ],
-      "url": "https://ollama.com/library/reflection"
-    },
-    {
       "name": "neural-chat",
       "description": "A fine-tuned model based on Mistral with good coverage of domain and language.",
       "capabilities": [],
@@ -1636,6 +1627,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/neural-chat"
+    },
+    {
+      "name": "reflection",
+      "description": "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.",
+      "capabilities": [],
+      "sizes": [
+        "70b"
+      ],
+      "url": "https://ollama.com/library/reflection"
     },
     {
       "name": "codegeex4",

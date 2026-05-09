@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T02:36:00.581960+00:00",
+  "last_updated": "2026-05-09T02:29:00.418998+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -1309,15 +1309,6 @@
       "url": "https://ollama.com/library/dolphin-mistral"
     },
     {
-      "name": "phi3.5",
-      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/phi3.5"
-    },
-    {
       "name": "deepseek-v2",
       "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
       "capabilities": [],
@@ -1328,13 +1319,13 @@
       "url": "https://ollama.com/library/deepseek-v2"
     },
     {
-      "name": "phi",
-      "description": "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.",
+      "name": "phi3.5",
+      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
       "capabilities": [],
       "sizes": [
-        "2.7b"
+        "3.8b"
       ],
-      "url": "https://ollama.com/library/phi"
+      "url": "https://ollama.com/library/phi3.5"
     },
     {
       "name": "moondream",
@@ -1346,6 +1337,15 @@
         "1.8b"
       ],
       "url": "https://ollama.com/library/moondream"
+    },
+    {
+      "name": "phi",
+      "description": "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.",
+      "capabilities": [],
+      "sizes": [
+        "2.7b"
+      ],
+      "url": "https://ollama.com/library/phi"
     },
     {
       "name": "reader-lm",
@@ -1787,15 +1787,6 @@
       "url": "https://ollama.com/library/samantha-mistral"
     },
     {
-      "name": "bespoke-minicheck",
-      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/bespoke-minicheck"
-    },
-    {
       "name": "wizardcoder",
       "description": "State-of-the-art code generation model",
       "capabilities": [],
@@ -1803,6 +1794,15 @@
         "33b"
       ],
       "url": "https://ollama.com/library/wizardcoder"
+    },
+    {
+      "name": "bespoke-minicheck",
+      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/bespoke-minicheck"
     },
     {
       "name": "phi4-mini-reasoning",

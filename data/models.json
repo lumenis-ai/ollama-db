@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T02:32:16.314221+00:00",
+  "last_updated": "2026-05-11T02:41:50.944266+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -128,6 +128,18 @@
       "url": "https://ollama.com/library/lfm2"
     },
     {
+      "name": "nemotron-3-super",
+      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/nemotron-3-super"
+    },
+    {
       "name": "translategemma",
       "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
       "capabilities": [
@@ -139,18 +151,6 @@
         "27b"
       ],
       "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "nemotron-3-super",
-      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
       "name": "lfm2.5-thinking",
@@ -973,15 +973,6 @@
       "url": "https://ollama.com/library/granite3.3"
     },
     {
-      "name": "deepscaler",
-      "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b"
-      ],
-      "url": "https://ollama.com/library/deepscaler"
-    },
-    {
       "name": "starcoder2",
       "description": "StarCoder2 is the next generation of transparently trained open code LLMs that comes in three sizes: 3B, 7B and 15B parameters.",
       "capabilities": [],
@@ -991,6 +982,15 @@
         "15b"
       ],
       "url": "https://ollama.com/library/starcoder2"
+    },
+    {
+      "name": "deepscaler",
+      "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b"
+      ],
+      "url": "https://ollama.com/library/deepscaler"
     },
     {
       "name": "phi4-mini",
@@ -1463,6 +1463,17 @@
       "url": "https://ollama.com/library/opencoder"
     },
     {
+      "name": "nemotron-mini",
+      "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "4b"
+      ],
+      "url": "https://ollama.com/library/nemotron-mini"
+    },
+    {
       "name": "granite3.2",
       "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
       "capabilities": [
@@ -1473,17 +1484,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.2"
-    },
-    {
-      "name": "nemotron-mini",
-      "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "4b"
-      ],
-      "url": "https://ollama.com/library/nemotron-mini"
     },
     {
       "name": "athene-v2",

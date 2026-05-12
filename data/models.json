@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T02:41:50.944266+00:00",
+  "last_updated": "2026-05-12T02:34:41.564709+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -1218,17 +1218,6 @@
       "url": "https://ollama.com/library/llama-guard3"
     },
     {
-      "name": "qwen2-math",
-      "description": "Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "7b",
-        "72b"
-      ],
-      "url": "https://ollama.com/library/qwen2-math"
-    },
-    {
       "name": "command-r",
       "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
       "capabilities": [
@@ -1238,6 +1227,17 @@
         "35b"
       ],
       "url": "https://ollama.com/library/command-r"
+    },
+    {
+      "name": "qwen2-math",
+      "description": "Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "7b",
+        "72b"
+      ],
+      "url": "https://ollama.com/library/qwen2-math"
     },
     {
       "name": "codestral",
@@ -1805,15 +1805,6 @@
       "url": "https://ollama.com/library/bespoke-minicheck"
     },
     {
-      "name": "phi4-mini-reasoning",
-      "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/phi4-mini-reasoning"
-    },
-    {
       "name": "yarn-mistral",
       "description": "An extension of Mistral to support context windows of 64K or 128K.",
       "capabilities": [],
@@ -1821,6 +1812,15 @@
         "7b"
       ],
       "url": "https://ollama.com/library/yarn-mistral"
+    },
+    {
+      "name": "phi4-mini-reasoning",
+      "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/phi4-mini-reasoning"
     },
     {
       "name": "wizard-math",

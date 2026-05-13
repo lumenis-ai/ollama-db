@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T02:34:41.564709+00:00",
+  "last_updated": "2026-05-13T02:41:07.052443+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -117,17 +117,6 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
-    },
-    {
       "name": "nemotron-3-super",
       "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
       "capabilities": [
@@ -138,6 +127,17 @@
         "120b"
       ],
       "url": "https://ollama.com/library/nemotron-3-super"
+    },
+    {
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "translategemma",
@@ -391,20 +391,6 @@
         "300m"
       ],
       "url": "https://ollama.com/library/embeddinggemma"
-    },
-    {
-      "name": "qwen2.5vl",
-      "description": "Flagship vision-language model of Qwen and also a significant leap from the previous Qwen2-VL.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "3b",
-        "7b",
-        "32b",
-        "72b"
-      ],
-      "url": "https://ollama.com/library/qwen2.5vl"
     },
     {
       "name": "gemma3n",
@@ -736,6 +722,20 @@
       "url": "https://ollama.com/library/gemma"
     },
     {
+      "name": "qwen2.5vl",
+      "description": "Flagship vision-language model of Qwen and also a significant leap from the previous Qwen2-VL.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "3b",
+        "7b",
+        "32b",
+        "72b"
+      ],
+      "url": "https://ollama.com/library/qwen2.5vl"
+    },
+    {
       "name": "qwen",
       "description": "Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters",
       "capabilities": [],
@@ -961,6 +961,17 @@
       "url": "https://ollama.com/library/all-minilm"
     },
     {
+      "name": "starcoder2",
+      "description": "StarCoder2 is the next generation of transparently trained open code LLMs that comes in three sizes: 3B, 7B and 15B parameters.",
+      "capabilities": [],
+      "sizes": [
+        "3b",
+        "7b",
+        "15b"
+      ],
+      "url": "https://ollama.com/library/starcoder2"
+    },
+    {
       "name": "granite3.3",
       "description": "IBM Granite 2B and 8B models are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities.",
       "capabilities": [
@@ -971,17 +982,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.3"
-    },
-    {
-      "name": "starcoder2",
-      "description": "StarCoder2 is the next generation of transparently trained open code LLMs that comes in three sizes: 3B, 7B and 15B parameters.",
-      "capabilities": [],
-      "sizes": [
-        "3b",
-        "7b",
-        "15b"
-      ],
-      "url": "https://ollama.com/library/starcoder2"
     },
     {
       "name": "deepscaler",
@@ -1486,6 +1486,16 @@
       "url": "https://ollama.com/library/granite3.2"
     },
     {
+      "name": "dolphincoder",
+      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "15b"
+      ],
+      "url": "https://ollama.com/library/dolphincoder"
+    },
+    {
       "name": "athene-v2",
       "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
       "capabilities": [
@@ -1495,16 +1505,6 @@
         "72b"
       ],
       "url": "https://ollama.com/library/athene-v2"
-    },
-    {
-      "name": "dolphincoder",
-      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "15b"
-      ],
-      "url": "https://ollama.com/library/dolphincoder"
     },
     {
       "name": "zephyr",
@@ -1587,16 +1587,6 @@
       "url": "https://ollama.com/library/nous-hermes2"
     },
     {
-      "name": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-      "capabilities": [],
-      "sizes": [
-        "70b",
-        "671b"
-      ],
-      "url": "https://ollama.com/library/r1-1776"
-    },
-    {
       "name": "wizard-vicuna-uncensored",
       "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
       "capabilities": [],
@@ -1606,6 +1596,16 @@
         "30b"
       ],
       "url": "https://ollama.com/library/wizard-vicuna-uncensored"
+    },
+    {
+      "name": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "capabilities": [],
+      "sizes": [
+        "70b",
+        "671b"
+      ],
+      "url": "https://ollama.com/library/r1-1776"
     },
     {
       "name": "starcoder",
@@ -1854,6 +1854,15 @@
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
     },
     {
+      "name": "nexusraven",
+      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
+      "capabilities": [],
+      "sizes": [
+        "13b"
+      ],
+      "url": "https://ollama.com/library/nexusraven"
+    },
+    {
       "name": "sailor2",
       "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
       "capabilities": [],
@@ -1863,15 +1872,6 @@
         "20b"
       ],
       "url": "https://ollama.com/library/sailor2"
-    },
-    {
-      "name": "nexusraven",
-      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
-      "capabilities": [],
-      "sizes": [
-        "13b"
-      ],
-      "url": "https://ollama.com/library/nexusraven"
     },
     {
       "name": "mathstral",

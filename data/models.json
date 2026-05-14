@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T02:41:07.052443+00:00",
+  "last_updated": "2026-05-14T02:41:46.892300+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -1151,17 +1151,6 @@
       "url": "https://ollama.com/library/granite3.1-dense"
     },
     {
-      "name": "mistral-large",
-      "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "123b"
-      ],
-      "url": "https://ollama.com/library/mistral-large"
-    },
-    {
       "name": "granite-code",
       "description": "A family of open foundation models by IBM for Code Intelligence",
       "capabilities": [],
@@ -1172,6 +1161,17 @@
         "34b"
       ],
       "url": "https://ollama.com/library/granite-code"
+    },
+    {
+      "name": "mistral-large",
+      "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "123b"
+      ],
+      "url": "https://ollama.com/library/mistral-large"
     },
     {
       "name": "granite3-dense",
@@ -1300,15 +1300,6 @@
       "url": "https://ollama.com/library/shieldgemma"
     },
     {
-      "name": "dolphin-mistral",
-      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/dolphin-mistral"
-    },
-    {
       "name": "moondream",
       "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
       "capabilities": [
@@ -1318,6 +1309,15 @@
         "1.8b"
       ],
       "url": "https://ollama.com/library/moondream"
+    },
+    {
+      "name": "dolphin-mistral",
+      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/dolphin-mistral"
     },
     {
       "name": "deepseek-v2",
@@ -1545,6 +1545,16 @@
       "url": "https://ollama.com/library/openchat"
     },
     {
+      "name": "stablelm2",
+      "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
+      "capabilities": [],
+      "sizes": [
+        "1.6b",
+        "12b"
+      ],
+      "url": "https://ollama.com/library/stablelm2"
+    },
+    {
       "name": "nemotron",
       "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
       "capabilities": [
@@ -1554,16 +1564,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/nemotron"
-    },
-    {
-      "name": "stablelm2",
-      "description": "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch.",
-      "capabilities": [],
-      "sizes": [
-        "1.6b",
-        "12b"
-      ],
-      "url": "https://ollama.com/library/stablelm2"
     },
     {
       "name": "exaone3.5",
@@ -1854,15 +1854,6 @@
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
     },
     {
-      "name": "nexusraven",
-      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
-      "capabilities": [],
-      "sizes": [
-        "13b"
-      ],
-      "url": "https://ollama.com/library/nexusraven"
-    },
-    {
       "name": "sailor2",
       "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
       "capabilities": [],
@@ -1872,6 +1863,15 @@
         "20b"
       ],
       "url": "https://ollama.com/library/sailor2"
+    },
+    {
+      "name": "nexusraven",
+      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
+      "capabilities": [],
+      "sizes": [
+        "13b"
+      ],
+      "url": "https://ollama.com/library/nexusraven"
     },
     {
       "name": "mathstral",

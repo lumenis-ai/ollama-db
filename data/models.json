@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T02:41:46.892300+00:00",
+  "last_updated": "2026-05-15T02:42:19.695241+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -776,6 +776,17 @@
       "url": "https://ollama.com/library/smollm2"
     },
     {
+      "name": "bge-m3",
+      "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "567m"
+      ],
+      "url": "https://ollama.com/library/bge-m3"
+    },
+    {
       "name": "granite3.1-moe",
       "description": "The IBM Granite 1B and 3B models are long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
       "capabilities": [
@@ -786,17 +797,6 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite3.1-moe"
-    },
-    {
-      "name": "bge-m3",
-      "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "567m"
-      ],
-      "url": "https://ollama.com/library/bge-m3"
     },
     {
       "name": "cogito",
@@ -1598,16 +1598,6 @@
       "url": "https://ollama.com/library/wizard-vicuna-uncensored"
     },
     {
-      "name": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-      "capabilities": [],
-      "sizes": [
-        "70b",
-        "671b"
-      ],
-      "url": "https://ollama.com/library/r1-1776"
-    },
-    {
       "name": "starcoder",
       "description": "StarCoder is a code generation model trained on 80+ programming languages.",
       "capabilities": [],
@@ -1618,6 +1608,16 @@
         "15b"
       ],
       "url": "https://ollama.com/library/starcoder"
+    },
+    {
+      "name": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "capabilities": [],
+      "sizes": [
+        "70b",
+        "671b"
+      ],
+      "url": "https://ollama.com/library/r1-1776"
     },
     {
       "name": "neural-chat",
@@ -1647,17 +1647,6 @@
       "url": "https://ollama.com/library/codegeex4"
     },
     {
-      "name": "command-r-plus",
-      "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "104b"
-      ],
-      "url": "https://ollama.com/library/command-r-plus"
-    },
-    {
       "name": "falcon",
       "description": "A large language model built by the Technology Innovation Institute (TII) for use in summarization, text generation, and chat bots.",
       "capabilities": [],
@@ -1667,6 +1656,17 @@
         "180b"
       ],
       "url": "https://ollama.com/library/falcon"
+    },
+    {
+      "name": "command-r-plus",
+      "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "104b"
+      ],
+      "url": "https://ollama.com/library/command-r-plus"
     },
     {
       "name": "nous-hermes",

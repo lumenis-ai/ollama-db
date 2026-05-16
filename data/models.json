@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T02:42:19.695241+00:00",
+  "last_updated": "2026-05-16T02:31:38.714548+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -56,29 +56,6 @@
         "128b"
       ],
       "url": "https://ollama.com/library/mistral-medium-3.5"
-    },
-    {
-      "name": "medgemma",
-      "description": "MedGemma is a collection of Gemma 3 variants that are trained for performance on medical text and image comprehension.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/medgemma"
-    },
-    {
-      "name": "medgemma1.5",
-      "description": "MedGemma 1.5 4B is an updated version of the MedGemma 4B model.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b"
-      ],
-      "url": "https://ollama.com/library/medgemma1.5"
     },
     {
       "name": "gemma4",
@@ -281,6 +258,18 @@
       "url": "https://ollama.com/library/devstral-2"
     },
     {
+      "name": "medgemma",
+      "description": "MedGemma is a collection of Gemma 3 variants that are trained for performance on medical text and image comprehension.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/medgemma"
+    },
+    {
       "name": "functiongemma",
       "description": "FunctionGemma is a specialized version of Google's Gemma 3 270M model fine-tuned explicitly for function calling.",
       "capabilities": [
@@ -299,6 +288,17 @@
         "671b"
       ],
       "url": "https://ollama.com/library/cogito-2.1"
+    },
+    {
+      "name": "medgemma1.5",
+      "description": "MedGemma 1.5 4B is an updated version of the MedGemma 4B model.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b"
+      ],
+      "url": "https://ollama.com/library/medgemma1.5"
     },
     {
       "name": "gpt-oss",
@@ -763,6 +763,17 @@
       "url": "https://ollama.com/library/mistral-nemo"
     },
     {
+      "name": "bge-m3",
+      "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
+      "capabilities": [
+        "embedding"
+      ],
+      "sizes": [
+        "567m"
+      ],
+      "url": "https://ollama.com/library/bge-m3"
+    },
+    {
       "name": "smollm2",
       "description": "SmolLM2 is a family of compact language models available in three size: 135M, 360M, and 1.7B parameters.",
       "capabilities": [
@@ -774,17 +785,6 @@
         "1.7b"
       ],
       "url": "https://ollama.com/library/smollm2"
-    },
-    {
-      "name": "bge-m3",
-      "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
-      "capabilities": [
-        "embedding"
-      ],
-      "sizes": [
-        "567m"
-      ],
-      "url": "https://ollama.com/library/bge-m3"
     },
     {
       "name": "granite3.1-moe",
@@ -1757,6 +1757,16 @@
       "url": "https://ollama.com/library/llama2-chinese"
     },
     {
+      "name": "yarn-llama2",
+      "description": "An extension of Llama 2 that supports a context of up to 128k tokens.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/yarn-llama2"
+    },
+    {
       "name": "bakllava",
       "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
       "capabilities": [
@@ -1766,16 +1776,6 @@
         "7b"
       ],
       "url": "https://ollama.com/library/bakllava"
-    },
-    {
-      "name": "yarn-llama2",
-      "description": "An extension of Llama 2 that supports a context of up to 128k tokens.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/yarn-llama2"
     },
     {
       "name": "samantha-mistral",
@@ -1814,15 +1814,6 @@
       "url": "https://ollama.com/library/yarn-mistral"
     },
     {
-      "name": "phi4-mini-reasoning",
-      "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/phi4-mini-reasoning"
-    },
-    {
       "name": "wizard-math",
       "description": "Model focused on math and logic problems",
       "capabilities": [],
@@ -1832,6 +1823,15 @@
         "70b"
       ],
       "url": "https://ollama.com/library/wizard-math"
+    },
+    {
+      "name": "phi4-mini-reasoning",
+      "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/phi4-mini-reasoning"
     },
     {
       "name": "phind-codellama",

@@ -1,22 +1,8 @@
 {
-  "last_updated": "2026-05-16T02:31:38.714548+00:00",
+  "last_updated": "2026-05-17T02:39:37.502574+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
-    {
-      "name": "qwen3.6",
-      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "27b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/qwen3.6"
-    },
     {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
@@ -92,6 +78,20 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
+    },
+    {
+      "name": "qwen3.6",
+      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "27b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/qwen3.6"
     },
     {
       "name": "nemotron-3-super",

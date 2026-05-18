@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T02:39:37.502574+00:00",
+  "last_updated": "2026-05-18T02:49:53.219349+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -225,17 +225,6 @@
       "url": "https://ollama.com/library/nemotron-cascade-2"
     },
     {
-      "name": "deepseek-ocr",
-      "description": "DeepSeek-OCR is a vision-language model that can perform token-efficient OCR.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/deepseek-ocr"
-    },
-    {
       "name": "olmo-3.1",
       "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
       "capabilities": [
@@ -279,15 +268,6 @@
         "270m"
       ],
       "url": "https://ollama.com/library/functiongemma"
-    },
-    {
-      "name": "cogito-2.1",
-      "description": "The Cogito v2.1 LLMs are instruction tuned generative models. All models are released under MIT license for commercial use.",
-      "capabilities": [],
-      "sizes": [
-        "671b"
-      ],
-      "url": "https://ollama.com/library/cogito-2.1"
     },
     {
       "name": "medgemma1.5",
@@ -415,6 +395,17 @@
       "url": "https://ollama.com/library/magistral"
     },
     {
+      "name": "deepseek-ocr",
+      "description": "DeepSeek-OCR is a vision-language model that can perform token-efficient OCR.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/deepseek-ocr"
+    },
+    {
       "name": "deepseek-v3.1",
       "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
       "capabilities": [
@@ -436,6 +427,15 @@
         "24b"
       ],
       "url": "https://ollama.com/library/devstral"
+    },
+    {
+      "name": "cogito-2.1",
+      "description": "The Cogito v2.1 LLMs are instruction tuned generative models. All models are released under MIT license for commercial use.",
+      "capabilities": [],
+      "sizes": [
+        "671b"
+      ],
+      "url": "https://ollama.com/library/cogito-2.1"
     },
     {
       "name": "gpt-oss-safeguard",
@@ -1070,6 +1070,16 @@
       "url": "https://ollama.com/library/granite3.2-vision"
     },
     {
+      "name": "dolphin-llama3",
+      "description": "Dolphin 2.9 is a new model with 8B and 70B sizes by Eric Hartford based on Llama 3 that has a variety of instruction, conversational, and coding skills.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/dolphin-llama3"
+    },
+    {
       "name": "orca-mini",
       "description": "A general-purpose model ranging from 3 billion parameters to 70 billion, suitable for entry-level hardware.",
       "capabilities": [],
@@ -1080,16 +1090,6 @@
         "70b"
       ],
       "url": "https://ollama.com/library/orca-mini"
-    },
-    {
-      "name": "dolphin-llama3",
-      "description": "Dolphin 2.9 is a new model with 8B and 70B sizes by Eric Hartford based on Llama 3 that has a variety of instruction, conversational, and coding skills.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/dolphin-llama3"
     },
     {
       "name": "mistral-small3.1",
@@ -1496,6 +1496,16 @@
       "url": "https://ollama.com/library/dolphincoder"
     },
     {
+      "name": "zephyr",
+      "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "141b"
+      ],
+      "url": "https://ollama.com/library/zephyr"
+    },
+    {
       "name": "athene-v2",
       "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
       "capabilities": [
@@ -1505,16 +1515,6 @@
         "72b"
       ],
       "url": "https://ollama.com/library/athene-v2"
-    },
-    {
-      "name": "zephyr",
-      "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "141b"
-      ],
-      "url": "https://ollama.com/library/zephyr"
     },
     {
       "name": "deepseek-llm",
@@ -1854,6 +1854,15 @@
       "url": "https://ollama.com/library/snowflake-arctic-embed2"
     },
     {
+      "name": "nexusraven",
+      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
+      "capabilities": [],
+      "sizes": [
+        "13b"
+      ],
+      "url": "https://ollama.com/library/nexusraven"
+    },
+    {
       "name": "sailor2",
       "description": "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes.",
       "capabilities": [],
@@ -1863,15 +1872,6 @@
         "20b"
       ],
       "url": "https://ollama.com/library/sailor2"
-    },
-    {
-      "name": "nexusraven",
-      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
-      "capabilities": [],
-      "sizes": [
-        "13b"
-      ],
-      "url": "https://ollama.com/library/nexusraven"
     },
     {
       "name": "mathstral",

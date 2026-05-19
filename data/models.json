@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-18T02:49:53.219349+00:00",
+  "last_updated": "2026-05-19T02:46:59.105923+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -337,6 +337,18 @@
       "url": "https://ollama.com/library/qwen3-embedding"
     },
     {
+      "name": "mistral-small3.2",
+      "description": "An update to Mistral Small that improves on function calling, instruction following, and less repetition errors.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/mistral-small3.2"
+    },
+    {
       "name": "granite4",
       "description": "Granite 4 features improved instruction following (IF) and tool-calling capabilities, making them more effective in enterprise applications.",
       "capabilities": [
@@ -348,18 +360,6 @@
         "3b"
       ],
       "url": "https://ollama.com/library/granite4"
-    },
-    {
-      "name": "mistral-small3.2",
-      "description": "An update to Mistral Small that improves on function calling, instruction following, and less repetition errors.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/mistral-small3.2"
     },
     {
       "name": "embeddinggemma",
@@ -654,16 +654,6 @@
       "url": "https://ollama.com/library/dolphin3"
     },
     {
-      "name": "olmo2",
-      "description": "OLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/olmo2"
-    },
-    {
       "name": "llama3.2-vision",
       "description": "Llama 3.2 Vision is a collection of instruction-tuned image reasoning generative models in 11B and 90B sizes.",
       "capabilities": [
@@ -674,6 +664,16 @@
         "90b"
       ],
       "url": "https://ollama.com/library/llama3.2-vision"
+    },
+    {
+      "name": "olmo2",
+      "description": "OLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/olmo2"
     },
     {
       "name": "minicpm-v",
@@ -1036,16 +1036,6 @@
       "url": "https://ollama.com/library/openthinker"
     },
     {
-      "name": "deepcoder",
-      "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "14b"
-      ],
-      "url": "https://ollama.com/library/deepcoder"
-    },
-    {
       "name": "mixtral",
       "description": "A set of Mixture of Experts (MoE) model with open weights by Mistral AI in 8x7b and 8x22b parameter sizes.",
       "capabilities": [
@@ -1056,6 +1046,16 @@
         "8x22b"
       ],
       "url": "https://ollama.com/library/mixtral"
+    },
+    {
+      "name": "deepcoder",
+      "description": "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "14b"
+      ],
+      "url": "https://ollama.com/library/deepcoder"
     },
     {
       "name": "granite3.2-vision",
@@ -1330,15 +1330,6 @@
       "url": "https://ollama.com/library/deepseek-v2"
     },
     {
-      "name": "phi3.5",
-      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
-      "capabilities": [],
-      "sizes": [
-        "3.8b"
-      ],
-      "url": "https://ollama.com/library/phi3.5"
-    },
-    {
       "name": "phi",
       "description": "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.",
       "capabilities": [],
@@ -1346,6 +1337,15 @@
         "2.7b"
       ],
       "url": "https://ollama.com/library/phi"
+    },
+    {
+      "name": "phi3.5",
+      "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
+      "capabilities": [],
+      "sizes": [
+        "3.8b"
+      ],
+      "url": "https://ollama.com/library/phi3.5"
     },
     {
       "name": "reader-lm",
@@ -2068,15 +2068,6 @@
       "url": "https://ollama.com/library/magicoder"
     },
     {
-      "name": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "capabilities": [],
-      "sizes": [
-        "3b"
-      ],
-      "url": "https://ollama.com/library/smallthinker"
-    },
-    {
       "name": "stablelm-zephyr",
       "description": "A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware.",
       "capabilities": [],
@@ -2084,6 +2075,15 @@
         "3b"
       ],
       "url": "https://ollama.com/library/stablelm-zephyr"
+    },
+    {
+      "name": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "capabilities": [],
+      "sizes": [
+        "3b"
+      ],
+      "url": "https://ollama.com/library/smallthinker"
     },
     {
       "name": "codeup",

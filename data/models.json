@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-19T02:46:59.105923+00:00",
+  "last_updated": "2026-05-20T02:47:25.378087+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -416,17 +416,6 @@
         "671b"
       ],
       "url": "https://ollama.com/library/deepseek-v3.1"
-    },
-    {
-      "name": "devstral",
-      "description": "Devstral: the best open source model for coding agents",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/devstral"
     },
     {
       "name": "cogito-2.1",
@@ -961,6 +950,17 @@
       "url": "https://ollama.com/library/all-minilm"
     },
     {
+      "name": "devstral",
+      "description": "Devstral: the best open source model for coding agents",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/devstral"
+    },
+    {
       "name": "starcoder2",
       "description": "StarCoder2 is the next generation of transparently trained open code LLMs that comes in three sizes: 3B, 7B and 15B parameters.",
       "capabilities": [],
@@ -1474,6 +1474,16 @@
       "url": "https://ollama.com/library/nemotron-mini"
     },
     {
+      "name": "dolphincoder",
+      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "15b"
+      ],
+      "url": "https://ollama.com/library/dolphincoder"
+    },
+    {
       "name": "granite3.2",
       "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
       "capabilities": [
@@ -1484,16 +1494,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.2"
-    },
-    {
-      "name": "dolphincoder",
-      "description": "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "15b"
-      ],
-      "url": "https://ollama.com/library/dolphincoder"
     },
     {
       "name": "zephyr",

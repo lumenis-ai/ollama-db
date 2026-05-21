@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T02:47:25.378087+00:00",
+  "last_updated": "2026-05-21T02:50:18.729042+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -1128,17 +1128,6 @@
       "url": "https://ollama.com/library/llama2-uncensored"
     },
     {
-      "name": "exaone-deep",
-      "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
-      "capabilities": [],
-      "sizes": [
-        "2.4b",
-        "7.8b",
-        "32b"
-      ],
-      "url": "https://ollama.com/library/exaone-deep"
-    },
-    {
       "name": "granite3.1-dense",
       "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
       "capabilities": [
@@ -1149,6 +1138,17 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.1-dense"
+    },
+    {
+      "name": "exaone-deep",
+      "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
+      "capabilities": [],
+      "sizes": [
+        "2.4b",
+        "7.8b",
+        "32b"
+      ],
+      "url": "https://ollama.com/library/exaone-deep"
     },
     {
       "name": "granite-code",
@@ -1566,6 +1566,16 @@
       "url": "https://ollama.com/library/nemotron"
     },
     {
+      "name": "nous-hermes2",
+      "description": "The powerful family of models by Nous Research that excels at scientific discussion and coding tasks.",
+      "capabilities": [],
+      "sizes": [
+        "10.7b",
+        "34b"
+      ],
+      "url": "https://ollama.com/library/nous-hermes2"
+    },
+    {
       "name": "exaone3.5",
       "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
       "capabilities": [],
@@ -1575,16 +1585,6 @@
         "32b"
       ],
       "url": "https://ollama.com/library/exaone3.5"
-    },
-    {
-      "name": "nous-hermes2",
-      "description": "The powerful family of models by Nous Research that excels at scientific discussion and coding tasks.",
-      "capabilities": [],
-      "sizes": [
-        "10.7b",
-        "34b"
-      ],
-      "url": "https://ollama.com/library/nous-hermes2"
     },
     {
       "name": "wizard-vicuna-uncensored",

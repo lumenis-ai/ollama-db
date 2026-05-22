@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T02:50:18.729042+00:00",
+  "last_updated": "2026-05-22T02:50:48.574732+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -1058,6 +1058,16 @@
       "url": "https://ollama.com/library/deepcoder"
     },
     {
+      "name": "dolphin-llama3",
+      "description": "Dolphin 2.9 is a new model with 8B and 70B sizes by Eric Hartford based on Llama 3 that has a variety of instruction, conversational, and coding skills.",
+      "capabilities": [],
+      "sizes": [
+        "8b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/dolphin-llama3"
+    },
+    {
       "name": "granite3.2-vision",
       "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
       "capabilities": [
@@ -1068,16 +1078,6 @@
         "2b"
       ],
       "url": "https://ollama.com/library/granite3.2-vision"
-    },
-    {
-      "name": "dolphin-llama3",
-      "description": "Dolphin 2.9 is a new model with 8B and 70B sizes by Eric Hartford based on Llama 3 that has a variety of instruction, conversational, and coding skills.",
-      "capabilities": [],
-      "sizes": [
-        "8b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/dolphin-llama3"
     },
     {
       "name": "orca-mini",
@@ -1453,16 +1453,6 @@
       "url": "https://ollama.com/library/yi"
     },
     {
-      "name": "opencoder",
-      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
-      "capabilities": [],
-      "sizes": [
-        "1.5b",
-        "8b"
-      ],
-      "url": "https://ollama.com/library/opencoder"
-    },
-    {
       "name": "nemotron-mini",
       "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
       "capabilities": [
@@ -1472,6 +1462,16 @@
         "4b"
       ],
       "url": "https://ollama.com/library/nemotron-mini"
+    },
+    {
+      "name": "opencoder",
+      "description": "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages.",
+      "capabilities": [],
+      "sizes": [
+        "1.5b",
+        "8b"
+      ],
+      "url": "https://ollama.com/library/opencoder"
     },
     {
       "name": "dolphincoder",
@@ -2012,6 +2012,15 @@
       "url": "https://ollama.com/library/command-r7b"
     },
     {
+      "name": "duckdb-nsql",
+      "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
+      "capabilities": [],
+      "sizes": [
+        "7b"
+      ],
+      "url": "https://ollama.com/library/duckdb-nsql"
+    },
+    {
       "name": "command-a",
       "description": "111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI",
       "capabilities": [
@@ -2021,15 +2030,6 @@
         "111b"
       ],
       "url": "https://ollama.com/library/command-a"
-    },
-    {
-      "name": "duckdb-nsql",
-      "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
-      "capabilities": [],
-      "sizes": [
-        "7b"
-      ],
-      "url": "https://ollama.com/library/duckdb-nsql"
     },
     {
       "name": "notus",

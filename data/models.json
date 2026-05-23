@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T02:50:48.574732+00:00",
+  "last_updated": "2026-05-23T02:35:50.691950+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -1068,18 +1068,6 @@
       "url": "https://ollama.com/library/dolphin-llama3"
     },
     {
-      "name": "granite3.2-vision",
-      "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "2b"
-      ],
-      "url": "https://ollama.com/library/granite3.2-vision"
-    },
-    {
       "name": "orca-mini",
       "description": "A general-purpose model ranging from 3 billion parameters to 70 billion, suitable for entry-level hardware.",
       "capabilities": [],
@@ -1090,6 +1078,18 @@
         "70b"
       ],
       "url": "https://ollama.com/library/orca-mini"
+    },
+    {
+      "name": "granite3.2-vision",
+      "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "2b"
+      ],
+      "url": "https://ollama.com/library/granite3.2-vision"
     },
     {
       "name": "mistral-small3.1",
@@ -1484,6 +1484,16 @@
       "url": "https://ollama.com/library/dolphincoder"
     },
     {
+      "name": "zephyr",
+      "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "141b"
+      ],
+      "url": "https://ollama.com/library/zephyr"
+    },
+    {
       "name": "granite3.2",
       "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
       "capabilities": [
@@ -1494,16 +1504,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3.2"
-    },
-    {
-      "name": "zephyr",
-      "description": "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "141b"
-      ],
-      "url": "https://ollama.com/library/zephyr"
     },
     {
       "name": "athene-v2",
@@ -1708,15 +1708,6 @@
       "url": "https://ollama.com/library/starling-lm"
     },
     {
-      "name": "solar-pro",
-      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
-      "capabilities": [],
-      "sizes": [
-        "22b"
-      ],
-      "url": "https://ollama.com/library/solar-pro"
-    },
-    {
       "name": "sqlcoder",
       "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
       "capabilities": [],
@@ -1725,6 +1716,15 @@
         "15b"
       ],
       "url": "https://ollama.com/library/sqlcoder"
+    },
+    {
+      "name": "solar-pro",
+      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/solar-pro"
     },
     {
       "name": "orca2",

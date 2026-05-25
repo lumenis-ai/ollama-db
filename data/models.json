@@ -1,22 +1,8 @@
 {
-  "last_updated": "2026-05-24T02:47:16.501999+00:00",
+  "last_updated": "2026-05-25T02:55:48.146823+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
-    {
-      "name": "nemotron3",
-      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "33b"
-      ],
-      "url": "https://ollama.com/library/nemotron3"
-    },
     {
       "name": "granite4.1",
       "description": "IBM Granite Models are a family of enterprise-ready, open foundation models that support multilingual capabilities, coding, retrieval-augmented generation (RAG), tool use, and structured JSON output. Released under Apache 2.0 license.",
@@ -92,6 +78,20 @@
         "35b"
       ],
       "url": "https://ollama.com/library/qwen3.6"
+    },
+    {
+      "name": "nemotron3",
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/nemotron3"
     },
     {
       "name": "nemotron-3-super",
@@ -247,6 +247,17 @@
       "url": "https://ollama.com/library/devstral-2"
     },
     {
+      "name": "functiongemma",
+      "description": "FunctionGemma is a specialized version of Google's Gemma 3 270M model fine-tuned explicitly for function calling.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "270m"
+      ],
+      "url": "https://ollama.com/library/functiongemma"
+    },
+    {
       "name": "medgemma",
       "description": "MedGemma is a collection of Gemma 3 variants that are trained for performance on medical text and image comprehension.",
       "capabilities": [
@@ -257,17 +268,6 @@
         "27b"
       ],
       "url": "https://ollama.com/library/medgemma"
-    },
-    {
-      "name": "functiongemma",
-      "description": "FunctionGemma is a specialized version of Google's Gemma 3 270M model fine-tuned explicitly for function calling.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "270m"
-      ],
-      "url": "https://ollama.com/library/functiongemma"
     },
     {
       "name": "medgemma1.5",
@@ -803,6 +803,17 @@
       "url": "https://ollama.com/library/cogito"
     },
     {
+      "name": "llama2",
+      "description": "Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b",
+        "70b"
+      ],
+      "url": "https://ollama.com/library/llama2"
+    },
+    {
       "name": "falcon3",
       "description": "A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques.",
       "capabilities": [],
@@ -813,17 +824,6 @@
         "10b"
       ],
       "url": "https://ollama.com/library/falcon3"
-    },
-    {
-      "name": "llama2",
-      "description": "Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b",
-        "70b"
-      ],
-      "url": "https://ollama.com/library/llama2"
     },
     {
       "name": "phi4-reasoning",
@@ -1092,18 +1092,6 @@
       "url": "https://ollama.com/library/granite3.2-vision"
     },
     {
-      "name": "mistral-small3.1",
-      "description": "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/mistral-small3.1"
-    },
-    {
       "name": "hermes3",
       "description": "Hermes 3 is the latest version of the flagship Hermes series of LLMs by Nous Research",
       "capabilities": [
@@ -1116,6 +1104,18 @@
         "405b"
       ],
       "url": "https://ollama.com/library/hermes3"
+    },
+    {
+      "name": "mistral-small3.1",
+      "description": "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/mistral-small3.1"
     },
     {
       "name": "llama2-uncensored",
@@ -1943,6 +1943,15 @@
       "url": "https://ollama.com/library/meditron"
     },
     {
+      "name": "falcon2",
+      "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
+      "capabilities": [],
+      "sizes": [
+        "11b"
+      ],
+      "url": "https://ollama.com/library/falcon2"
+    },
+    {
       "name": "granite-embedding",
       "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
       "capabilities": [
@@ -1953,15 +1962,6 @@
         "278m"
       ],
       "url": "https://ollama.com/library/granite-embedding"
-    },
-    {
-      "name": "falcon2",
-      "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
-      "capabilities": [],
-      "sizes": [
-        "11b"
-      ],
-      "url": "https://ollama.com/library/falcon2"
     },
     {
       "name": "mistral-openorca",
@@ -1982,6 +1982,15 @@
       "url": "https://ollama.com/library/nous-hermes2-mixtral"
     },
     {
+      "name": "megadolphin",
+      "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
+      "capabilities": [],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/megadolphin"
+    },
+    {
       "name": "granite3-guardian",
       "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
       "capabilities": [],
@@ -1990,15 +1999,6 @@
         "8b"
       ],
       "url": "https://ollama.com/library/granite3-guardian"
-    },
-    {
-      "name": "megadolphin",
-      "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
-      "capabilities": [],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/megadolphin"
     },
     {
       "name": "command-r7b",

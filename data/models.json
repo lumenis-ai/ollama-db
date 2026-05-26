@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25T02:55:48.146823+00:00",
+  "last_updated": "2026-05-26T02:43:52.499597+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -1320,6 +1320,15 @@
       "url": "https://ollama.com/library/dolphin-mistral"
     },
     {
+      "name": "phi",
+      "description": "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.",
+      "capabilities": [],
+      "sizes": [
+        "2.7b"
+      ],
+      "url": "https://ollama.com/library/phi"
+    },
+    {
       "name": "deepseek-v2",
       "description": "A strong, economical, and efficient Mixture-of-Experts language model.",
       "capabilities": [],
@@ -1328,15 +1337,6 @@
         "236b"
       ],
       "url": "https://ollama.com/library/deepseek-v2"
-    },
-    {
-      "name": "phi",
-      "description": "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities.",
-      "capabilities": [],
-      "sizes": [
-        "2.7b"
-      ],
-      "url": "https://ollama.com/library/phi"
     },
     {
       "name": "phi3.5",

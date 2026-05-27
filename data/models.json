@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-26T02:43:52.499597+00:00",
+  "last_updated": "2026-05-27T02:54:19.756169+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -634,15 +634,6 @@
       "url": "https://ollama.com/library/deepseek-v3"
     },
     {
-      "name": "dolphin3",
-      "description": "Dolphin 3.0 Llama 3.1 8B 🐬 is the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.",
-      "capabilities": [],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/dolphin3"
-    },
-    {
       "name": "llama3.2-vision",
       "description": "Llama 3.2 Vision is a collection of instruction-tuned image reasoning generative models in 11B and 90B sizes.",
       "capabilities": [
@@ -653,6 +644,15 @@
         "90b"
       ],
       "url": "https://ollama.com/library/llama3.2-vision"
+    },
+    {
+      "name": "dolphin3",
+      "description": "Dolphin 3.0 Llama 3.1 8B 🐬 is the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.",
+      "capabilities": [],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/dolphin3"
     },
     {
       "name": "olmo2",
@@ -1229,6 +1229,15 @@
       "url": "https://ollama.com/library/command-r"
     },
     {
+      "name": "codestral",
+      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
+      "capabilities": [],
+      "sizes": [
+        "22b"
+      ],
+      "url": "https://ollama.com/library/codestral"
+    },
+    {
       "name": "qwen2-math",
       "description": "Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).",
       "capabilities": [],
@@ -1238,15 +1247,6 @@
         "72b"
       ],
       "url": "https://ollama.com/library/qwen2-math"
-    },
-    {
-      "name": "codestral",
-      "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
-      "capabilities": [],
-      "sizes": [
-        "22b"
-      ],
-      "url": "https://ollama.com/library/codestral"
     },
     {
       "name": "granite3-moe",
@@ -1658,6 +1658,16 @@
       "url": "https://ollama.com/library/falcon"
     },
     {
+      "name": "nous-hermes",
+      "description": "General use models based on Llama and Llama 2 from Nous Research.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "13b"
+      ],
+      "url": "https://ollama.com/library/nous-hermes"
+    },
+    {
       "name": "command-r-plus",
       "description": "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases.",
       "capabilities": [
@@ -1667,16 +1677,6 @@
         "104b"
       ],
       "url": "https://ollama.com/library/command-r-plus"
-    },
-    {
-      "name": "nous-hermes",
-      "description": "General use models based on Llama and Llama 2 from Nous Research.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "13b"
-      ],
-      "url": "https://ollama.com/library/nous-hermes"
     },
     {
       "name": "solar",

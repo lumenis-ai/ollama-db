@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-27T02:54:19.756169+00:00",
+  "last_updated": "2026-05-28T02:42:27.531951+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -725,6 +725,17 @@
       "url": "https://ollama.com/library/qwen2.5vl"
     },
     {
+      "name": "mistral-nemo",
+      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "12b"
+      ],
+      "url": "https://ollama.com/library/mistral-nemo"
+    },
+    {
       "name": "qwen",
       "description": "Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters",
       "capabilities": [],
@@ -739,17 +750,6 @@
         "110b"
       ],
       "url": "https://ollama.com/library/qwen"
-    },
-    {
-      "name": "mistral-nemo",
-      "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "12b"
-      ],
-      "url": "https://ollama.com/library/mistral-nemo"
     },
     {
       "name": "bge-m3",
@@ -1289,17 +1289,6 @@
       "url": "https://ollama.com/library/dolphin-phi"
     },
     {
-      "name": "shieldgemma",
-      "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
-      "capabilities": [],
-      "sizes": [
-        "2b",
-        "9b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/shieldgemma"
-    },
-    {
       "name": "moondream",
       "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
       "capabilities": [
@@ -1309,6 +1298,17 @@
         "1.8b"
       ],
       "url": "https://ollama.com/library/moondream"
+    },
+    {
+      "name": "shieldgemma",
+      "description": "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.",
+      "capabilities": [],
+      "sizes": [
+        "2b",
+        "9b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/shieldgemma"
     },
     {
       "name": "dolphin-mistral",
@@ -1506,6 +1506,16 @@
       "url": "https://ollama.com/library/granite3.2"
     },
     {
+      "name": "deepseek-llm",
+      "description": "An advanced language model crafted with 2 trillion bilingual tokens.",
+      "capabilities": [],
+      "sizes": [
+        "7b",
+        "67b"
+      ],
+      "url": "https://ollama.com/library/deepseek-llm"
+    },
+    {
       "name": "athene-v2",
       "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
       "capabilities": [
@@ -1515,16 +1525,6 @@
         "72b"
       ],
       "url": "https://ollama.com/library/athene-v2"
-    },
-    {
-      "name": "deepseek-llm",
-      "description": "An advanced language model crafted with 2 trillion bilingual tokens.",
-      "capabilities": [],
-      "sizes": [
-        "7b",
-        "67b"
-      ],
-      "url": "https://ollama.com/library/deepseek-llm"
     },
     {
       "name": "stable-code",
@@ -1638,15 +1638,6 @@
       "url": "https://ollama.com/library/reflection"
     },
     {
-      "name": "codegeex4",
-      "description": "A versatile model for AI software development scenarios, including code completion.",
-      "capabilities": [],
-      "sizes": [
-        "9b"
-      ],
-      "url": "https://ollama.com/library/codegeex4"
-    },
-    {
       "name": "falcon",
       "description": "A large language model built by the Technology Innovation Institute (TII) for use in summarization, text generation, and chat bots.",
       "capabilities": [],
@@ -1656,6 +1647,15 @@
         "180b"
       ],
       "url": "https://ollama.com/library/falcon"
+    },
+    {
+      "name": "codegeex4",
+      "description": "A versatile model for AI software development scenarios, including code completion.",
+      "capabilities": [],
+      "sizes": [
+        "9b"
+      ],
+      "url": "https://ollama.com/library/codegeex4"
     },
     {
       "name": "nous-hermes",

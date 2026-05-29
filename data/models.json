@@ -1,34 +1,8 @@
 {
-  "last_updated": "2026-05-28T02:42:27.531951+00:00",
+  "last_updated": "2026-05-29T02:45:40.631876+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
-    {
-      "name": "granite4.1",
-      "description": "IBM Granite Models are a family of enterprise-ready, open foundation models that support multilingual capabilities, coding, retrieval-augmented generation (RAG), tool use, and structured JSON output. Released under Apache 2.0 license.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "3b",
-        "8b",
-        "30b"
-      ],
-      "url": "https://ollama.com/library/granite4.1"
-    },
-    {
-      "name": "mistral-medium-3.5",
-      "description": "Mistral Medium 3.5 is the first flagship model of Mistral AI that merged instruction-following, reasoning, and coding in a single set of 128B weights.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "128b"
-      ],
-      "url": "https://ollama.com/library/mistral-medium-3.5"
-    },
     {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
@@ -155,6 +129,19 @@
       "url": "https://ollama.com/library/ministral-3"
     },
     {
+      "name": "granite4.1",
+      "description": "IBM Granite Models are a family of enterprise-ready, open foundation models that support multilingual capabilities, coding, retrieval-augmented generation (RAG), tool use, and structured JSON output. Released under Apache 2.0 license.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "3b",
+        "8b",
+        "30b"
+      ],
+      "url": "https://ollama.com/library/granite4.1"
+    },
+    {
       "name": "devstral-small-2",
       "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
       "capabilities": [
@@ -245,6 +232,19 @@
         "123b"
       ],
       "url": "https://ollama.com/library/devstral-2"
+    },
+    {
+      "name": "mistral-medium-3.5",
+      "description": "Mistral Medium 3.5 is the first flagship model of Mistral AI that merged instruction-following, reasoning, and coding in a single set of 128B weights.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "128b"
+      ],
+      "url": "https://ollama.com/library/mistral-medium-3.5"
     },
     {
       "name": "functiongemma",

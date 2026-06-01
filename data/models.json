@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T02:56:22.452217+00:00",
+  "last_updated": "2026-06-01T03:32:58.738641+00:00",
   "total_pages": 12,
   "total_models": 202,
   "models": [
@@ -113,20 +113,6 @@
         "1.2b"
       ],
       "url": "https://ollama.com/library/lfm2.5-thinking"
-    },
-    {
-      "name": "ministral-3",
-      "description": "The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware.",
-      "capabilities": [
-        "vision",
-        "tools"
-      ],
-      "sizes": [
-        "3b",
-        "8b",
-        "14b"
-      ],
-      "url": "https://ollama.com/library/ministral-3"
     },
     {
       "name": "granite4.1",
@@ -335,6 +321,20 @@
         "8b"
       ],
       "url": "https://ollama.com/library/qwen3-embedding"
+    },
+    {
+      "name": "ministral-3",
+      "description": "The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware.",
+      "capabilities": [
+        "vision",
+        "tools"
+      ],
+      "sizes": [
+        "3b",
+        "8b",
+        "14b"
+      ],
+      "url": "https://ollama.com/library/ministral-3"
     },
     {
       "name": "mistral-small3.2",

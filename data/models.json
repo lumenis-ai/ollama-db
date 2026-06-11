@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10T02:54:27.924981+00:00",
+  "last_updated": "2026-06-11T03:27:48.767827+00:00",
   "total_pages": 20,
   "total_models": 180,
   "models": [
@@ -53,6 +53,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -79,6 +90,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -102,30 +124,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -177,6 +175,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -203,6 +212,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -226,30 +246,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -301,6 +297,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -327,6 +334,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -350,30 +368,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -425,6 +419,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -451,6 +456,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -474,30 +490,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -549,6 +541,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -575,6 +578,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -598,30 +612,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -673,6 +663,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -699,6 +700,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -722,30 +734,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -797,6 +785,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -823,6 +822,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -846,30 +856,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -921,6 +907,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -947,6 +944,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -970,30 +978,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -1045,6 +1029,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -1071,6 +1066,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -1094,30 +1100,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -1169,6 +1151,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -1195,6 +1188,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -1218,30 +1222,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -1293,6 +1273,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -1319,6 +1310,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -1342,30 +1344,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -1417,6 +1395,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -1443,6 +1432,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -1466,30 +1466,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -1541,6 +1517,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -1567,6 +1554,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -1590,30 +1588,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -1665,6 +1639,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -1691,6 +1676,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -1714,30 +1710,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -1789,6 +1761,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -1815,6 +1798,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -1838,30 +1832,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -1913,6 +1883,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -1939,6 +1920,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -1962,30 +1954,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -2037,6 +2005,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -2063,6 +2042,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -2086,30 +2076,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -2161,6 +2127,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -2187,6 +2164,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -2210,30 +2198,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -2285,6 +2249,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -2311,6 +2286,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -2334,30 +2320,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
       "name": "lfm2.5",
@@ -2409,6 +2371,17 @@
       "url": "https://ollama.com/library/qwen3.5"
     },
     {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
       "name": "qwen3.6",
       "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
       "capabilities": [
@@ -2435,6 +2408,17 @@
       "url": "https://ollama.com/library/nemotron-3-super"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "nemotron3",
       "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
       "capabilities": [
@@ -2458,30 +2442,6 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": null,
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
     }
   ]
 }

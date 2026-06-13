@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-12T03:27:24.438991+00:00",
+  "last_updated": "2026-06-13T02:53:40.007415+00:00",
   "total_pages": 20,
-  "total_models": 180,
+  "total_models": 160,
   "models": [
     {
       "name": "lfm2.5",
@@ -27,6 +27,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -62,17 +73,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -113,17 +113,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -149,6 +138,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -184,17 +184,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -235,17 +224,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -271,6 +249,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -306,17 +295,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -357,17 +335,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -393,6 +360,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -428,17 +406,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -479,17 +446,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -515,6 +471,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -550,17 +517,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -601,17 +557,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -637,6 +582,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -672,17 +628,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -723,17 +668,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -759,6 +693,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -794,17 +739,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -845,17 +779,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -881,6 +804,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -916,17 +850,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -967,17 +890,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -1003,6 +915,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1038,17 +961,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -1089,17 +1001,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -1125,6 +1026,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1160,17 +1072,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -1211,17 +1112,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -1247,6 +1137,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1282,17 +1183,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -1333,17 +1223,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -1369,6 +1248,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1404,17 +1294,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -1455,17 +1334,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -1491,6 +1359,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1526,17 +1405,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -1577,17 +1445,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -1613,6 +1470,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1648,17 +1516,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -1699,17 +1556,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -1735,6 +1581,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1770,17 +1627,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -1821,17 +1667,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -1857,6 +1692,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1892,17 +1738,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -1943,17 +1778,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -1979,6 +1803,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -2014,17 +1849,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -2065,17 +1889,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -2101,6 +1914,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -2136,17 +1960,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -2187,17 +2000,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -2223,6 +2025,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -2258,17 +2071,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -2309,17 +2111,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -2345,6 +2136,17 @@
       "url": "https://ollama.com/library/minicpm-v4.6"
     },
     {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -2380,17 +2182,6 @@
         "122b"
       ],
       "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
     },
     {
       "name": "qwen3.6",
@@ -2431,17 +2222,6 @@
         "33b"
       ],
       "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "lfm2",
-      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
-      "capabilities": [
-        "tools"
-      ],
-      "sizes": [
-        "24b"
-      ],
-      "url": "https://ollama.com/library/lfm2"
     }
   ]
 }

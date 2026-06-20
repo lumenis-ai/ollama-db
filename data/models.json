@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-19T03:49:13.286017+00:00",
+  "last_updated": "2026-06-20T02:52:15.844691+00:00",
   "total_pages": 20,
-  "total_models": 180,
+  "total_models": 200,
   "models": [
     {
       "name": "lfm2.5",
@@ -128,128 +128,15 @@
       "url": "https://ollama.com/library/translategemma"
     },
     {
-      "name": "lfm2.5",
-      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
       "capabilities": [
-        "tools",
-        "thinking"
+        "tools"
       ],
       "sizes": [
-        "8b"
+        "24b"
       ],
-      "url": "https://ollama.com/library/lfm2.5"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
-      "name": "gemma4",
-      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "e2b",
-        "e4b",
-        "12b",
-        "26b",
-        "31b"
-      ],
-      "url": "https://ollama.com/library/gemma4"
-    },
-    {
-      "name": "qwen3.5",
-      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "0.8b",
-        "2b",
-        "4b",
-        "9b",
-        "27b",
-        "35b",
-        "122b"
-      ],
-      "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "qwen3.6",
-      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "27b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/qwen3.6"
-    },
-    {
-      "name": "nemotron-3-super",
-      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/nemotron-3-super"
-    },
-    {
-      "name": "nemotron3",
-      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "33b"
-      ],
-      "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
+      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -376,128 +263,15 @@
       "url": "https://ollama.com/library/translategemma"
     },
     {
-      "name": "lfm2.5",
-      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
       "capabilities": [
-        "tools",
-        "thinking"
+        "tools"
       ],
       "sizes": [
-        "8b"
+        "24b"
       ],
-      "url": "https://ollama.com/library/lfm2.5"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
-      "name": "gemma4",
-      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "e2b",
-        "e4b",
-        "12b",
-        "26b",
-        "31b"
-      ],
-      "url": "https://ollama.com/library/gemma4"
-    },
-    {
-      "name": "qwen3.5",
-      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "0.8b",
-        "2b",
-        "4b",
-        "9b",
-        "27b",
-        "35b",
-        "122b"
-      ],
-      "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "qwen3.6",
-      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "27b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/qwen3.6"
-    },
-    {
-      "name": "nemotron-3-super",
-      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/nemotron-3-super"
-    },
-    {
-      "name": "nemotron3",
-      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "33b"
-      ],
-      "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
+      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -624,128 +398,15 @@
       "url": "https://ollama.com/library/translategemma"
     },
     {
-      "name": "lfm2.5",
-      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
       "capabilities": [
-        "tools",
-        "thinking"
+        "tools"
       ],
       "sizes": [
-        "8b"
+        "24b"
       ],
-      "url": "https://ollama.com/library/lfm2.5"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
-      "name": "gemma4",
-      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "e2b",
-        "e4b",
-        "12b",
-        "26b",
-        "31b"
-      ],
-      "url": "https://ollama.com/library/gemma4"
-    },
-    {
-      "name": "qwen3.5",
-      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "0.8b",
-        "2b",
-        "4b",
-        "9b",
-        "27b",
-        "35b",
-        "122b"
-      ],
-      "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "qwen3.6",
-      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "27b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/qwen3.6"
-    },
-    {
-      "name": "nemotron-3-super",
-      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/nemotron-3-super"
-    },
-    {
-      "name": "nemotron3",
-      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "33b"
-      ],
-      "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
+      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -872,128 +533,15 @@
       "url": "https://ollama.com/library/translategemma"
     },
     {
-      "name": "lfm2.5",
-      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
       "capabilities": [
-        "tools",
-        "thinking"
+        "tools"
       ],
       "sizes": [
-        "8b"
+        "24b"
       ],
-      "url": "https://ollama.com/library/lfm2.5"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
-      "name": "gemma4",
-      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "e2b",
-        "e4b",
-        "12b",
-        "26b",
-        "31b"
-      ],
-      "url": "https://ollama.com/library/gemma4"
-    },
-    {
-      "name": "qwen3.5",
-      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "0.8b",
-        "2b",
-        "4b",
-        "9b",
-        "27b",
-        "35b",
-        "122b"
-      ],
-      "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "qwen3.6",
-      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "27b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/qwen3.6"
-    },
-    {
-      "name": "nemotron-3-super",
-      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/nemotron-3-super"
-    },
-    {
-      "name": "nemotron3",
-      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "33b"
-      ],
-      "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
+      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -1120,128 +668,15 @@
       "url": "https://ollama.com/library/translategemma"
     },
     {
-      "name": "lfm2.5",
-      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
       "capabilities": [
-        "tools",
-        "thinking"
+        "tools"
       ],
       "sizes": [
-        "8b"
+        "24b"
       ],
-      "url": "https://ollama.com/library/lfm2.5"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
-      "name": "gemma4",
-      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "e2b",
-        "e4b",
-        "12b",
-        "26b",
-        "31b"
-      ],
-      "url": "https://ollama.com/library/gemma4"
-    },
-    {
-      "name": "qwen3.5",
-      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "0.8b",
-        "2b",
-        "4b",
-        "9b",
-        "27b",
-        "35b",
-        "122b"
-      ],
-      "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "qwen3.6",
-      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "27b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/qwen3.6"
-    },
-    {
-      "name": "nemotron-3-super",
-      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/nemotron-3-super"
-    },
-    {
-      "name": "nemotron3",
-      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "33b"
-      ],
-      "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
+      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -1368,128 +803,15 @@
       "url": "https://ollama.com/library/translategemma"
     },
     {
-      "name": "lfm2.5",
-      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
       "capabilities": [
-        "tools",
-        "thinking"
+        "tools"
       ],
       "sizes": [
-        "8b"
+        "24b"
       ],
-      "url": "https://ollama.com/library/lfm2.5"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
-      "name": "gemma4",
-      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "e2b",
-        "e4b",
-        "12b",
-        "26b",
-        "31b"
-      ],
-      "url": "https://ollama.com/library/gemma4"
-    },
-    {
-      "name": "qwen3.5",
-      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "0.8b",
-        "2b",
-        "4b",
-        "9b",
-        "27b",
-        "35b",
-        "122b"
-      ],
-      "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "qwen3.6",
-      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "27b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/qwen3.6"
-    },
-    {
-      "name": "nemotron-3-super",
-      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/nemotron-3-super"
-    },
-    {
-      "name": "nemotron3",
-      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "33b"
-      ],
-      "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
+      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -1616,128 +938,15 @@
       "url": "https://ollama.com/library/translategemma"
     },
     {
-      "name": "lfm2.5",
-      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
       "capabilities": [
-        "tools",
-        "thinking"
+        "tools"
       ],
       "sizes": [
-        "8b"
+        "24b"
       ],
-      "url": "https://ollama.com/library/lfm2.5"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
-      "name": "gemma4",
-      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "e2b",
-        "e4b",
-        "12b",
-        "26b",
-        "31b"
-      ],
-      "url": "https://ollama.com/library/gemma4"
-    },
-    {
-      "name": "qwen3.5",
-      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "0.8b",
-        "2b",
-        "4b",
-        "9b",
-        "27b",
-        "35b",
-        "122b"
-      ],
-      "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "qwen3.6",
-      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "27b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/qwen3.6"
-    },
-    {
-      "name": "nemotron-3-super",
-      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/nemotron-3-super"
-    },
-    {
-      "name": "nemotron3",
-      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "33b"
-      ],
-      "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
+      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -1864,128 +1073,15 @@
       "url": "https://ollama.com/library/translategemma"
     },
     {
-      "name": "lfm2.5",
-      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
       "capabilities": [
-        "tools",
-        "thinking"
+        "tools"
       ],
       "sizes": [
-        "8b"
+        "24b"
       ],
-      "url": "https://ollama.com/library/lfm2.5"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
-      "name": "gemma4",
-      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "e2b",
-        "e4b",
-        "12b",
-        "26b",
-        "31b"
-      ],
-      "url": "https://ollama.com/library/gemma4"
-    },
-    {
-      "name": "qwen3.5",
-      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "0.8b",
-        "2b",
-        "4b",
-        "9b",
-        "27b",
-        "35b",
-        "122b"
-      ],
-      "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "qwen3.6",
-      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "27b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/qwen3.6"
-    },
-    {
-      "name": "nemotron-3-super",
-      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/nemotron-3-super"
-    },
-    {
-      "name": "nemotron3",
-      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "33b"
-      ],
-      "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
+      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -2112,128 +1208,15 @@
       "url": "https://ollama.com/library/translategemma"
     },
     {
-      "name": "lfm2.5",
-      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
       "capabilities": [
-        "tools",
-        "thinking"
+        "tools"
       ],
       "sizes": [
-        "8b"
+        "24b"
       ],
-      "url": "https://ollama.com/library/lfm2.5"
-    },
-    {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
-      "name": "gemma4",
-      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "e2b",
-        "e4b",
-        "12b",
-        "26b",
-        "31b"
-      ],
-      "url": "https://ollama.com/library/gemma4"
-    },
-    {
-      "name": "qwen3.5",
-      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "0.8b",
-        "2b",
-        "4b",
-        "9b",
-        "27b",
-        "35b",
-        "122b"
-      ],
-      "url": "https://ollama.com/library/qwen3.5"
-    },
-    {
-      "name": "qwen3.6",
-      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "27b",
-        "35b"
-      ],
-      "url": "https://ollama.com/library/qwen3.6"
-    },
-    {
-      "name": "nemotron-3-super",
-      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
-      "capabilities": [
-        "tools",
-        "thinking"
-      ],
-      "sizes": [
-        "120b"
-      ],
-      "url": "https://ollama.com/library/nemotron-3-super"
-    },
-    {
-      "name": "nemotron3",
-      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
-      "capabilities": [
-        "vision",
-        "tools",
-        "thinking",
-        "audio"
-      ],
-      "sizes": [
-        "33b"
-      ],
-      "url": "https://ollama.com/library/nemotron3"
-    },
-    {
-      "name": "translategemma",
-      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "url": "https://ollama.com/library/translategemma"
+      "url": "https://ollama.com/library/lfm2"
     },
     {
       "name": "lfm2.5",
@@ -2360,6 +1343,17 @@
       "url": "https://ollama.com/library/translategemma"
     },
     {
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/lfm2"
+    },
+    {
       "name": "lfm2.5",
       "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
       "capabilities": [
@@ -2482,6 +1476,1232 @@
         "27b"
       ],
       "url": "https://ollama.com/library/translategemma"
+    },
+    {
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5",
+      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5"
+    },
+    {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
+      "name": "gemma4",
+      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "e2b",
+        "e4b",
+        "12b",
+        "26b",
+        "31b"
+      ],
+      "url": "https://ollama.com/library/gemma4"
+    },
+    {
+      "name": "qwen3.5",
+      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "0.8b",
+        "2b",
+        "4b",
+        "9b",
+        "27b",
+        "35b",
+        "122b"
+      ],
+      "url": "https://ollama.com/library/qwen3.5"
+    },
+    {
+      "name": "qwen3.6",
+      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "27b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/qwen3.6"
+    },
+    {
+      "name": "nemotron-3-super",
+      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/nemotron-3-super"
+    },
+    {
+      "name": "nemotron3",
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/nemotron3"
+    },
+    {
+      "name": "translategemma",
+      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/translategemma"
+    },
+    {
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5",
+      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5"
+    },
+    {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
+      "name": "gemma4",
+      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "e2b",
+        "e4b",
+        "12b",
+        "26b",
+        "31b"
+      ],
+      "url": "https://ollama.com/library/gemma4"
+    },
+    {
+      "name": "qwen3.5",
+      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "0.8b",
+        "2b",
+        "4b",
+        "9b",
+        "27b",
+        "35b",
+        "122b"
+      ],
+      "url": "https://ollama.com/library/qwen3.5"
+    },
+    {
+      "name": "qwen3.6",
+      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "27b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/qwen3.6"
+    },
+    {
+      "name": "nemotron-3-super",
+      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/nemotron-3-super"
+    },
+    {
+      "name": "nemotron3",
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/nemotron3"
+    },
+    {
+      "name": "translategemma",
+      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/translategemma"
+    },
+    {
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5",
+      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5"
+    },
+    {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
+      "name": "gemma4",
+      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "e2b",
+        "e4b",
+        "12b",
+        "26b",
+        "31b"
+      ],
+      "url": "https://ollama.com/library/gemma4"
+    },
+    {
+      "name": "qwen3.5",
+      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "0.8b",
+        "2b",
+        "4b",
+        "9b",
+        "27b",
+        "35b",
+        "122b"
+      ],
+      "url": "https://ollama.com/library/qwen3.5"
+    },
+    {
+      "name": "qwen3.6",
+      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "27b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/qwen3.6"
+    },
+    {
+      "name": "nemotron-3-super",
+      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/nemotron-3-super"
+    },
+    {
+      "name": "nemotron3",
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/nemotron3"
+    },
+    {
+      "name": "translategemma",
+      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/translategemma"
+    },
+    {
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5",
+      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5"
+    },
+    {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
+      "name": "gemma4",
+      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "e2b",
+        "e4b",
+        "12b",
+        "26b",
+        "31b"
+      ],
+      "url": "https://ollama.com/library/gemma4"
+    },
+    {
+      "name": "qwen3.5",
+      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "0.8b",
+        "2b",
+        "4b",
+        "9b",
+        "27b",
+        "35b",
+        "122b"
+      ],
+      "url": "https://ollama.com/library/qwen3.5"
+    },
+    {
+      "name": "qwen3.6",
+      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "27b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/qwen3.6"
+    },
+    {
+      "name": "nemotron-3-super",
+      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/nemotron-3-super"
+    },
+    {
+      "name": "nemotron3",
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/nemotron3"
+    },
+    {
+      "name": "translategemma",
+      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/translategemma"
+    },
+    {
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5",
+      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5"
+    },
+    {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
+      "name": "gemma4",
+      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "e2b",
+        "e4b",
+        "12b",
+        "26b",
+        "31b"
+      ],
+      "url": "https://ollama.com/library/gemma4"
+    },
+    {
+      "name": "qwen3.5",
+      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "0.8b",
+        "2b",
+        "4b",
+        "9b",
+        "27b",
+        "35b",
+        "122b"
+      ],
+      "url": "https://ollama.com/library/qwen3.5"
+    },
+    {
+      "name": "qwen3.6",
+      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "27b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/qwen3.6"
+    },
+    {
+      "name": "nemotron-3-super",
+      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/nemotron-3-super"
+    },
+    {
+      "name": "nemotron3",
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/nemotron3"
+    },
+    {
+      "name": "translategemma",
+      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/translategemma"
+    },
+    {
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5",
+      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5"
+    },
+    {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
+      "name": "gemma4",
+      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "e2b",
+        "e4b",
+        "12b",
+        "26b",
+        "31b"
+      ],
+      "url": "https://ollama.com/library/gemma4"
+    },
+    {
+      "name": "qwen3.5",
+      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "0.8b",
+        "2b",
+        "4b",
+        "9b",
+        "27b",
+        "35b",
+        "122b"
+      ],
+      "url": "https://ollama.com/library/qwen3.5"
+    },
+    {
+      "name": "qwen3.6",
+      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "27b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/qwen3.6"
+    },
+    {
+      "name": "nemotron-3-super",
+      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/nemotron-3-super"
+    },
+    {
+      "name": "nemotron3",
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/nemotron3"
+    },
+    {
+      "name": "translategemma",
+      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/translategemma"
+    },
+    {
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5",
+      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5"
+    },
+    {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
+      "name": "gemma4",
+      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "e2b",
+        "e4b",
+        "12b",
+        "26b",
+        "31b"
+      ],
+      "url": "https://ollama.com/library/gemma4"
+    },
+    {
+      "name": "qwen3.5",
+      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "0.8b",
+        "2b",
+        "4b",
+        "9b",
+        "27b",
+        "35b",
+        "122b"
+      ],
+      "url": "https://ollama.com/library/qwen3.5"
+    },
+    {
+      "name": "qwen3.6",
+      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "27b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/qwen3.6"
+    },
+    {
+      "name": "nemotron-3-super",
+      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/nemotron-3-super"
+    },
+    {
+      "name": "nemotron3",
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/nemotron3"
+    },
+    {
+      "name": "translategemma",
+      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/translategemma"
+    },
+    {
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5",
+      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5"
+    },
+    {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
+      "name": "gemma4",
+      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "e2b",
+        "e4b",
+        "12b",
+        "26b",
+        "31b"
+      ],
+      "url": "https://ollama.com/library/gemma4"
+    },
+    {
+      "name": "qwen3.5",
+      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "0.8b",
+        "2b",
+        "4b",
+        "9b",
+        "27b",
+        "35b",
+        "122b"
+      ],
+      "url": "https://ollama.com/library/qwen3.5"
+    },
+    {
+      "name": "qwen3.6",
+      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "27b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/qwen3.6"
+    },
+    {
+      "name": "nemotron-3-super",
+      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/nemotron-3-super"
+    },
+    {
+      "name": "nemotron3",
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/nemotron3"
+    },
+    {
+      "name": "translategemma",
+      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/translategemma"
+    },
+    {
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5",
+      "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5"
+    },
+    {
+      "name": "minicpm-v4.6",
+      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "1b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.6"
+    },
+    {
+      "name": "minicpm-v4.5",
+      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "8b"
+      ],
+      "url": "https://ollama.com/library/minicpm-v4.5"
+    },
+    {
+      "name": "gemma4",
+      "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "e2b",
+        "e4b",
+        "12b",
+        "26b",
+        "31b"
+      ],
+      "url": "https://ollama.com/library/gemma4"
+    },
+    {
+      "name": "qwen3.5",
+      "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "0.8b",
+        "2b",
+        "4b",
+        "9b",
+        "27b",
+        "35b",
+        "122b"
+      ],
+      "url": "https://ollama.com/library/qwen3.5"
+    },
+    {
+      "name": "qwen3.6",
+      "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "27b",
+        "35b"
+      ],
+      "url": "https://ollama.com/library/qwen3.6"
+    },
+    {
+      "name": "nemotron-3-super",
+      "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
+      "capabilities": [
+        "tools",
+        "thinking"
+      ],
+      "sizes": [
+        "120b"
+      ],
+      "url": "https://ollama.com/library/nemotron-3-super"
+    },
+    {
+      "name": "nemotron3",
+      "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&A, summarization, transcription, and document intelligence workflows.",
+      "capabilities": [
+        "vision",
+        "tools",
+        "thinking",
+        "audio"
+      ],
+      "sizes": [
+        "33b"
+      ],
+      "url": "https://ollama.com/library/nemotron3"
+    },
+    {
+      "name": "translategemma",
+      "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
+      "capabilities": [
+        "vision"
+      ],
+      "sizes": [
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "url": "https://ollama.com/library/translategemma"
+    },
+    {
+      "name": "lfm2",
+      "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "24b"
+      ],
+      "url": "https://ollama.com/library/lfm2"
     }
   ]
 }

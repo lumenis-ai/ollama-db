@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-25T02:47:01.179175+00:00",
+  "last_updated": "2026-06-26T02:51:49.269550+00:00",
   "total_pages": 20,
-  "total_models": 200,
+  "total_models": 180,
   "models": [
     {
       "name": "lfm2.5",
@@ -16,28 +16,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -137,6 +115,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -151,28 +140,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -272,6 +239,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -286,28 +264,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -407,6 +363,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -421,28 +388,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -542,6 +487,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -556,28 +512,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -677,6 +611,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -691,28 +636,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -812,6 +735,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -826,28 +760,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -947,6 +859,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -961,28 +884,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1082,6 +983,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -1096,28 +1008,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1217,6 +1107,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -1231,28 +1132,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1352,6 +1231,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -1366,28 +1256,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1487,6 +1355,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -1501,28 +1380,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1622,6 +1479,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -1636,28 +1504,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1757,6 +1603,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -1771,28 +1628,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -1892,6 +1727,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -1906,28 +1752,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -2027,6 +1851,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -2041,28 +1876,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -2162,6 +1975,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -2176,28 +2000,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -2297,6 +2099,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -2311,28 +2124,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -2432,6 +2223,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -2446,28 +2248,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -2567,6 +2347,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     },
     {
       "name": "lfm2.5",
@@ -2581,28 +2372,6 @@
       "url": "https://ollama.com/library/lfm2.5"
     },
     {
-      "name": "minicpm-v4.6",
-      "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "1b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.6"
-    },
-    {
-      "name": "minicpm-v4.5",
-      "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
-      "capabilities": [
-        "vision"
-      ],
-      "sizes": [
-        "8b"
-      ],
-      "url": "https://ollama.com/library/minicpm-v4.5"
-    },
-    {
       "name": "gemma4",
       "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
       "capabilities": [
@@ -2702,6 +2471,17 @@
         "24b"
       ],
       "url": "https://ollama.com/library/lfm2"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
+      "capabilities": [
+        "tools"
+      ],
+      "sizes": [
+        "1.2b"
+      ],
+      "url": "https://ollama.com/library/lfm2.5-thinking"
     }
   ]
 }
